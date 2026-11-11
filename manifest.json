@@ -8650,6 +8650,46 @@
     "sha256": "c522f1d7bfe55afc44c9836615e52bbe76dd6fd5b081a3d6cdd7f1d5084253b9"
   },
   {
+    "path": "outputs/binding_revision2_20261111/all_windows.pdf",
+    "size": 53355,
+    "sha256": "80f5045e1075ea5d3a97b9d2c6f1e77f82d72e800562fe746271a4ba465617e4"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/all_windows.png",
+    "size": 161152,
+    "sha256": "4c5d856ab19c33613deddddd968da10dc1d8498c6769d6f050b214f074e16250"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/binding_schematic.pdf",
+    "size": 16352,
+    "sha256": "9abd37b91ad993e663b430d4393e95a65c80b6e7cf0b22b5eb1e2c3d20081e0b"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/binding_schematic.png",
+    "size": 71480,
+    "sha256": "5f03f07c70db9611f703f4f27888498941ef0679085fee99392630fa8db9a2fd"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/key_coordinate_null.json",
+    "size": 636372,
+    "sha256": "337ee742b712039b823b7c1f89a25d3d95c794a9055543b1027c6301188852b0"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/matched_audit.json",
+    "size": 5471850,
+    "sha256": "fa636cb593c651ea8124ccab5c366eb0c1ccc359fd53deda1380663c9e8b6900"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/technical_smoke.json",
+    "size": 99,
+    "sha256": "a455dc1f1adc6d09166e189949d105a876f3cabd54a57f0e5167b718cdfab708"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/\u79bb\u7ebf\u5ba1\u8ba1.md",
+    "size": 16789,
+    "sha256": "0711e14b1e654fe5648c242cf40a022dd6bc3404c28ec66d40b7cbc121f11014"
+  },
+  {
     "path": "outputs/model_compare_open_20261108/binding_followup/audit.json",
     "size": 4022154,
     "sha256": "b001973fa9bce281f61171f1f0df27fd7fe880bd538249499f84b1de0693b6d9"
@@ -8808,6 +8848,11 @@
     "path": "paper/review_tables.md",
     "size": 39867,
     "sha256": "50dd7cf4a547b6e9bb316c65f8c5d0686c9455d2992296307094ae7675897d86"
+  },
+  {
+    "path": "paper/revision2_findings.md",
+    "size": 5008,
+    "sha256": "0e4cc7f63dd303939f0744ec1281f38797a4af83419acaac58f940250d967b15"
   },
   {
     "path": "paper/revision2_protocol.md",
