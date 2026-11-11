@@ -1,0 +1,107 @@
+[
+  {
+    "index": 1,
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_min640",
+    "exit_code": 0,
+    "seconds": 290.25402739999845
+  },
+  {
+    "index": 2,
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r16_min640",
+    "exit_code": 0,
+    "seconds": 395.526656799997
+  },
+  {
+    "index": 3,
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_replay_min640",
+    "exit_code": 0,
+    "seconds": 365.48896310000055
+  },
+  {
+    "index": 4,
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "exit_code": 0,
+    "seconds": 736.4125436000031
+  },
+  {
+    "index": 5,
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_min640",
+    "exit_code": 0,
+    "seconds": 365.41721959999995
+  },
+  {
+    "index": 6,
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r16_min640",
+    "exit_code": 0,
+    "seconds": 380.11935939999967
+  },
+  {
+    "index": 7,
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_replay_min640",
+    "exit_code": 0,
+    "seconds": 292.3396719000011
+  },
+  {
+    "index": 8,
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "exit_code": 0,
+    "seconds": 728.124201300001
+  },
+  {
+    "index": 9,
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_min640",
+    "exit_code": 0,
+    "seconds": 342.6617961000011
+  },
+  {
+    "index": 10,
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r16_min640",
+    "exit_code": 0,
+    "seconds": 392.4164457000006
+  },
+  {
+    "index": 11,
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_replay_min640",
+    "exit_code": 0,
+    "seconds": 281.23465919999944
+  },
+  {
+    "index": 12,
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "exit_code": 0,
+    "seconds": 745.7796406000016
+  },
+  {
+    "index": 13,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+    "exit_code": 0,
+    "seconds": 1557.1804131999997
+  },
+  {
+    "index": 14,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+    "exit_code": 0,
+    "seconds": 1316.4332652000012
+  },
+  {
+    "index": 15,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+    "exit_code": 0,
+    "seconds": 1513.781284100005
+  },
+  {
+    "index": 16,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+    "exit_code": 0,
+    "seconds": 1153.9461467
+  },
+  {
+    "index": 17,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
+    "exit_code": null,
+    "seconds": null,
+    "reason": "CUDA OOM; child did not finish exit cleanup; supervisor stopped",
+    "last_checkpoint": 752,
+    "attempt": 1
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-11T23:55:08.865307+08:00",
+  "job_index": 17,
+  "seed": 401,
+  "lr": 0.0003,
+  "rank": 4,
+  "replay": false,
+  "pairing": "support_permuted",
+  "phase": "validation scoring",
+  "error": "CUDA memory allocation failure; Git pack also failed for lack of host memory during overlapping publication",
+  "causal_attribution": "Host-memory pressure is observed; exact driver allocation cause not established",
+  "last_complete_checkpoint": 752,
+  "last_peak_reserved_mib": 3206.0,
+  "state_sha256": "06f9edc31a308fe964afa432a79b5dba5e39da2f4c5a04fe366591fc5196c573",
+  "recovery": "Pending: retain seed, state and optimizer; no seed replacement or target change",
+  "completed_branches_before_failure": 16,
+  "state_zip_crc_pass": true,
+  "checkpoint_validation": "Archive integrity and checksum verified without loading a model; runtime restore remains pending resource release"
+}

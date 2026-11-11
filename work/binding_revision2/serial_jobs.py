@@ -36,16 +36,27 @@ def cases():
 
 def main():
     OUT.mkdir(exist_ok=True,parents=True)
-    plan=cases(); (OUT/"queue_plan.json").write_text(json.dumps(plan,indent=2))
-    records=[]
+    def write(path,value):
+        temporary=path.with_suffix(".tmp");temporary.write_text(json.dumps(value,indent=2));temporary.replace(path)
+    plan=cases(); write(OUT/"queue_plan.json",plan)
+    status=OUT/"queue_status.json"; history_file=OUT/"queue_attempts.json"
+    records=json.loads(status.read_text()) if status.exists() else []
+    history=json.loads(history_file.read_text()) if history_file.exists() else list(records)
     for i,case in enumerate(plan):
         folder=OUT/"runs"/case["name"]
+        known=next((row for row in records if row["index"]==i+1),None)
+        if known and known["name"]!=case["name"]:raise RuntimeError("Existing queue plan mismatch")
+        if known and known["exit_code"]==0 and (folder/"complete.json").exists():
+            continue
+        records=[row for row in records if row["index"]<i+1]
+        write(status,records)
         if case["source"] and not folder.exists():
             # Copy only owned experiment artifacts; preserve all originals.
             shutil.copytree(OLD/"runs"/case["source"],folder)
             (folder/"complete.json").unlink()
         started=time.monotonic()
-        log=OUT/f"run_{i+1:03d}.log"
+        attempt=1+sum(row["index"]==i+1 for row in history)
+        log=OUT/f"run_{i+1:03d}.log" if attempt==1 else OUT/f"run_{i+1:03d}_attempt{attempt:02d}.log"
         print("START",i+1,len(plan),case["name"],flush=True)
         try:
             with log.open("w",encoding="utf8") as f:
@@ -53,10 +64,12 @@ def main():
                                  cwd=ROOT,stdout=f,stderr=subprocess.STDOUT,timeout=7200)
             code=p.returncode
         except subprocess.TimeoutExpired: code=None
-        records.append(dict(index=i+1,name=case["name"],exit_code=code,seconds=time.monotonic()-started))
-        (OUT/"queue_status.json").write_text(json.dumps(records,indent=2))
+        records.append(dict(index=i+1,name=case["name"],exit_code=code,seconds=time.monotonic()-started,attempt=attempt))
+        history.append(records[-1]);write(history_file,history)
+        write(status,records)
         print("END",records[-1],flush=True)
         if code!=0:
             raise RuntimeError("Queue stopped on failure; retain the seed and inspect its log")
+        subprocess.run([sys.executable,str(Path(__file__).with_name("analyze_training.py"))],cwd=ROOT,check=True)
 
 if __name__=="__main__": main()

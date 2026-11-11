@@ -1,4 +1,6 @@
-> **Second revision in progress:** the earlier logP=-1 replay result is compatible with a label-blind probability mixture and is not evidence of successful register conditioning. See [the new protocol](paper/revision2_protocol.md). The previous release remains an immutable historical snapshot. New high-target results are pending.
+> **Second revision in progress:** the earlier low-target replay mass does not by itself establish register conditioning. The [second-revision working manuscript](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md), [new findings](paper/revision2_findings.md) and [registered protocol](paper/revision2_protocol.md) supersede that interpretation. The previous release and its PDF remain historical snapshots. The eight fresh anchors are still being run; partial results are not a completed confirmatory study.
+
+> **Resource interruption:** 16 branches are complete. Job 17 encountered a CUDA allocation failure during validation; its last intact checkpoint is step 752. The failed attempt is retained. GPU training is waiting for resources to be released before resuming the same seed and optimizer; no seed replacement, automatic reboot or driver reset is performed. See [the incident record](outputs/binding_revision2_20261111/resource_failure_20261111.json).
 
 # Factual binding interference during sequential LoRA adaptation
 
@@ -8,7 +10,21 @@ It examines whether old prompts retain key-dependent output structure while losi
 correct mapping, and tests learning rate, replay, rank, value pairing, and register-label interventions.
 The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop GPU.
 
-## Main observations
+## Current second-revision evidence
+
+- Recomputed arithmetic probabilities on the same 16 active keys and test contexts,
+  including the blind-mixture bound, signed routing and full probability budgets.
+- All 12 matched 640-step continuations and exposure controls are complete.
+  On three historical adjacent-pairing anchors, rank-4 replay retains 98.51–99.49%
+  correct Cedar mass and 98.92–99.07% correct Maple mass. Its D+M-1 is 0.974–0.986.
+  Plain rank 4, plain rank 16 and repeated-Maple controls lose nearly all Cedar mass.
+- The eight fresh, support-preserving shuffled anchors have a registered paired
+  analysis at high targets. [Every seed and missing pair remains visible](outputs/binding_revision2_20261111/新锚点配对差.md).
+- Expanded target modules, a 48-single-token vocabulary, and source-checked temporal
+  facts with three sequential registers are registered extensions. Their input/CPU
+  checks are complete; GPU technical checks and training are pending.
+
+## Historical first-revision observations
 
 - A fixed early-step information rebound depends on learning rate and learning stage.
   All three historical Qwen anchors rebound from step 16 to 64 at lr=1e-3; none
@@ -24,14 +40,28 @@ The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop 
 
 ## Read the study
 
-- [Manuscript](paper/共享LoRA中的旧事实干扰.md)
-- [Typeset PDF](paper/共享LoRA中的旧事实干扰.pdf)
+- [Current working manuscript, second revision](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md)
+- [Current protocol and experiment status](paper/revision2_protocol.md)
+- [Historical first-revision manuscript](paper/共享LoRA中的旧事实干扰.md)
+- [Historical first-revision typeset PDF](paper/共享LoRA中的旧事实干扰.pdf)
 - [Review protocol](paper/review_protocol.md)
 - [Historical protocol](paper/validation_protocol.md)
 - [Reference audit and correction](paper/references_audit.md)
 - [Recorded environment](outputs/binding_review_20261111/environment.json)
 
 ## Reproduce figures and statistics on CPU
+
+For the second revision, run `python work/binding_revision2/offline.py`,
+`python work/binding_revision2/key_null.py`, `python work/binding_revision2/analyze_training.py`
+and `python work/binding_revision2/fixed_report.py` from the repository root.
+These use saved matrices and do not import PyTorch. The exact matrix-path lower-bound
+audit additionally requires local adapter checkpoints or retraining; those intermediate
+checkpoints are not all included in the public archive.
+
+`python work/binding_revision2/aux_data.py` rebuilds the six frozen auxiliary input sets.
+Those input files and their source provenance are not experimental results.
+Fresh GPU experiments use `serial_jobs.py`; the optional `post_queue.py` waits for the
+original 116 jobs before the 32 registered extensions. Do not start a second GPU queue.
 
 Install requirements-analysis.txt. PyTorch and a GPU are not needed for
 the following analysis entry points.

@@ -42,13 +42,22 @@ def main():
     rows=[dict(path=s,size=(REPO/s).stat().st_size,
                sha256=hashlib.sha256((REPO/s).read_bytes()).hexdigest()) for s in sorted(paths)]
     (REPO/"manifest.json").write_bytes(json.dumps(rows,indent=2).encode())
-    subprocess.run(["git","add","manifest.json","paper","work/binding_revision2",
+    readme=REPO/"README.md"
+    readme.write_bytes(readme.read_bytes().replace(b"\r\n",b"\n"))
+    # Recalculate if a previously tracked README was normalized above.
+    for row in rows:
+        if row["path"]=="README.md":
+            row.update(size=readme.stat().st_size,sha256=hashlib.sha256(readme.read_bytes()).hexdigest())
+    (REPO/"manifest.json").write_bytes(json.dumps(rows,indent=2).encode())
+    subprocess.run(["git","add","README.md","manifest.json","paper","work/binding_revision2",
                     "outputs/binding_revision2_20261111"],cwd=REPO,check=True)
     result=subprocess.run(["git","diff","--cached","--check"],cwd=REPO,capture_output=True,text=True)
     if result.returncode:raise RuntimeError(result.stdout[:2000])
     result=subprocess.run(["git","commit","-m","research: publish completed matched-budget controls"],cwd=REPO,capture_output=True,text=True)
     if result.returncode:raise RuntimeError((result.stdout+result.stderr)[-2000:])
-    result=subprocess.run(["git","push","origin","main"],cwd=REPO,capture_output=True,text=True)
+    result=subprocess.run(["git","-c","pack.threads=1","-c","pack.windowMemory=32m",
+                           "-c","pack.deltaCacheSize=16m","-c","pack.window=1",
+                           "push","origin","main"],cwd=REPO,capture_output=True,text=True)
     if result.returncode:raise RuntimeError((result.stdout+result.stderr)[-2000:])
     print("Published",len(rows),"manifest files; completed branches only.")
 
