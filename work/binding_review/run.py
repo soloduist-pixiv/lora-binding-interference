@@ -159,7 +159,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
     c.KEYS = ("_",) + tuple(a+b for a, b in list(itertools.product("QXZ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))[:48])
     c.OLD, c.NEW = [0] + old, [0] + new
     p.problem = c.problem
-    scorer = CandidateScorer(engine, old + new)
+    scorer = CandidateScorer(engine, old + new, batch_size=2 if pairing == "alphabetic" else 4)
     code_format = not historical
     if historical:
         anchor_folder = HISTORICAL / f"s{seed}"
@@ -255,6 +255,16 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         print(name, step, round(maple_progress, 3), round(correct, 4), flush=True)
         if step >= minimum_steps and maple_progress >= -.5:
             break
+    if minimum_steps == 640:
+        old_final = rows_for(splits["test"],"old",("original","counterfactual"),code_format)
+        maple_final = [r for r in rows_for(splits["test"],"related",("original","counterfactual"),code_format)
+                       if int(r["id"].split("/")[0]) in active]
+        generations = {"cedar":generate(scorer,old_final),"maple":generate(scorer,maple_final)}
+        p.write(folder/"final_generations.json",generations)
+        p.write(folder/"final_generation_summary.json",
+                {name:dict(context_queries=len(rows),accuracy=float(np.mean([r["correct"] for r in rows])),
+                           unique_facts=48 if name=="cedar" else 32)
+                 for name,rows in generations.items()})
     p.write(folder / "complete.json", dict(last_step=step, target_reached=maple_progress >= -.5,
                                           seconds=time.perf_counter()-started))
 
