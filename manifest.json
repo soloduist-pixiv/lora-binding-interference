@@ -10,6 +10,11 @@
     "sha256": "4185e4d99f5ba72d2d7b0662ea955d555c800630b69956c87434c5fd837fa53e"
   },
   {
+    "path": "README.md",
+    "size": 7284,
+    "sha256": "a644ada284e905ab9ab3ba243bbc2f63337e0edbbce88c39476797e115a78cc4"
+  },
+  {
     "path": "outputs/binding_review_20261111/analysis.json",
     "size": 5161174,
     "sha256": "c25bdd1551dbc37fce0463cd39008a1630b6bd62471cee39290c7c4a8fc43abd"
@@ -8805,6 +8810,16 @@
     "sha256": "50dd7cf4a547b6e9bb316c65f8c5d0686c9455d2992296307094ae7675897d86"
   },
   {
+    "path": "paper/revision2_protocol.md",
+    "size": 4033,
+    "sha256": "a0a29daf80772c039fddf922c3315f033109b2dde133f0bbe80f99b315113c26"
+  },
+  {
+    "path": "paper/revision2_reference_audit.md",
+    "size": 2957,
+    "sha256": "7a7bd3f86f6b842729f3702d878c6ce61ac65b2aedbeee72db4515206c584993"
+  },
+  {
     "path": "paper/revision_response.md",
     "size": 4555,
     "sha256": "25073aabdd8e6b7f7320bff3e5620cbe4dde395fd2225ad6a73dc767c0833273"
@@ -8823,11 +8838,6 @@
     "path": "paper/\u5171\u4eabLoRA\u4e2d\u7684\u65e7\u4e8b\u5b9e\u5e72\u6270.pdf",
     "size": 623484,
     "sha256": "c661c0dc781fb556c0e38d84f494912670436a755989f35bb6bf4c97fe2ff6ba"
-  },
-  {
-    "path": "README.md",
-    "size": 6951,
-    "sha256": "6de3a028c9a8bd70a1f78ded14cd1af1c114f95d022aa29134b078666981e19a"
   },
   {
     "path": "requirements-analysis.txt",
@@ -8938,6 +8948,26 @@
     "path": "work/binding_review/verify_scorer.py",
     "size": 4459,
     "sha256": "6fa51d1f74bf6fc1646d86b04b2f2d3fd31bf0ba8d6a5808abbd842174d9e08c"
+  },
+  {
+    "path": "work/binding_revision2/key_null.py",
+    "size": 1766,
+    "sha256": "549aea8db09c3612ab216886762016e8356cca8b93e702667ddfe48abe3e92e0"
+  },
+  {
+    "path": "work/binding_revision2/offline.py",
+    "size": 9250,
+    "sha256": "4c80870d0197658fb51be4fe7ab176b8dd2d22362697f0793bd5b366a38e3d99"
+  },
+  {
+    "path": "work/binding_revision2/queue.py",
+    "size": 3189,
+    "sha256": "d0237c87a064960a1ef179610442aa348c2ae69c0e9f03a673626dd1b834048d"
+  },
+  {
+    "path": "work/binding_revision2/run.py",
+    "size": 17796,
+    "sha256": "720f55e7008d242332f9ce98701e7d1407860313abf4087c544d1518b90dac38"
   },
   {
     "path": "work/prospective_updates/binding_plane.py",

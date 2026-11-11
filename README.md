@@ -1,3 +1,5 @@
+> **Second revision in progress:** the earlier logP=-1 replay result is compatible with a label-blind probability mixture and is not evidence of successful register conditioning. See [the new protocol](paper/revision2_protocol.md). The previous release remains an immutable historical snapshot. New high-target results are pending.
+
 # Factual binding interference during sequential LoRA adaptation
 
 This repository contains the Chinese manuscript, registered review protocol, source code,
