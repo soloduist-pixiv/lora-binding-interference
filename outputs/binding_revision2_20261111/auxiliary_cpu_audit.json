@@ -1,0 +1,53 @@
+{
+  "status": "CPU input and probability audit only; GPU training pending",
+  "checks": [
+    {
+      "kind": "closed",
+      "seed": 601,
+      "keys": 16,
+      "candidates": 48,
+      "data_rebuild_exact": true
+    },
+    {
+      "kind": "closed",
+      "seed": 607,
+      "keys": 16,
+      "candidates": 48,
+      "data_rebuild_exact": true
+    },
+    {
+      "kind": "closed",
+      "seed": 613,
+      "keys": 16,
+      "candidates": 48,
+      "data_rebuild_exact": true
+    },
+    {
+      "kind": "temporal",
+      "seed": 601,
+      "keys": 8,
+      "candidates": 24,
+      "data_rebuild_exact": true
+    },
+    {
+      "kind": "temporal",
+      "seed": 607,
+      "keys": 8,
+      "candidates": 24,
+      "data_rebuild_exact": true
+    },
+    {
+      "kind": "temporal",
+      "seed": 613,
+      "keys": 8,
+      "candidates": 24,
+      "data_rebuild_exact": true
+    }
+  ],
+  "extensions": 32,
+  "technical_jobs": 2,
+  "bound_fixtures": [
+    "perfect conditional routing",
+    "exact three-way blind mixture"
+  ]
+}

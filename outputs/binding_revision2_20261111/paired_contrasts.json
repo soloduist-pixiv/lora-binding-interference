@@ -1,0 +1,4732 @@
+{
+  "completed_fresh_branches": 4,
+  "planned_fresh_branches": 104,
+  "seeds": [
+    401,
+    409,
+    419,
+    431,
+    443,
+    449,
+    457,
+    463
+  ],
+  "contrasts": [
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": false
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 4,
+        "replay": true
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": -1.0,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 401.92564464186825,
+          "right_step": 359.93660532031015,
+          "difference": {
+            "D": 0.6119771537286367,
+            "M": 0.040014167027491554,
+            "sigma": 0.6519913207561283,
+            "signed_cedar": 0.4358451048328547,
+            "js": 0.1534171180383861
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": -0.5,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 538.669856906843,
+          "right_step": 443.71573708986176,
+          "difference": {
+            "D": 0.7826425251060614,
+            "M": 0.005188677794141783,
+            "sigma": 0.7878312029002033,
+            "signed_cedar": 0.6741251737863606,
+            "js": 0.3131305015828847
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": -0.3,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 643.8354094544775,
+          "right_step": 516.402501172812,
+          "difference": {
+            "D": 0.8421753430948614,
+            "M": -0.014488449043297824,
+            "sigma": 0.8276868940515635,
+            "signed_cedar": 0.7639058293296241,
+            "js": 0.39936186516495054
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": -0.1,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 913.7932795197625,
+          "right_step": 742.484633300533,
+          "difference": {
+            "D": 0.9281983834322073,
+            "M": -0.023058209918210615,
+            "sigma": 0.9051401735139966,
+            "signed_cedar": 0.8985949821898528,
+            "js": 0.5396112706547375
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": "step640",
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 640,
+          "right_step": 640,
+          "difference": {
+            "D": 0.8474985671068604,
+            "M": -0.12802939259028245,
+            "sigma": 0.7194691745165779,
+            "signed_cedar": 0.7640504662842781,
+            "js": 0.40387642673686375
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0001
+      },
+      "stage": "terminal",
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+          "left_step": 1152,
+          "right_step": 1280,
+          "difference": {
+            "D": 0.9479173950810873,
+            "M": -0.044608160074807945,
+            "sigma": 0.9033092350062795,
+            "signed_cedar": 0.9317772986178015,
+            "js": 0.5944206750744263
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.001
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "duplicate_minus_plain",
+      "condition": {
+        "rank": 4,
+        "lr": 0.0003
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": false
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "lr_1e-4_minus_1e-3",
+      "condition": {
+        "rank": 16,
+        "replay": true
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": -1.0,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 173.31139152902904,
+          "right_step": 143.36247537925635,
+          "difference": {
+            "D": 0.590716212460917,
+            "M": 0.007427479440914986,
+            "sigma": 0.598143691901832,
+            "signed_cedar": 0.40732511151669765,
+            "js": 0.1250481330789473
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": -0.5,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 228.56787154906922,
+          "right_step": 175.26500787337287,
+          "difference": {
+            "D": 0.7129196516215232,
+            "M": -0.019639293973708116,
+            "sigma": 0.693280357647815,
+            "signed_cedar": 0.5878024575159236,
+            "js": 0.27040244646702116
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": -0.3,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 265.2211742427178,
+          "right_step": 190.03603211709208,
+          "difference": {
+            "D": 0.8019608770375977,
+            "M": -0.0014951770488765836,
+            "sigma": 0.8004656999887211,
+            "signed_cedar": 0.7338253349600543,
+            "js": 0.37828853921463984
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": -0.1,
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 332.26882073957483,
+          "right_step": 260.6088972861419,
+          "difference": {
+            "D": 0.8781651569173989,
+            "M": -0.02856353678513468,
+            "sigma": 0.8496016201322644,
+            "signed_cedar": 0.8535186784662804,
+            "js": 0.5101115711288525
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": "step640",
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 640,
+          "right_step": 640,
+          "difference": {
+            "D": 0.950783591998418,
+            "M": -0.015610563853762582,
+            "sigma": 0.9351730281446554,
+            "signed_cedar": 0.9452614019045321,
+            "js": 0.6318204368700524
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0001
+      },
+      "stage": "terminal",
+      "covered": 1,
+      "planned": 8,
+      "positive_D": 1,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": true,
+          "left": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+          "left_step": 832,
+          "right_step": 1280,
+          "difference": {
+            "D": 0.9807306212492451,
+            "M": -0.00896945781229097,
+            "sigma": 0.9717611634369543,
+            "signed_cedar": 0.9781307074739702,
+            "js": 0.6646124660488534
+          }
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.0003
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": -1.0,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": -0.5,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": -0.3,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": -0.1,
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": "step640",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    },
+    {
+      "contrast": "replay_minus_plain",
+      "condition": {
+        "rank": 16,
+        "lr": 0.001
+      },
+      "stage": "terminal",
+      "covered": 0,
+      "planned": 8,
+      "positive_D": 0,
+      "negative_D": 0,
+      "rows": [
+        {
+          "seed": 401,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 409,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 419,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 431,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 443,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 449,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 457,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        },
+        {
+          "seed": 463,
+          "covered": false,
+          "left": null,
+          "right": null,
+          "missing_reason": "at least one branch not completed"
+        }
+      ]
+    }
+  ]
+}

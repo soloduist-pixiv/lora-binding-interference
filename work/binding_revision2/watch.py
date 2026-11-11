@@ -9,7 +9,11 @@ OUT=ROOT/"outputs/binding_revision2_20261111"
 last=-1
 while True:
     p=OUT/"queue_status.json"
-    records=json.loads(p.read_text()) if p.exists() else []
+    try:
+        records=json.loads(p.read_text()) if p.exists() else []
+    except json.JSONDecodeError:
+        time.sleep(1)
+        continue
     if len(records)!=last:
         result=subprocess.run([sys.executable,str(Path(__file__).with_name("analyze_training.py"))],cwd=ROOT)
         if result.returncode:raise RuntimeError("CPU audit failed")

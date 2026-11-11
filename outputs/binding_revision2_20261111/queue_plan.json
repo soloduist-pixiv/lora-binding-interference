@@ -1,0 +1,1813 @@
+[
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "107",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "107",
+      "--historical",
+      "--rank",
+      "16",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s107_adjacent_lr0.0003_r16"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "107",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain",
+      "--replay"
+    ],
+    "source": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_replay"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "107",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "108",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "108",
+      "--historical",
+      "--rank",
+      "16",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s108_adjacent_lr0.0003_r16"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "108",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain",
+      "--replay"
+    ],
+    "source": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_replay"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "108",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "109",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "109",
+      "--historical",
+      "--rank",
+      "16",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain"
+    ],
+    "source": "Qwen3-0.6B_s109_adjacent_lr0.0003_r16"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "109",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "plain",
+      "--replay"
+    ],
+    "source": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_replay"
+  },
+  {
+    "phase": "fixed640",
+    "name": "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "109",
+      "--historical",
+      "--rank",
+      "4",
+      "--minimum-steps",
+      "640",
+      "--maximum-steps",
+      "640",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "401",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s409_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "409",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s419_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "419",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s431_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "431",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s443_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "443",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s449_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "449",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s457_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "457",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0001_r4_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0001_r16_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0003_r4_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0003_r4_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0003_r16_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0003_r16_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.0003",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.001_r4_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.001_r4_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "4",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.001_r16_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.001_r16_replay_min640",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--lr",
+      "0.001",
+      "--rank",
+      "16",
+      "--replay"
+    ],
+    "source": null
+  },
+  {
+    "phase": "fresh_exposure",
+    "name": "Qwen3-0.6B_s463_support_permuted_lr0.0003_r4_min640_duplicate_maple",
+    "args": [
+      "--seed",
+      "463",
+      "--pairing",
+      "support_permuted",
+      "--exposure",
+      "duplicate_maple"
+    ],
+    "source": null
+  }
+]

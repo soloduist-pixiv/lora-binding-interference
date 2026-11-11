@@ -80,6 +80,29 @@ def restore(engine, checkpoint, rank, seed):
     engine.ps = [value for _, adapter in engine.adapters for value in (adapter.A, adapter.B)]
 
 
+def expand_scope(engine, scope, rank, seed):
+    """Preserve the trained Cedar function; all newly targeted residuals start at zero."""
+    if scope == "last4_qv":
+        return
+    from core import Adapter
+    p.torch.manual_seed(seed + 92317)
+    existing = {name for name, _ in engine.adapters}
+    for idx, layer in enumerate(engine.model.model.layers):
+        modules = [("self_attn", key) for key in ("q_proj", "v_proj")]
+        if scope == "all_linear":
+            modules += [("self_attn", key) for key in ("k_proj", "o_proj")]
+            modules += [("mlp", key) for key in ("gate_proj", "up_proj", "down_proj")]
+        for parent, key in modules:
+            name = f"layers.{idx}.{parent}.{key}"
+            if name in existing:
+                continue
+            module = getattr(layer, parent)
+            adapter = Adapter(getattr(module, key), rank=rank)
+            setattr(module, key, adapter)
+            engine.adapters.append((name, adapter))
+    engine.ps = [value for _, adapter in engine.adapters for value in (adapter.A, adapter.B)]
+
+
 def rows_for(splits, task, variants, code_format):
     rows = list(p.rows(task, splits, "plain", variants))
     if code_format:
@@ -165,7 +188,7 @@ def fresh_anchor(engine, scorer, seed, folder, code_format):
     raise RuntimeError("Cedar validation gate not reached in 1920 steps")
 
 
-def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=640, maximum_steps=1280, exposure="plain"):
+def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=640, maximum_steps=1280, exposure="plain", scope="last4_qv"):
     if p.torch.cuda.mem_get_info()[0] < 6 * 1024**3:
         raise RuntimeError("Initial free GPU memory below 6 GiB")
     name = f"{model}_s{seed}_{pairing}_lr{lr:g}_r{rank}" + ("_replay" if replay else "")
@@ -173,6 +196,8 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         name += f"_min{minimum_steps}"
     if exposure == "duplicate_maple":
         name += "_duplicate_maple"
+    if scope != "last4_qv":
+        name += "_" + scope
     folder = OUT / "runs" / name
     folder.mkdir(parents=True, exist_ok=True)
     if (folder / "complete.json").exists():
@@ -198,6 +223,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         anchor_folder.mkdir(parents=True, exist_ok=True)
         splits, checkpoint = fresh_anchor(engine, scorer, seed, anchor_folder, code_format)
     restore(engine, checkpoint, rank, seed)
+    expand_scope(engine, scope, rank, seed)
     active = set(rng.sample(list(range(1, 49, 2)), 16))
     train = [r for r in rows_for(splits["train"], "related", ("original", "counterfactual"), code_format)
              if int(r["id"].split("/")[0]) in active]
@@ -207,12 +233,13 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
                   for row in old_rows]
     validation = [r for r in rows_for(splits["validation"], "related", ("original",), code_format)
                   if int(r["id"].split("/")[0]) in active]
-    protocol = dict(model=model, seed=seed, pairing=pairing, lr=lr, rank=rank, replay=replay,
+    protocol = dict(model=model, seed=seed, pairing=pairing, lr=lr, rank=rank, replay=replay, scope=scope,
                     historical_anchor=historical, old=old, new=new, keys=list(c.KEYS),
                     minimum_steps=minimum_steps, maximum_steps=maximum_steps, exposure=exposure,
                     active_original=sorted(active), splits=splits, old_eval_ids=[r["id"] for r in old_rows],
                     validation_ids=[r["id"] for r in validation],
                     adapter_parameters=sum(v.numel() for v in engine.ps),
+                    target_modules=[name for name,_ in engine.adapters],
                     token_lengths=[len(engine.tok.encode(str(v), add_special_tokens=False)) for v in old+new],
                     value_tokens=[engine.tok.encode(str(v), add_special_tokens=False) for v in old+new],
                     torch=p.torch.__version__, gpu=p.torch.cuda.get_device_name(),
@@ -240,7 +267,12 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
     path_origin = state.get("path_origin", start_step-1) if saved.exists() else 0
     stable_count = state.get("stable_count",0) if saved.exists() else 0
     started = time.perf_counter()
-    for step in range(start_step, maximum_steps+1):
+    # A checkpoint can survive an interruption before generation/complete.json.
+    step = trace[-1]["step"] if trace else 0
+    maple_progress = trace[-1]["maple"] if trace else float("-inf")
+    terminal_resume = bool(trace) and (step>=maximum_steps or
+        (step>=minimum_steps and maple_progress>=-.1 and stable_count>=2))
+    for step in (() if terminal_resume else range(start_step, maximum_steps+1)):
         if step:
             before = [v.detach().clone() for v in engine.ps]
             batch = batches[step-1] + (old_batches[step-1] if replay else batches[step-1] if exposure=="duplicate_maple" else [])
@@ -334,8 +366,9 @@ if __name__ == "__main__":
     parser.add_argument("--minimum-steps", type=int, default=640)
     parser.add_argument("--maximum-steps", type=int, default=1280)
     parser.add_argument("--exposure", choices=("plain","duplicate_maple"), default="plain")
+    parser.add_argument("--scope", choices=("last4_qv","all_qv","all_linear"), default="last4_qv")
     args = parser.parse_args()
     if args.output_root:
         OUT = ROOT / args.output_root
     run(args.model, args.seed, args.pairing, args.lr, args.rank, args.replay,
-        args.historical, args.minimum_steps,args.maximum_steps,args.exposure)
+        args.historical, args.minimum_steps,args.maximum_steps,args.exposure,args.scope)

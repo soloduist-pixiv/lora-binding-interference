@@ -1,6 +1,8 @@
 """Matched-row probability budgets and window audits; no model or CUDA imports."""
 import json
+import os
 from pathlib import Path
+os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
