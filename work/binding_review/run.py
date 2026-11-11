@@ -143,10 +143,12 @@ def fresh_anchor(engine, scorer, seed, folder, code_format):
     raise RuntimeError("Cedar validation gate not reached in 1920 steps")
 
 
-def run(model, seed, pairing, lr, rank, replay, historical=False):
+def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=64):
     if p.torch.cuda.mem_get_info()[0] < 6 * 1024**3:
         raise RuntimeError("Initial free GPU memory below 6 GiB")
     name = f"{model}_s{seed}_{pairing}_lr{lr:g}_r{rank}" + ("_replay" if replay else "")
+    if minimum_steps != 64:
+        name += f"_min{minimum_steps}"
     folder = OUT / "runs" / name
     folder.mkdir(parents=True, exist_ok=True)
     if (folder / "complete.json").exists():
@@ -183,6 +185,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False):
                   if int(r["id"].split("/")[0]) in active]
     protocol = dict(model=model, seed=seed, pairing=pairing, lr=lr, rank=rank, replay=replay,
                     historical_anchor=historical, old=old, new=new, keys=list(c.KEYS),
+                    minimum_steps=minimum_steps,
                     active_original=sorted(active), splits=splits, old_eval_ids=[r["id"] for r in old_rows],
                     validation_ids=[r["id"] for r in validation],
                     adapter_parameters=sum(v.numel() for v in engine.ps),
@@ -250,7 +253,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False):
         p.torch.save(dict(parameters=state["parameters"], rank=rank, scale=2.),
                      folder / f"adapter_{step:04d}.pt")
         print(name, step, round(maple_progress, 3), round(correct, 4), flush=True)
-        if step >= 64 and maple_progress >= -.5:
+        if step >= minimum_steps and maple_progress >= -.5:
             break
     p.write(folder / "complete.json", dict(last_step=step, target_reached=maple_progress >= -.5,
                                           seconds=time.perf_counter()-started))
@@ -266,7 +269,9 @@ if __name__ == "__main__":
     parser.add_argument("--replay", action="store_true")
     parser.add_argument("--historical", action="store_true")
     parser.add_argument("--output-root")
+    parser.add_argument("--minimum-steps", type=int, default=64)
     args = parser.parse_args()
     if args.output_root:
         OUT = ROOT / args.output_root
-    run(args.model, args.seed, args.pairing, args.lr, args.rank, args.replay, args.historical)
+    run(args.model, args.seed, args.pairing, args.lr, args.rank, args.replay,
+        args.historical, args.minimum_steps)
