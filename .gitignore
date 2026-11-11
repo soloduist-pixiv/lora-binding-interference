@@ -1,0 +1,10 @@
+Models/
+__pycache__/
+*.pyc
+**/state.pt
+**/adapter_*.pt
+!outputs/binding_review_20261111/runs/Qwen3-0.6B_s107_adjacent_lr0.0003_r4/adapter_0016.pt
+!outputs/binding_review_20261111/runs/Qwen3-0.6B_s107_adjacent_lr0.0003_r4/adapter_0064.pt
+publish/
+*.tmp
+*.log
