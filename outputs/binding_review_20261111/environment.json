@@ -1,0 +1,15 @@
+{
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.10.0+cu130",
+    "transformers": "5.10.2",
+    "accelerate": "1.13.0",
+    "safetensors": "0.7.0",
+    "numpy": "2.4.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.18.0"
+  }
+}

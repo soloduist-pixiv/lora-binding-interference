@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Qwen3-0.6B",
+    "pairing": "alphabetic",
+    "seed": 211,
+    "step": 0,
+    "candidates": 96,
+    "maximum_probability_error": 7.255472468381541e-07,
+    "passed": true,
+    "prompts": 4,
+    "keys": 2,
+    "register_labels": 2,
+    "context_ids": [
+      "18"
+    ]
+  },
+  {
+    "model": "Qwen3-0.6B",
+    "pairing": "alphabetic",
+    "seed": 211,
+    "step": 208,
+    "candidates": 96,
+    "maximum_probability_error": 8.563443153197792e-06,
+    "passed": true,
+    "prompts": 4,
+    "keys": 2,
+    "register_labels": 2,
+    "context_ids": [
+      "18"
+    ]
+  },
+  {
+    "model": "SmolLM2-360M-Instruct",
+    "pairing": "adjacent",
+    "seed": 211,
+    "step": 0,
+    "candidates": 96,
+    "maximum_probability_error": 2.0589346727328817e-05,
+    "passed": true,
+    "prompts": 4,
+    "keys": 2,
+    "register_labels": 2,
+    "context_ids": [
+      "18"
+    ]
+  },
+  {
+    "model": "SmolLM2-360M-Instruct",
+    "pairing": "adjacent",
+    "seed": 211,
+    "step": 416,
+    "candidates": 96,
+    "maximum_probability_error": 2.4232248770905684e-06,
+    "passed": true,
+    "prompts": 4,
+    "keys": 2,
+    "register_labels": 2,
+    "context_ids": [
+      "18"
+    ]
+  }
+]

@@ -1,0 +1,513 @@
+{
+  "cases": [
+    [
+      "--seed",
+      "107",
+      "--lr",
+      "0.0001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "107",
+      "--lr",
+      "0.0003",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "107",
+      "--lr",
+      "0.001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "107",
+      "--lr",
+      ".0003",
+      "--rank",
+      "16",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "107",
+      "--lr",
+      ".0003",
+      "--replay",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "108",
+      "--lr",
+      "0.0001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "108",
+      "--lr",
+      "0.0003",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "108",
+      "--lr",
+      "0.001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "108",
+      "--lr",
+      ".0003",
+      "--rank",
+      "16",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "108",
+      "--lr",
+      ".0003",
+      "--replay",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "109",
+      "--lr",
+      "0.0001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "109",
+      "--lr",
+      "0.0003",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "109",
+      "--lr",
+      "0.001",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "109",
+      "--lr",
+      ".0003",
+      "--rank",
+      "16",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "109",
+      "--lr",
+      ".0003",
+      "--replay",
+      "--historical"
+    ],
+    [
+      "--seed",
+      "211",
+      "--pairing",
+      "adjacent"
+    ],
+    [
+      "--seed",
+      "211",
+      "--pairing",
+      "permuted"
+    ],
+    [
+      "--seed",
+      "211",
+      "--pairing",
+      "alphabetic"
+    ],
+    [
+      "--seed",
+      "223",
+      "--pairing",
+      "adjacent"
+    ],
+    [
+      "--seed",
+      "223",
+      "--pairing",
+      "permuted"
+    ],
+    [
+      "--seed",
+      "223",
+      "--pairing",
+      "alphabetic"
+    ],
+    [
+      "--seed",
+      "227",
+      "--pairing",
+      "adjacent"
+    ],
+    [
+      "--seed",
+      "227",
+      "--pairing",
+      "permuted"
+    ],
+    [
+      "--seed",
+      "227",
+      "--pairing",
+      "alphabetic"
+    ],
+    [
+      "--seed",
+      "211",
+      "--model",
+      "SmolLM2-360M-Instruct"
+    ],
+    [
+      "--seed",
+      "223",
+      "--model",
+      "SmolLM2-360M-Instruct"
+    ],
+    [
+      "--seed",
+      "227",
+      "--model",
+      "SmolLM2-360M-Instruct"
+    ]
+  ],
+  "completed": [
+    {
+      "case": [
+        "--seed",
+        "107",
+        "--lr",
+        "0.0001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 21.01325739999993,
+      "log": "job_01.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "107",
+        "--lr",
+        "0.0003",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 20.77676330000031,
+      "log": "job_02.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "107",
+        "--lr",
+        "0.001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 82.59555679999994,
+      "log": "job_03.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "107",
+        "--lr",
+        ".0003",
+        "--rank",
+        "16",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 397.6964834999999,
+      "log": "job_04.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "107",
+        "--lr",
+        ".0003",
+        "--replay",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 438.5271233000003,
+      "log": "job_05.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "108",
+        "--lr",
+        "0.0001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 379.7053403,
+      "log": "job_06.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "108",
+        "--lr",
+        "0.0003",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 310.8659525999992,
+      "log": "job_07.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "108",
+        "--lr",
+        "0.001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 295.02755790000083,
+      "log": "job_08.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "108",
+        "--lr",
+        ".0003",
+        "--rank",
+        "16",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 309.3533821000001,
+      "log": "job_09.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "108",
+        "--lr",
+        ".0003",
+        "--replay",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 420.1251312000004,
+      "log": "job_10.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "109",
+        "--lr",
+        "0.0001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 441.68330629999946,
+      "log": "job_11.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "109",
+        "--lr",
+        "0.0003",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 338.9682490000014,
+      "log": "job_12.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "109",
+        "--lr",
+        "0.001",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 302.074720300001,
+      "log": "job_13.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "109",
+        "--lr",
+        ".0003",
+        "--rank",
+        "16",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 307.4471701000002,
+      "log": "job_14.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "109",
+        "--lr",
+        ".0003",
+        "--replay",
+        "--historical"
+      ],
+      "exit_code": 0,
+      "seconds": 431.14761499999986,
+      "log": "job_15.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "211",
+        "--pairing",
+        "adjacent"
+      ],
+      "exit_code": 0,
+      "seconds": 387.1591110999998,
+      "log": "job_16.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "211",
+        "--pairing",
+        "permuted"
+      ],
+      "exit_code": 0,
+      "seconds": 403.5219731999987,
+      "log": "job_17.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "211",
+        "--pairing",
+        "alphabetic"
+      ],
+      "exit_code": 0,
+      "seconds": 901.0925210999994,
+      "log": "job_18.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "223",
+        "--pairing",
+        "adjacent"
+      ],
+      "exit_code": 0,
+      "seconds": 408.3320607000005,
+      "log": "job_19.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "223",
+        "--pairing",
+        "permuted"
+      ],
+      "exit_code": 0,
+      "seconds": 400.60242669999934,
+      "log": "job_20.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "223",
+        "--pairing",
+        "alphabetic"
+      ],
+      "exit_code": 0,
+      "seconds": 930.6931345000012,
+      "log": "job_21.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "227",
+        "--pairing",
+        "adjacent"
+      ],
+      "exit_code": 0,
+      "seconds": 396.766488700001,
+      "log": "job_22.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "227",
+        "--pairing",
+        "permuted"
+      ],
+      "exit_code": 0,
+      "seconds": 398.7171338999997,
+      "log": "job_23.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "227",
+        "--pairing",
+        "alphabetic"
+      ],
+      "exit_code": 0,
+      "seconds": 938.8967176999995,
+      "log": "job_24.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "211",
+        "--model",
+        "SmolLM2-360M-Instruct"
+      ],
+      "exit_code": 0,
+      "seconds": 590.2781515000006,
+      "log": "job_25.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "223",
+        "--model",
+        "SmolLM2-360M-Instruct"
+      ],
+      "exit_code": 0,
+      "seconds": 594.5208268999995,
+      "log": "job_26.log"
+    },
+    {
+      "case": [
+        "--seed",
+        "227",
+        "--model",
+        "SmolLM2-360M-Instruct"
+      ],
+      "exit_code": 0,
+      "seconds": 553.5051273999998,
+      "log": "job_27.log"
+    }
+  ]
+}

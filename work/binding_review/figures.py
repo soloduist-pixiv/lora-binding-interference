@@ -32,7 +32,7 @@ def progress_values(run, field, target=-1.):
 
 
 def lr_trajectories(runs):
-    fig, axes = plt.subplots(3, 3, figsize=(10, 7), sharex=True, sharey="row", layout="constrained")
+    fig, axes = plt.subplots(3, 3, figsize=(7, 5.8), sharex=True, sharey="row", layout="constrained")
     for j, seed in enumerate((107, 108, 109)):
         axes[0, j].set_title(f"Seed {seed}")
         for lr, color in zip((.0001, .0003, .001), COLORS):
@@ -55,10 +55,11 @@ def lr_trajectories(runs):
     finish(fig, "lr_trajectories")
 
 
-def progress_panel(runs, choices, name):
-    fig, axes = plt.subplots(1, 3, figsize=(10, 3.3), layout="constrained")
+def progress_panel(runs, choices, name, fields=("old_correct","information","js"),
+                   labels=("Correct Cedar mass","I(key; answer), nats","Register JS, nats")):
+    fig, axes = plt.subplots(1, 3, figsize=(7, 2.8), layout="constrained")
     for label, group, color in choices:
-        for ax, field in zip(axes, ("old_correct", "information", "js")):
+        for ax, field in zip(axes, fields):
             values = [progress_values(r, field) for r in group]
             x, y, lo, hi = [], [], [], []
             for fraction in (.25, .5, .75, 1.):
@@ -72,8 +73,8 @@ def progress_panel(runs, choices, name):
                 ax.scatter([fraction] * len(available), available, s=12, color=color, alpha=.5)
             ax.plot(x, y, "o-", color=color, ms=4, label=label, lw=1.6)
             ax.fill_between(x, lo, hi, alpha=.08, color=color)
-    for ax, field in zip(axes, ("Correct Cedar mass", "I(key; answer), nats", "Register JS, nats")):
-        ax.set(xlabel="Gap closure toward Maple logP = -1", ylabel=field)
+    for ax, field in zip(axes, labels):
+        ax.set(xlabel="Maple gap closure", ylabel=field)
         ax.set_xticks([.25, .5, .75, 1.], ["25%", "50%", "75%", "100%"])
         ax.grid(axis="y", alpha=.2)
     axes[0].set_ylim(-.02, 1.02)
@@ -92,11 +93,17 @@ def main():
         ("rank 4", selected(runs, lr=.0003), COLORS[0]),
         ("rank 16", selected(runs, lr=.0003, rank=16), COLORS[2]),
         ("rank 4 + replay", selected(runs, lr=.0003, replay=True), COLORS[1]),
+        ("rank 16 + replay*", selected(runs, lr=.0003, rank=16, replay=True), "#8E6C8A"),
     ], "reference_progress")
     progress_panel(runs, [
         (pairing, selected(runs, lr=.0003, historical=False, pairing=pairing), color)
         for pairing, color in zip(("adjacent", "permuted", "alphabetic"), COLORS)
     ], "factorial_progress")
+    progress_panel(runs, [
+        (pairing, selected(runs, lr=.0003, historical=False, pairing=pairing), color)
+        for pairing, color in zip(("adjacent","permuted","alphabetic"),COLORS)
+    ], "factorial_coverage", fields=("other","other_max","js_upper"),
+                   labels=("Other canonical mass","Largest key other mass","Register JS upper bound, nats"))
     progress_panel(runs, [
         (model, selected(runs, model=model, lr=.0003, historical=False), color)
         for model, color in zip(("Qwen3-0.6B", "SmolLM2-360M-Instruct"), COLORS)

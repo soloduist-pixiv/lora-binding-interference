@@ -1,0 +1,14 @@
+[
+  {
+    "model": "Qwen3-0.6B",
+    "backbone_parameters": 596049920,
+    "tied_word_embeddings": true,
+    "serialized_tensors": 311
+  },
+  {
+    "model": "SmolLM2-360M-Instruct",
+    "backbone_parameters": 361821120,
+    "tied_word_embeddings": true,
+    "serialized_tensors": 290
+  }
+]

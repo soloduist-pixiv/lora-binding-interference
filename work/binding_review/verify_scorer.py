@@ -65,6 +65,7 @@ def main():
         if error > 1e-4:
             raise RuntimeError(f"Cache probability error {error:.4g}")
         result.append(dict(step=step, method=scorer.method, precision=scorer.precision, seconds=seconds,
+                           comparison="FP32 tree versus FP32 full prefix",
                            maximum_probability_error=float(error)))
         print(result[-1], flush=True)
     d.configure(engine, checkpoint, 4, 107)
@@ -77,6 +78,7 @@ def main():
     gold = np.arange(0,48,2)
     correct_difference = abs(np.mean(scored[np.arange(24), gold] - expected[np.arange(24), gold]))
     result.append(dict(method=scorer.method, all_144_prompts=True,
+                       comparison="FP32 tree versus historical BF16 scoring",
                        seconds=time.perf_counter()-start, maximum_probability_error=float(error),
                        mean_absolute_error=float(mean_error), correct_mass_difference=float(correct_difference)))
     print(result[-1], flush=True)

@@ -155,29 +155,32 @@ def figures(audits, control):
     plt.rcParams.update({"font.family": "sans-serif", "font.size": 9,
                          "axes.spines.top": False, "axes.spines.right": False,
                          "pdf.fonttype": 42})
-    fig, axes = plt.subplots(3, 5, figsize=(13, 7), sharex=True, sharey="row",
-                             layout="constrained")
-    for j, (label, audit) in enumerate(audits.items()):
-        rows = audit["trace"]
-        x = [r["step"] for r in rows]
-        axes[0, j].set_title(f"{label}\n" + ("development" if j < 2 else "historical holdout"))
-        for field, name, color in (("old_correct", "Cedar correct", "#0F4D92"),
-                                    ("paired", "Maple paired", "#B64342")):
-            axes[0, j].plot(x, [r[field] for r in rows], "o-", ms=3, label=name, color=color)
-        axes[1, j].plot(x, [r["information"] for r in rows], "o-", ms=3, color="#272727")
-        axes[2, j].plot(x, [r["outside"] for r in rows], "o-", ms=3, color="#767676")
-        axes[2, j].set_xlabel("Maple steps")
-        for ax in axes[:, j]:
-            ax.set_xticks([0, 16, 32, 64])
-            ax.grid(axis="y", alpha=.2)
-    axes[0, 0].set_ylabel("Canonical mass")
-    axes[1, 0].set_ylabel("I(key; answer), nats")
-    axes[2, 0].set_ylabel("Other mass")
-    axes[0, 0].legend(frameon=False, fontsize=7)
-    for extension in ("png", "pdf"):
-        fig.savefig(OUT / f"historical_all_seeds.{extension}", dpi=300)
-    plt.close(fig)
-    fig, axes = plt.subplots(1, 2, figsize=(10, 3.6), layout="constrained", sharey=True)
+    for name,seeds in (("historical_all_seeds",tuple(audits)),
+                       ("historical_development",("29","43")),
+                       ("historical_holdout",("107","108","109"))):
+        fig, axes = plt.subplots(3,len(seeds),figsize=(13 if len(seeds)==5 else 7,5.8),
+                                 sharex=True,sharey="row",layout="constrained")
+        for j,label in enumerate(seeds):
+            rows = audits[label]["trace"]
+            x = [r["step"] for r in rows]
+            axes[0,j].set_title(f"Seed {label}")
+            for field,line,color in (("old_correct","Cedar correct","#0F4D92"),
+                                     ("paired","Maple paired","#B64342")):
+                axes[0,j].plot(x,[r[field] for r in rows],"o-",ms=3,label=line,color=color)
+            axes[1,j].plot(x,[r["information"] for r in rows],"o-",ms=3,color="#272727")
+            axes[2,j].plot(x,[r["outside"] for r in rows],"o-",ms=3,color="#767676")
+            axes[2,j].set_xlabel("Maple steps")
+            for ax in axes[:,j]:
+                ax.set_xticks([0,16,32,64])
+                ax.grid(axis="y",alpha=.2)
+        axes[0,0].set_ylabel("Canonical mass")
+        axes[1,0].set_ylabel("I(key; answer), nats")
+        axes[2,0].set_ylabel("Other mass")
+        axes[0,0].legend(frameon=False,fontsize=8)
+        for extension in ("png","pdf"):
+            fig.savefig(OUT/f"{name}.{extension}",dpi=300)
+        plt.close(fig)
+    fig, axes = plt.subplots(1, 2, figsize=(7, 3.6), layout="constrained", sharey=True)
     for ax, name, audit in zip(axes, ("107", "107_prefix_control"), (audits["107"], control)):
         matrix = np.array(audit["matrix"])
         im = ax.imshow(matrix, aspect="auto", vmin=0, vmax=1, cmap="Blues")

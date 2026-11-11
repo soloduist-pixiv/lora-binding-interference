@@ -1,0 +1,43 @@
+[
+  {
+    "step": 0,
+    "method": "tree",
+    "precision": "float32",
+    "seconds": 0.3706379000004745,
+    "maximum_probability_error": 1.1905171803938686e-07,
+    "comparison": "FP32 tree versus FP32 full prefix"
+  },
+  {
+    "step": 1,
+    "method": "tree",
+    "precision": "float32",
+    "seconds": 0.20559070000035717,
+    "maximum_probability_error": 1.188824398923316e-07,
+    "comparison": "FP32 tree versus FP32 full prefix"
+  },
+  {
+    "step": 16,
+    "method": "tree",
+    "precision": "float32",
+    "seconds": 0.21470959999987826,
+    "maximum_probability_error": 9.18349525869111e-07,
+    "comparison": "FP32 tree versus FP32 full prefix"
+  },
+  {
+    "step": 64,
+    "method": "tree",
+    "precision": "float32",
+    "seconds": 0.20201790000010078,
+    "maximum_probability_error": 1.0529650187329764e-06,
+    "comparison": "FP32 tree versus FP32 full prefix"
+  },
+  {
+    "method": "tree",
+    "all_144_prompts": true,
+    "seconds": 4.917825300000004,
+    "maximum_probability_error": 0.0015502286554615052,
+    "mean_absolute_error": 4.438892722908627e-06,
+    "correct_mass_difference": 0.0001251604863196689,
+    "comparison": "FP32 tree versus historical BF16 scoring"
+  }
+]

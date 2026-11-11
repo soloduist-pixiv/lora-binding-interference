@@ -1,0 +1,167 @@
+{
+  "comparisons": [
+    {
+      "step": 0,
+      "maximum": 0.01851648961888741,
+      "mean_absolute": 1.3945982139680323e-05,
+      "correct_mass_difference": 0.0004037919251379537
+    },
+    {
+      "step": 2,
+      "maximum": 0.09010915015065213,
+      "mean_absolute": 0.00015836754177927406,
+      "correct_mass_difference": 0.0027620115780578373
+    },
+    {
+      "step": 4,
+      "maximum": 0.04941601638114579,
+      "mean_absolute": 0.0002068926704797612,
+      "correct_mass_difference": 0.0016032885832220928
+    },
+    {
+      "step": 6,
+      "maximum": 0.05967958563731879,
+      "mean_absolute": 0.0002783457463232759,
+      "correct_mass_difference": 0.0016509790951545215
+    },
+    {
+      "step": 8,
+      "maximum": 0.03686444721694676,
+      "mean_absolute": 0.00022639631108912835,
+      "correct_mass_difference": 0.001334541764929923
+    },
+    {
+      "step": 10,
+      "maximum": 0.04389919269007042,
+      "mean_absolute": 0.00027124279053493703,
+      "correct_mass_difference": 0.001398184612616078
+    },
+    {
+      "step": 12,
+      "maximum": 0.03784239681611651,
+      "mean_absolute": 0.00025780591644072463,
+      "correct_mass_difference": 0.0017800617459371535
+    },
+    {
+      "step": 14,
+      "maximum": 0.032895970043761935,
+      "mean_absolute": 0.00024048684138600198,
+      "correct_mass_difference": 0.0013774542812541753
+    },
+    {
+      "step": 16,
+      "maximum": 0.043885624202637086,
+      "mean_absolute": 0.00024211983905268308,
+      "correct_mass_difference": 0.00023565345146542283
+    },
+    {
+      "step": 18,
+      "maximum": 0.03180478915583229,
+      "mean_absolute": 0.00022783948613999975,
+      "correct_mass_difference": 0.0009065901197372198
+    },
+    {
+      "step": 20,
+      "maximum": 0.027356701712383247,
+      "mean_absolute": 0.00022426223048814997,
+      "correct_mass_difference": 0.00014256253719856807
+    },
+    {
+      "step": 22,
+      "maximum": 0.03952040851566507,
+      "mean_absolute": 0.00023570070274668483,
+      "correct_mass_difference": 0.00024042763319274846
+    },
+    {
+      "step": 24,
+      "maximum": 0.03141381304244645,
+      "mean_absolute": 0.000242016056320783,
+      "correct_mass_difference": 0.0010915390991647767
+    },
+    {
+      "step": 26,
+      "maximum": 0.03409031851526512,
+      "mean_absolute": 0.0002440991885196341,
+      "correct_mass_difference": 0.0013579085478327673
+    },
+    {
+      "step": 28,
+      "maximum": 0.03794228234843822,
+      "mean_absolute": 0.000237536174572057,
+      "correct_mass_difference": 0.001196597875798052
+    },
+    {
+      "step": 30,
+      "maximum": 0.03138021431354798,
+      "mean_absolute": 0.0002449477927865195,
+      "correct_mass_difference": 0.0006295894978233014
+    },
+    {
+      "step": 32,
+      "maximum": 0.031940756903723166,
+      "mean_absolute": 0.0002448060254597988,
+      "correct_mass_difference": 0.0006935453956385847
+    },
+    {
+      "step": 34,
+      "maximum": 0.037927638002032915,
+      "mean_absolute": 0.00023906635507440208,
+      "correct_mass_difference": 0.0006751949019723761
+    },
+    {
+      "step": 36,
+      "maximum": 0.04414067866370286,
+      "mean_absolute": 0.00025570949084054937,
+      "correct_mass_difference": 0.0007008795720241729
+    },
+    {
+      "step": 38,
+      "maximum": 0.03971819972917168,
+      "mean_absolute": 0.0002645862829091625,
+      "correct_mass_difference": 0.0006266053090331496
+    },
+    {
+      "step": 40,
+      "maximum": 0.03297288313681668,
+      "mean_absolute": 0.0002620828640317734,
+      "correct_mass_difference": 0.0006361774183565832
+    },
+    {
+      "step": 42,
+      "maximum": 0.05738959007009936,
+      "mean_absolute": 0.000290975215291379,
+      "correct_mass_difference": 0.0004731870387769607
+    },
+    {
+      "step": 44,
+      "maximum": 0.0459047068850581,
+      "mean_absolute": 0.00028158806716298214,
+      "correct_mass_difference": 8.101596887743681e-05
+    },
+    {
+      "step": 46,
+      "maximum": 0.051133860834765066,
+      "mean_absolute": 0.0003010727241394746,
+      "correct_mass_difference": 3.570119007904535e-05
+    },
+    {
+      "step": 48,
+      "maximum": 0.0489264216502176,
+      "mean_absolute": 0.0002886600569916376,
+      "correct_mass_difference": 0.0002577154579384786
+    },
+    {
+      "step": 50,
+      "maximum": 0.040982786445976443,
+      "mean_absolute": 0.0002516022817720351,
+      "correct_mass_difference": 0.0005674691661862236
+    },
+    {
+      "step": 52,
+      "maximum": 0.045845340380673394,
+      "mean_absolute": 0.00023976839561277717,
+      "correct_mass_difference": 0.0012262220387622162
+    }
+  ],
+  "seconds": 280.88314660000015
+}

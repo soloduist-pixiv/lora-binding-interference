@@ -8,3 +8,5 @@ __pycache__/
 publish/
 *.tmp
 *.log
+!outputs/binding_review_20261111/runs/Qwen3-0.6B_s211_alphabetic_lr0.0003_r4/adapter_0208.pt
+!outputs/binding_review_20261111/runs/SmolLM2-360M-Instruct_s211_adjacent_lr0.0003_r4/adapter_0416.pt

@@ -1,0 +1,101 @@
+[
+  {
+    "model": "Qwen3-0.6B",
+    "official_repository": "Qwen/Qwen3-0.6B",
+    "files": [
+      {
+        "file": "config.json",
+        "bytes": 726,
+        "sha256": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd"
+      },
+      {
+        "file": "generation_config.json",
+        "bytes": 239,
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+      },
+      {
+        "file": "model.safetensors",
+        "bytes": 1503300328,
+        "sha256": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b"
+      },
+      {
+        "file": "source.json",
+        "bytes": 257,
+        "sha256": "26bb95f7b69463da30bac3368fbe1e3423c1e5eba9e599d795333f2a9890da9c"
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 11422654,
+        "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 9732,
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      }
+    ],
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca"
+  },
+  {
+    "model": "SmolLM2-360M-Instruct",
+    "official_repository": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "files": [
+      {
+        "file": "all_results.json",
+        "bytes": 807,
+        "sha256": "c27ba0770455d27dae3f579c77c0735ac0662a4a716f3970fc165063282d1a27"
+      },
+      {
+        "file": "config.json",
+        "bytes": 883,
+        "sha256": "969bfc0533d54d2a42ea43fa321ef3a5b198c33b64c813e97055f6d0645953a1"
+      },
+      {
+        "file": "eval_results.json",
+        "bytes": 604,
+        "sha256": "7b40fdea4dc1edc2538566a77f2f0bd81472f5087242dbf9d4beb647cdc40bf7"
+      },
+      {
+        "file": "generation_config.json",
+        "bytes": 139,
+        "sha256": "df7f6a497817f2d241445e055d91c452586d5c7ae353fccf6dbcf65fac6e10ee"
+      },
+      {
+        "file": "model.safetensors",
+        "bytes": 723674912,
+        "sha256": "e6bffe7435d7ddc10fd3b9a9efd429dafbacb1cb17015fb5562664e7532bf86e"
+      },
+      {
+        "file": "special_tokens_map.json",
+        "bytes": 689,
+        "sha256": "68d920624c05998fa87a133555aff625768fc69f1b41baf0592f8d09b60896b3"
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 2202804,
+        "sha256": "457ca934f9250757eddb62ad468db83127732f3174ebcfe80bc4e1856ec7bba0"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 3918,
+        "sha256": "3a5c8b9642dee681a85c4565ad2c771435450aa99045284f68447a4a39082bc6"
+      },
+      {
+        "file": "train_results.json",
+        "bytes": 240,
+        "sha256": "a4ae87f10fa0aa64a8034a663fd101a612955db869a3d36ba9fa08364f617e9d"
+      },
+      {
+        "file": "trainer_state.json",
+        "bytes": 59247,
+        "sha256": "ec1d5a361038c490bc711074b9c9a1b5701c1dddb01cd054a83993ac3efa6fad"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 800662,
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+      }
+    ],
+    "revision": "a10cc1512eabd3dde888204e902eca88bddb4951"
+  }
+]
