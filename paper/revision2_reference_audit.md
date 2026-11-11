@@ -1,6 +1,6 @@
 # 新增相关工作核对
 
-依据原论文 arXiv 元数据、论文全文首页或官方会议页面核对。以下六篇已核实标识符；原稿其余引文的 DOI/ID 补齐仍待逐条完成，不把现有作者年份核对等同于完成全部 DOI 核对。
+依据原论文 arXiv 元数据、论文全文首页或官方会议页面核对。以下六篇已核实标识符；原有 20 条引文现均已补齐 arXiv ID 或出版方 DOI，见 reference_identifiers.md；标识符核对不代替对具体被引结论的内容审查。
 
 | 文献 | 作者及状态 | 标识符与原始来源 | 本文可引用的范围 |
 |---|---|---|---|
@@ -12,3 +12,5 @@
 | How do Language Models Bind Entities in Context? | Jiahai Feng、Jacob Steinhardt；ICLR 2024 | [arXiv:2310.17191](https://arxiv.org/abs/2310.17191)，DOI:10.48550/arXiv.2310.17191；[官方论文](https://openreview.net/pdf?id=zb3b6oKO77) | 通过激活因果干预识别实体—属性 binding ID；其上下文激活机制不能由本文输出 JS 或互信息直接推断。 |
 
 这里列出的 10.48550 DOI 是 arXiv 版本标识，不冒充会议出版 DOI。摘要与正文应将“训练条件影响遗忘”和“实体绑定机制”作为已有工作背景。
+
+全文补核：Biderman 等 §4.7 与附录 B 明确比较目标模块、rank、alpha 与学习率。代码任务中 Attention 相对 MLP/All 较弱，并强调 alpha=2r；不能把本文末四层 Q/V 的观察推广到所有 LoRA 目标模块。原始全文：https://arxiv.org/html/2405.09673v2 。

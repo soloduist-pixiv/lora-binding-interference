@@ -8685,6 +8685,11 @@
     "sha256": "fa636cb593c651ea8124ccab5c366eb0c1ccc359fd53deda1380663c9e8b6900"
   },
   {
+    "path": "outputs/binding_revision2_20261111/reference_identifier_audit.json",
+    "size": 10327,
+    "sha256": "ac509c5cdfe03d694a98488bac82b7203a32effe31289ec146b8a7860a277abc"
+  },
+  {
     "path": "outputs/binding_revision2_20261111/technical_smoke.json",
     "size": 99,
     "sha256": "a455dc1f1adc6d09166e189949d105a876f3cabd54a57f0e5167b718cdfab708"
@@ -8845,9 +8850,14 @@
     "sha256": "54ce81427e8359e16372fb485fb62d2a377c7424116329038a4dd14876828787"
   },
   {
+    "path": "paper/reference_identifiers.md",
+    "size": 3502,
+    "sha256": "d5d6d9db94496da33dc97dba088d4aab1c8e50ac3f52cf6654e132d3d9dcf94f"
+  },
+  {
     "path": "paper/references_audit.md",
-    "size": 7016,
-    "sha256": "71434c98036b88ec65be5820b6503630b44f2be65f26ae8ed7c655049e838624"
+    "size": 7610,
+    "sha256": "567ee4d69b196817030a477c488218ddd9b1517fb46b9d27cb6371911e5c7cbd"
   },
   {
     "path": "paper/review_protocol.md",
@@ -8861,18 +8871,18 @@
   },
   {
     "path": "paper/revision2_findings.md",
-    "size": 5008,
-    "sha256": "0e4cc7f63dd303939f0744ec1281f38797a4af83419acaac58f940250d967b15"
+    "size": 5202,
+    "sha256": "2459ff470eeacc5c2d84180e0097695a991b510faa715c0b760bffdacf209422"
   },
   {
     "path": "paper/revision2_protocol.md",
-    "size": 4033,
-    "sha256": "a0a29daf80772c039fddf922c3315f033109b2dde133f0bbe80f99b315113c26"
+    "size": 5004,
+    "sha256": "53ac3201054ce703bfae8d59daff82d23874105c3dddc6f2a45d27b39a7c493c"
   },
   {
     "path": "paper/revision2_reference_audit.md",
-    "size": 2957,
-    "sha256": "7a7bd3f86f6b842729f3702d878c6ce61ac65b2aedbeee72db4515206c584993"
+    "size": 3295,
+    "sha256": "83f060d00820c72e198d4d2ce0465e17e64ebf29bf0171853e4c5fd62776aa9c"
   },
   {
     "path": "paper/revision_response.md",
@@ -9031,8 +9041,13 @@
   },
   {
     "path": "work/binding_revision2/run.py",
-    "size": 17796,
-    "sha256": "720f55e7008d242332f9ce98701e7d1407860313abf4087c544d1518b90dac38"
+    "size": 18419,
+    "sha256": "43fadd62e4e7ad6e587cfe5f871bca3fbf3c02efbb97f38398f4302685bde88a"
+  },
+  {
+    "path": "work/binding_revision2/stop_rule.py",
+    "size": 668,
+    "sha256": "b6d97fd924f68a73456b048d5a8812ff3d01500cc29f63965048e47b5b5438af"
   },
   {
     "path": "work/binding_revision2/watch.py",

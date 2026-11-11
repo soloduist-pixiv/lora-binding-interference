@@ -10,6 +10,7 @@ import time
 from pathlib import Path
 
 import numpy as np
+from stop_rule import plateau
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "work/prospective_updates"))
@@ -220,6 +221,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
                     scoring_precision=scorer.precision,
                     dense_contexts=2, full_context_steps=[0,16,64])
     p.write(folder / "protocol.json", protocol)
+    cedar_validation=rows_for(splits["validation"],"old",("original","counterfactual"),code_format)
     optimizer = p.optimizer(engine.ps, lr)
     batches = p.sample(train, seed+901, maximum_steps)
     old_batches = p.sample(replay_pool, seed+3901, maximum_steps)
@@ -236,6 +238,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         trace = d.read(folder / "trace.json")
     path_length = state.get("effective_path", 0.) if saved.exists() else 0.
     path_origin = state.get("path_origin", start_step-1) if saved.exists() else 0
+    stable_count = state.get("stable_count",0) if saved.exists() else 0
     started = time.perf_counter()
     for step in range(start_step, maximum_steps+1):
         if step:
@@ -265,30 +268,33 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
                 raise RuntimeError(f"Validation scorer disagreement {error}")
             p.write(folder/"validation_score_agreement.json",dict(maximum_probability_error=error))
         maple_progress = float(val_lp.mean())
+        cedar_validation_logp=float(np.mean(scorer.gold(cedar_validation)))
         old_mass = np.exp(old_lp)
         maple_mass = np.exp(maple_lp)
         original_keys = [int(old_rows[i]["id"].split("/")[0])-1 for i in indices]
         correct = float(old_mass[np.arange(len(indices)), original_keys].mean())
         np.savez_compressed(folder / f"s{step:04d}.npz", old=old_mass, maple=maple_mass,
                             validation_gold_logp=val_lp, indices=np.array(indices))
-        row = dict(step=step, maple=maple_progress, old_correct=correct,
+        row = dict(step=step, maple=maple_progress, cedar_validation_logp=cedar_validation_logp, old_correct=correct,
                    old_other=float((1-old_mass.sum(1)).mean()),
                    new_examples=step*(8 if exposure=="duplicate_maple" else 4), old_examples=step*4 if replay else 0,
                    unique_new_draws=step*4, effective_path=path_length, path_origin=path_origin,
                    seconds=time.perf_counter()-started,
                    peak_reserved_mib=p.torch.cuda.max_memory_reserved()/2**20)
         trace.append(row)
+        if step>=minimum_steps+128 and step%64==0:
+            stable_count=stable_count+1 if maple_progress>=-.1 and plateau(trace,step) else 0
         p.write(folder / "trace.json", trace)
         state = dict(parameters=[v.detach().cpu() for v in engine.ps],
                      optimizer=optimizer.state_dict(), step=step, rank=rank, scale=2.,
-                     effective_path=path_length,path_origin=path_origin)
+                     effective_path=path_length,path_origin=path_origin,stable_count=stable_count)
         temporary = saved.with_suffix(".tmp")
         p.torch.save(state, temporary)
         temporary.replace(saved)
         p.torch.save(dict(parameters=state["parameters"], rank=rank, scale=2.),
                      folder / f"adapter_{step:04d}.pt")
         print(name, step, round(maple_progress, 3), round(correct, 4), flush=True)
-        if step >= minimum_steps and maple_progress >= -.1:
+        if step >= minimum_steps and maple_progress >= -.1 and stable_count>=2:
             break
     if step >= minimum_steps:
         old_final = rows_for(splits["test"],"old",("original","counterfactual"),code_format)
@@ -310,6 +316,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         decoded={"cedar":generate(scorer,active_old),"maple":generate(scorer,active_new)}
         p.write(folder/"first_minus1_generation.json",dict(step=target_step,validation_logp=target_row["maple"],queries=decoded))
     p.write(folder / "complete.json", dict(last_step=step, target_reached=maple_progress >= -.1,
+                                          stop_reason="validation_plateau" if stable_count>=2 else "budget",
                                           seconds=time.perf_counter()-started))
 
 

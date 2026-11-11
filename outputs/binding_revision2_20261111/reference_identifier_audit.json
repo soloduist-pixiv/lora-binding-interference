@@ -1,0 +1,134 @@
+[
+  {
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "arxiv": "2106.09685"
+  },
+  {
+    "title": "Orthogonal Subspace Learning for Language Model Continual Learning",
+    "url": "https://aclanthology.org/2023.findings-emnlp.715/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2023.findings-emnlp.715.bib",
+    "doi": "10.18653/v1/2023.findings-emnlp.715",
+    "bibtex": "@inproceedings{wang-etal-2023-orthogonal,\n    title = \"Orthogonal Subspace Learning for Language Model Continual Learning\",\n    author = \"Wang, Xiao  and\n      Chen, Tianze  and\n      Ge, Qiming  and\n      Xia, Han  and\n      Bao, Rong  and\n      Zheng, Rui  and\n      Zhang, Qi  and\n      Gui, Tao  and\n      Huang, Xuanjing\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-emnlp.715/\",\n    doi = \"10.18653/v1/2023.findings-emnlp.715\",\n    pages = \"10658--10671\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "InfLoRA: Interference-Free Low-Rank Adaptation for Continual Learning",
+    "url": "https://arxiv.org/abs/2404.00228",
+    "arxiv": "2404.00228"
+  },
+  {
+    "title": "SLoRA: Balancing Plasticity and Forgetting in Large Language Models for Continual Learning",
+    "url": "https://aclanthology.org/2026.acl-long.247/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2026.acl-long.247.bib",
+    "doi": "10.18653/v1/2026.acl-long.247",
+    "bibtex": "@inproceedings{yang-etal-2026-slora,\n    title = \"{SL}o{RA}: Balancing Plasticity and Forgetting in Large Language Models for Continual Learning\",\n    author = \"Yang, Lina  and\n      Liao, Yusheng  and\n      Wang, Yanfeng  and\n      Wang, Yu\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.acl-long.247/\",\n    doi = \"10.18653/v1/2026.acl-long.247\",\n    pages = \"5437--5454\",\n    ISBN = \"979-8-89176-390-6\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "Pareto Continual Learning",
+    "url": "https://arxiv.org/abs/2503.23390",
+    "arxiv": "2503.23390"
+  },
+  {
+    "title": "Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark",
+    "url": "https://aclanthology.org/2023.findings-acl.733/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2023.findings-acl.733.bib",
+    "doi": "10.18653/v1/2023.findings-acl.733",
+    "bibtex": "@inproceedings{hoelscher-obermaier-etal-2023-detecting,\n    title = \"Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark\",\n    author = \"Hoelscher-Obermaier, Jason  and\n      Persson, Julia  and\n      Kran, Esben  and\n      Konstas, Ioannis  and\n      Barez, Fazl\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2023\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-acl.733/\",\n    doi = \"10.18653/v1/2023.findings-acl.733\",\n    pages = \"11548--11559\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "Evaluating the Ripple Effects of Knowledge Editing in Language Models",
+    "url": "https://aclanthology.org/2024.tacl-1.16/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2024.tacl-1.16.bib",
+    "doi": "10.1162/tacl_a_00644",
+    "bibtex": "@article{cohen-etal-2024-evaluating,\n    title = \"Evaluating the Ripple Effects of Knowledge Editing in Language Models\",\n    author = \"Cohen, Roi  and\n      Biran, Eden  and\n      Yoran, Ori  and\n      Globerson, Amir  and\n      Geva, Mor\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"12\",\n    year = \"2024\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/2024.tacl-1.16/\",\n    doi = \"10.1162/tacl_a_00644\",\n    pages = \"283--298\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "Model Editing at Scale leads to Gradual and Catastrophic Forgetting",
+    "url": "https://aclanthology.org/2024.findings-acl.902/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2024.findings-acl.902.bib",
+    "doi": "10.18653/v1/2024.findings-acl.902",
+    "bibtex": "@inproceedings{gupta-etal-2024-model,\n    title = \"Model Editing at Scale leads to Gradual and Catastrophic Forgetting\",\n    author = \"Gupta, Akshat  and\n      Rao, Anurag  and\n      Anumanchipalli, Gopala\",\n    editor = \"Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2024\",\n    month = aug,\n    year = \"2024\",\n    address = \"Bangkok, Thailand\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-acl.902/\",\n    doi = \"10.18653/v1/2024.findings-acl.902\",\n    pages = \"15202--15232\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "PRISM Edit: One Vector for All Temporal Answers",
+    "url": "https://aclanthology.org/2026.emnlp-main.1719/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2026.emnlp-main.1719.bib",
+    "doi": "10.18653/2026.emnlp-main.1719",
+    "bibtex": "@inproceedings{huang-etal-2026-prism,\n    title = \"{PRISM} Edit: One Vector for All Temporal Answers\",\n    author = \"Huang, Chen  and\n      Zheng, Qi  and\n      Zhengruiqin  and\n      Zeng, Long  and\n      Xu, Yuantong\",\n    editor = \"Lee, Hung-Yi  and\n      Dev, Sunipa  and\n      Li, Junyi Jessy  and\n      Elliott, Desmond\",\n    booktitle = \"Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing\",\n    month = oct,\n    year = \"2026\",\n    address = \"Budapest, Hungary\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.emnlp-main.1719/\",\n    doi = \"10.18653/2026.emnlp-main.1719\",\n    pages = \"39217--39235\",\n    ISBN = \"979-8-89176-459-0\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "CHRONOEXPERT",
+    "url": "https://aclanthology.org/2026.findings-emnlp.1823/",
+    "arxiv": null,
+    "bibtex_url": "https://aclanthology.org/2026.findings-emnlp.1823.bib",
+    "doi": "10.18653/2026.findings-emnlp.1823",
+    "bibtex": "@inproceedings{li-etal-2026-chronoexpert,\n    title = \"{CHRONOEXPERT}: A Temporal Mixture-of-Experts for Knowledge Editing in Large Language Models\",\n    author = \"Li, Xudong  and\n      Jin, Yizhou  and\n      Song, Dandan  and\n      Huo, Yongyu  and\n      Tian, Yuhang  and\n      Yang, Jun  and\n      Li, Chenhao  and\n      Ma, Huipeng  and\n      Zhang, Luan  and\n      Pei, Xing\",\n    editor = \"Lee, Hung-Yi  and\n      Dev, Sunipa  and\n      Li, Jessy  and\n      Elliott, Desmond\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026\",\n    month = oct,\n    year = \"2026\",\n    address = \"Budapest, Hungary\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.findings-emnlp.1823/\",\n    doi = \"10.18653/2026.findings-emnlp.1823\",\n    pages = \"38943--38959\",\n    ISBN = \"979-8-89176-462-0\"\n}\n\n",
+    "status": "identifier_verified"
+  },
+  {
+    "title": "Continual evaluation for lifelong learning: Identifying the stability gap",
+    "url": "https://arxiv.org/abs/2205.13452",
+    "arxiv": "2205.13452"
+  },
+  {
+    "title": "Continual Learning for Sequential Personalization of Small Language Models: A Stability Monitoring Analysis",
+    "url": "https://arxiv.org/abs/2606.27634",
+    "arxiv": "2606.27634"
+  },
+  {
+    "title": "STABLE: Gated Continual Learning for Large Language Models",
+    "url": "https://arxiv.org/abs/2510.16089",
+    "arxiv": "2510.16089"
+  },
+  {
+    "title": "Spurious Forgetting in Continual Learning of Language Models",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a774503daed55eb53c634847ae071ec7-Abstract-Conference.html",
+    "arxiv": "2501.13453",
+    "status": "primary_arxiv_verified"
+  },
+  {
+    "title": "Task Confusion and Catastrophic Forgetting in Class-Incremental Learning",
+    "url": "https://papers.nips.cc/paper/2024/hash/5503a7c69d48a2f86fc00b3dc09de686-Abstract-Conference.html",
+    "arxiv": "2410.20768",
+    "status": "primary_arxiv_verified",
+    "corrected_author": "Il-Min Kim",
+    "full_title": "Task Confusion and Catastrophic Forgetting in Class-Incremental Learning: A Mathematical Framework for Discriminative and Generative Modelings"
+  },
+  {
+    "title": "In-Context Binding Capacity in Language Models",
+    "url": "https://arxiv.org/abs/2609.30634",
+    "arxiv": "2609.30634"
+  },
+  {
+    "title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
+    "url": "https://arxiv.org/abs/2610.08718",
+    "arxiv": "2610.08718"
+  },
+  {
+    "title": "Can a Language Model Continually Learn Facts in its Weights?",
+    "url": "https://www.alphaxiv.org/abs/2607.11020.md",
+    "arxiv": "2607.11020"
+  },
+  {
+    "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+    "url": "https://arxiv.org/pdf/2604.15574",
+    "arxiv": "2604.15574"
+  },
+  {
+    "title": "When Context Changes: Understanding Update Failures in LLMs",
+    "url": "https://arxiv.org/pdf/2609.38866",
+    "arxiv": "2609.38866"
+  }
+]
