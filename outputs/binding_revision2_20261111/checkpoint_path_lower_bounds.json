@@ -1,0 +1,6069 @@
+{
+  "Qwen3-0.6B_s107_adjacent_lr0.0001_r4": {
+    "initial_validation_logp": -10.483709663152695,
+    "first_observed_crossings": {
+      "-1.0": 144,
+      "-0.5": 208,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.1466914383028403
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.2623493812943569
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.36698191575214734
+      },
+      {
+        "step": 8,
+        "polygon_length": 0.46395903478741085
+      },
+      {
+        "step": 10,
+        "polygon_length": 0.5583074191406265
+      },
+      {
+        "step": 12,
+        "polygon_length": 0.6514256394075932
+      },
+      {
+        "step": 14,
+        "polygon_length": 0.7421517384433798
+      },
+      {
+        "step": 16,
+        "polygon_length": 0.8322961587583236
+      },
+      {
+        "step": 18,
+        "polygon_length": 0.9195131895261189
+      },
+      {
+        "step": 20,
+        "polygon_length": 1.005721744297718
+      },
+      {
+        "step": 22,
+        "polygon_length": 1.0893369250492846
+      },
+      {
+        "step": 24,
+        "polygon_length": 1.1724603835461642
+      },
+      {
+        "step": 26,
+        "polygon_length": 1.2505141405402551
+      },
+      {
+        "step": 28,
+        "polygon_length": 1.3296360873049635
+      },
+      {
+        "step": 30,
+        "polygon_length": 1.408034666585366
+      },
+      {
+        "step": 32,
+        "polygon_length": 1.4835372660992097
+      },
+      {
+        "step": 34,
+        "polygon_length": 1.5598798849401976
+      },
+      {
+        "step": 36,
+        "polygon_length": 1.6358906007418055
+      },
+      {
+        "step": 38,
+        "polygon_length": 1.7139964090825657
+      },
+      {
+        "step": 40,
+        "polygon_length": 1.7972290852740327
+      },
+      {
+        "step": 42,
+        "polygon_length": 1.8796824330880189
+      },
+      {
+        "step": 44,
+        "polygon_length": 1.9577254507848914
+      },
+      {
+        "step": 46,
+        "polygon_length": 2.033481591455131
+      },
+      {
+        "step": 48,
+        "polygon_length": 2.1068260801393417
+      },
+      {
+        "step": 50,
+        "polygon_length": 2.1765919082648137
+      },
+      {
+        "step": 52,
+        "polygon_length": 2.2422742514750875
+      },
+      {
+        "step": 54,
+        "polygon_length": 2.3085357870488155
+      },
+      {
+        "step": 56,
+        "polygon_length": 2.3706843555665644
+      },
+      {
+        "step": 58,
+        "polygon_length": 2.4317843847821083
+      },
+      {
+        "step": 60,
+        "polygon_length": 2.4932737502877407
+      },
+      {
+        "step": 62,
+        "polygon_length": 2.5558660860595994
+      },
+      {
+        "step": 64,
+        "polygon_length": 2.615456931107297
+      },
+      {
+        "step": 80,
+        "polygon_length": 3.0175574409076593
+      },
+      {
+        "step": 96,
+        "polygon_length": 3.4191152496702903
+      },
+      {
+        "step": 112,
+        "polygon_length": 3.7239479344902175
+      },
+      {
+        "step": 128,
+        "polygon_length": 3.9943172566285594
+      },
+      {
+        "step": 144,
+        "polygon_length": 4.260653620442331
+      },
+      {
+        "step": 160,
+        "polygon_length": 4.516501949129831
+      },
+      {
+        "step": 176,
+        "polygon_length": 4.764950923564021
+      },
+      {
+        "step": 192,
+        "polygon_length": 4.956945401071541
+      },
+      {
+        "step": 208,
+        "polygon_length": 5.1491819511311965
+      }
+    ]
+  },
+  "Qwen3-0.6B_s107_adjacent_lr0.0003_r16": {
+    "initial_validation_logp": -10.483709871768951,
+    "first_observed_crossings": {
+      "-1.0": 30,
+      "-0.5": 48,
+      "-0.3": 56,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.49035543066011716
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.8799807537821862
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.2330017875060286
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.5529666537786766
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.838050713821717
+      },
+      {
+        "step": 12,
+        "polygon_length": 2.1007939497677683
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.3546538620455597
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.5746865723831807
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.7891335974510425
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.9873066890130455
+      },
+      {
+        "step": 22,
+        "polygon_length": 3.1657673362546808
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.330712844843254
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.4895117364621595
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.6406457055928283
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.7914421274385566
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.9608775438914887
+      },
+      {
+        "step": 34,
+        "polygon_length": 4.114048200800779
+      },
+      {
+        "step": 36,
+        "polygon_length": 4.266684104192449
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.430659613464504
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.5851192465650366
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.7214314471379195
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.843480283205007
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.958098787354827
+      },
+      {
+        "step": 48,
+        "polygon_length": 5.065975360412856
+      },
+      {
+        "step": 50,
+        "polygon_length": 5.164951125306692
+      },
+      {
+        "step": 52,
+        "polygon_length": 5.283336033641566
+      },
+      {
+        "step": 54,
+        "polygon_length": 5.403292824499639
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.507692920006648
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.613405321231148
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.705861662523367
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.829351023210006
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.936127519170251
+      }
+    ]
+  },
+  "Qwen3-0.6B_s107_adjacent_lr0.0003_r16_replay_min640": {
+    "initial_validation_logp": -10.483712097009024,
+    "first_observed_crossings": {
+      "-1.0": 46,
+      "-0.5": 112,
+      "-0.3": 192,
+      "-0.1": 224
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.48999904393335875
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.8782230652453711
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.2295373113199204
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.545962519721574
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.8194680643834265
+      },
+      {
+        "step": 12,
+        "polygon_length": 2.0690782652113175
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.3127011621431954
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.5305026948518035
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.737838329220489
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.922240827533698
+      },
+      {
+        "step": 22,
+        "polygon_length": 3.0862197239266758
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.2453092201942915
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.3988459666456694
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.543907867684832
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.68945998127645
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.8203718929525197
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.9432497253605017
+      },
+      {
+        "step": 36,
+        "polygon_length": 4.07223276223616
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.210044769960033
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.341135210223666
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.469183245095824
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.59716820795495
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.725673221612097
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.860432522232174
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.9760083494915355
+      },
+      {
+        "step": 52,
+        "polygon_length": 5.098686392390335
+      },
+      {
+        "step": 54,
+        "polygon_length": 5.227948490140479
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.333061586548609
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.4364408030477565
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.548332522946441
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.6686930772728275
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.7824198411991965
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.411390880215871
+      },
+      {
+        "step": 96,
+        "polygon_length": 7.217105448974486
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.920151169357787
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.661580119820384
+      },
+      {
+        "step": 144,
+        "polygon_length": 9.448560516947847
+      },
+      {
+        "step": 160,
+        "polygon_length": 10.330366938292896
+      },
+      {
+        "step": 176,
+        "polygon_length": 11.132790345609614
+      },
+      {
+        "step": 192,
+        "polygon_length": 11.913743993542226
+      },
+      {
+        "step": 208,
+        "polygon_length": 12.640471016705161
+      },
+      {
+        "step": 224,
+        "polygon_length": 13.32593363915298
+      },
+      {
+        "step": 240,
+        "polygon_length": 13.785984928716076
+      },
+      {
+        "step": 256,
+        "polygon_length": 14.075903725886878
+      },
+      {
+        "step": 272,
+        "polygon_length": 14.251131620647232
+      },
+      {
+        "step": 288,
+        "polygon_length": 14.413330851973408
+      },
+      {
+        "step": 304,
+        "polygon_length": 14.679651875821397
+      },
+      {
+        "step": 320,
+        "polygon_length": 14.89442161665592
+      },
+      {
+        "step": 336,
+        "polygon_length": 14.979402666631312
+      },
+      {
+        "step": 352,
+        "polygon_length": 15.047971048323376
+      },
+      {
+        "step": 368,
+        "polygon_length": 15.324065834901539
+      },
+      {
+        "step": 384,
+        "polygon_length": 15.627992533673403
+      },
+      {
+        "step": 400,
+        "polygon_length": 15.739244743179869
+      },
+      {
+        "step": 416,
+        "polygon_length": 15.84850835073205
+      },
+      {
+        "step": 432,
+        "polygon_length": 15.954878298156235
+      },
+      {
+        "step": 448,
+        "polygon_length": 16.010771304441505
+      },
+      {
+        "step": 464,
+        "polygon_length": 16.052231284694066
+      },
+      {
+        "step": 480,
+        "polygon_length": 16.269771912434265
+      },
+      {
+        "step": 496,
+        "polygon_length": 16.387753089169202
+      },
+      {
+        "step": 512,
+        "polygon_length": 16.444276331806105
+      },
+      {
+        "step": 528,
+        "polygon_length": 16.48742892317989
+      },
+      {
+        "step": 544,
+        "polygon_length": 16.520914509207987
+      },
+      {
+        "step": 560,
+        "polygon_length": 16.5494424352924
+      },
+      {
+        "step": 576,
+        "polygon_length": 16.573830467660823
+      },
+      {
+        "step": 592,
+        "polygon_length": 16.60464067626024
+      },
+      {
+        "step": 608,
+        "polygon_length": 16.628284510754984
+      },
+      {
+        "step": 624,
+        "polygon_length": 16.665776527827976
+      },
+      {
+        "step": 640,
+        "polygon_length": 16.69105861057529
+      }
+    ]
+  },
+  "Qwen3-0.6B_s107_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -10.483709663152695,
+    "first_observed_crossings": {
+      "-1.0": 44,
+      "-0.5": 96,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.44181571977010736
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7923526890072201
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.1081718070209174
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.3974132248159523
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.6703319485645758
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.931371393203098
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.1766924842673134
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.4037209730444538
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.6411527791577876
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.8715079743887486
+      },
+      {
+        "step": 22,
+        "polygon_length": 3.078652527616664
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.2701212306794774
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.4479485330911954
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.6180790482494385
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.787879596106054
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.9691245843671235
+      },
+      {
+        "step": 34,
+        "polygon_length": 4.130942783685963
+      },
+      {
+        "step": 36,
+        "polygon_length": 4.293043505984296
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.452079295992358
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.604601407329852
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.748631448616021
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.879131502439742
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.998679233483356
+      },
+      {
+        "step": 48,
+        "polygon_length": 5.115351890458892
+      },
+      {
+        "step": 50,
+        "polygon_length": 5.22281531479761
+      },
+      {
+        "step": 52,
+        "polygon_length": 5.326886420154512
+      },
+      {
+        "step": 54,
+        "polygon_length": 5.429181771456335
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.523525050041388
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.61519818245233
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.701128097492208
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.801717466161474
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.896291938481538
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.490466840272374
+      },
+      {
+        "step": 96,
+        "polygon_length": 7.024073876867388
+      }
+    ]
+  },
+  "Qwen3-0.6B_s107_adjacent_lr0.0003_r4_replay": {
+    "initial_validation_logp": -10.483709663152695,
+    "first_observed_crossings": {
+      "-1.0": 64,
+      "-0.5": 128,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.4413297601389073
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7906988291635262
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.1051530661260482
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.392484650254822
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.662532451757296
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.9083634429171212
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.1337088542560885
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.3441145370195264
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.5662218940457544
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.7818211770673433
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.970065873840138
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.145092336059036
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.3062932761702006
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.458948738080398
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.607214406928344
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.7528426767975587
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.8949663881731302
+      },
+      {
+        "step": 36,
+        "polygon_length": 4.044305874296674
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.196199950505753
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.346044095821453
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.486029146535767
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.614267123657948
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.7342721683507385
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.85162074068686
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.957703914747507
+      },
+      {
+        "step": 52,
+        "polygon_length": 5.068013032389913
+      },
+      {
+        "step": 54,
+        "polygon_length": 5.183745094575982
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.287100408136774
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.384790444945693
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.4789306701183085
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.588805136393189
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.688990070190363
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.278253219941652
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.919337891278738
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.605924360678859
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.223444337349923
+      }
+    ]
+  },
+  "Qwen3-0.6B_s107_adjacent_lr0.001_r4": {
+    "initial_validation_logp": -10.483709663152695,
+    "first_observed_crossings": {
+      "-1.0": 20,
+      "-0.5": 44,
+      "-0.3": 52,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 1.4806570010940725
+      },
+      {
+        "step": 4,
+        "polygon_length": 2.6590688706612378
+      },
+      {
+        "step": 6,
+        "polygon_length": 3.5981626746622464
+      },
+      {
+        "step": 8,
+        "polygon_length": 4.39017344130494
+      },
+      {
+        "step": 10,
+        "polygon_length": 5.139374109402783
+      },
+      {
+        "step": 12,
+        "polygon_length": 5.782530641155796
+      },
+      {
+        "step": 14,
+        "polygon_length": 6.349710705852234
+      },
+      {
+        "step": 16,
+        "polygon_length": 6.834124871548107
+      },
+      {
+        "step": 18,
+        "polygon_length": 7.302124962196729
+      },
+      {
+        "step": 20,
+        "polygon_length": 7.724949217073841
+      },
+      {
+        "step": 22,
+        "polygon_length": 8.098956489556452
+      },
+      {
+        "step": 24,
+        "polygon_length": 8.464875997473005
+      },
+      {
+        "step": 26,
+        "polygon_length": 8.80762776749891
+      },
+      {
+        "step": 28,
+        "polygon_length": 9.13198524840383
+      },
+      {
+        "step": 30,
+        "polygon_length": 9.447029005042063
+      },
+      {
+        "step": 32,
+        "polygon_length": 9.790658398475763
+      },
+      {
+        "step": 34,
+        "polygon_length": 10.100237522945449
+      },
+      {
+        "step": 36,
+        "polygon_length": 10.43162993395556
+      },
+      {
+        "step": 38,
+        "polygon_length": 10.788171505565892
+      },
+      {
+        "step": 40,
+        "polygon_length": 11.096130517861434
+      },
+      {
+        "step": 42,
+        "polygon_length": 11.367481953929897
+      },
+      {
+        "step": 44,
+        "polygon_length": 11.635580721113
+      },
+      {
+        "step": 46,
+        "polygon_length": 11.97968543387589
+      },
+      {
+        "step": 48,
+        "polygon_length": 12.320109338096742
+      },
+      {
+        "step": 50,
+        "polygon_length": 12.626767035356643
+      },
+      {
+        "step": 52,
+        "polygon_length": 13.017141516768305
+      },
+      {
+        "step": 54,
+        "polygon_length": 13.349066542302062
+      },
+      {
+        "step": 56,
+        "polygon_length": 13.637541993289112
+      },
+      {
+        "step": 58,
+        "polygon_length": 13.930313998245301
+      },
+      {
+        "step": 60,
+        "polygon_length": 14.177684233430528
+      },
+      {
+        "step": 62,
+        "polygon_length": 14.39946339762287
+      },
+      {
+        "step": 64,
+        "polygon_length": 14.611226314911427
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.0001_r4": {
+    "initial_validation_logp": -10.808214743932089,
+    "first_observed_crossings": {
+      "-1.0": 144,
+      "-0.5": 208,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.12267224093562105
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.21098587747099712
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.2942189687144397
+      },
+      {
+        "step": 8,
+        "polygon_length": 0.3727374467289556
+      },
+      {
+        "step": 10,
+        "polygon_length": 0.45329729839143584
+      },
+      {
+        "step": 12,
+        "polygon_length": 0.5325737550312525
+      },
+      {
+        "step": 14,
+        "polygon_length": 0.6106040343368462
+      },
+      {
+        "step": 16,
+        "polygon_length": 0.6927268842198838
+      },
+      {
+        "step": 18,
+        "polygon_length": 0.7738693939591579
+      },
+      {
+        "step": 20,
+        "polygon_length": 0.8555668299601953
+      },
+      {
+        "step": 22,
+        "polygon_length": 0.9363026579273753
+      },
+      {
+        "step": 24,
+        "polygon_length": 1.016017231214196
+      },
+      {
+        "step": 26,
+        "polygon_length": 1.0917847242446523
+      },
+      {
+        "step": 28,
+        "polygon_length": 1.1725735183208934
+      },
+      {
+        "step": 30,
+        "polygon_length": 1.2494627322773393
+      },
+      {
+        "step": 32,
+        "polygon_length": 1.3221321771023846
+      },
+      {
+        "step": 34,
+        "polygon_length": 1.3871685162937406
+      },
+      {
+        "step": 36,
+        "polygon_length": 1.4501014746942464
+      },
+      {
+        "step": 38,
+        "polygon_length": 1.5082609738217159
+      },
+      {
+        "step": 40,
+        "polygon_length": 1.5629932148029395
+      },
+      {
+        "step": 42,
+        "polygon_length": 1.6162249251388736
+      },
+      {
+        "step": 44,
+        "polygon_length": 1.6685115030563824
+      },
+      {
+        "step": 46,
+        "polygon_length": 1.7190118500676392
+      },
+      {
+        "step": 48,
+        "polygon_length": 1.7703279188006442
+      },
+      {
+        "step": 50,
+        "polygon_length": 1.8270793315788132
+      },
+      {
+        "step": 52,
+        "polygon_length": 1.8870286134252001
+      },
+      {
+        "step": 54,
+        "polygon_length": 1.9446773937723316
+      },
+      {
+        "step": 56,
+        "polygon_length": 1.9988981166846984
+      },
+      {
+        "step": 58,
+        "polygon_length": 2.0497956725238335
+      },
+      {
+        "step": 60,
+        "polygon_length": 2.1008206236240956
+      },
+      {
+        "step": 62,
+        "polygon_length": 2.1487221532812986
+      },
+      {
+        "step": 64,
+        "polygon_length": 2.1946637120768453
+      },
+      {
+        "step": 80,
+        "polygon_length": 2.5013176241291553
+      },
+      {
+        "step": 96,
+        "polygon_length": 2.7747495165908926
+      },
+      {
+        "step": 112,
+        "polygon_length": 3.0148192258311592
+      },
+      {
+        "step": 128,
+        "polygon_length": 3.2350408857919475
+      },
+      {
+        "step": 144,
+        "polygon_length": 3.4388810779168972
+      },
+      {
+        "step": 160,
+        "polygon_length": 3.6555422375055717
+      },
+      {
+        "step": 176,
+        "polygon_length": 3.835717327621226
+      },
+      {
+        "step": 192,
+        "polygon_length": 4.02805697025668
+      },
+      {
+        "step": 208,
+        "polygon_length": 4.205986743566246
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.0003_r16": {
+    "initial_validation_logp": -10.808219522237778,
+    "first_observed_crossings": {
+      "-1.0": 36,
+      "-0.5": 56,
+      "-0.3": 64,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.4272213778876234
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7389189536740886
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.0198891985883658
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.2911800576315415
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.5746680028439979
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.843762312600123
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.0714378224031447
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.2734786008435335
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.460286963491745
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.628723023417619
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.7831221393855854
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.932252554878405
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.078782738106111
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.2186243033417052
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.3475625327371956
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.4799336478389833
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.599348778479193
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.7138161485359698
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.8261248626271485
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.924800599145485
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.024520803413531
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.122200249306982
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.218385626362857
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.3087869785335595
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.39092600458175
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.470437654635421
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.566172919763972
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.67807148085775
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.789253711892256
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.894353426693579
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.985762473132383
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.075375165662506
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.0003_r16_replay_min640": {
+    "initial_validation_logp": -10.808219522237778,
+    "first_observed_crossings": {
+      "-1.0": 64,
+      "-0.5": 224,
+      "-0.3": 240,
+      "-0.1": 288
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.4277512753363384
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7425896175211862
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.024738364089956
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.2956002882341635
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.5523954019152821
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.783688703746647
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.9733143993837425
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.153934374880494
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.3225896819374054
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.471023876813833
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.611191759216147
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.7406862904581306
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.856755099498917
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.974290305616982
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.084431823929544
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.2032671546836515
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.3211792205293977
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.450322047059664
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.5818510847039056
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.6984454731986256
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.8129681828723077
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.9222858174877597
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.026858484653273
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.135118492521461
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.236003513478101
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.33669806024766
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.448966457843228
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.578663413560386
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.71776387730105
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.84467949975663
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.957474916214752
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.073311006558838
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.841499018116204
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.5406606421779525
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.222883582340342
+      },
+      {
+        "step": 128,
+        "polygon_length": 7.753955768482188
+      },
+      {
+        "step": 144,
+        "polygon_length": 8.234884519149386
+      },
+      {
+        "step": 160,
+        "polygon_length": 8.940170179371659
+      },
+      {
+        "step": 176,
+        "polygon_length": 9.594023909001207
+      },
+      {
+        "step": 192,
+        "polygon_length": 10.213704197091728
+      },
+      {
+        "step": 208,
+        "polygon_length": 10.83666061974783
+      },
+      {
+        "step": 224,
+        "polygon_length": 11.645911767353446
+      },
+      {
+        "step": 240,
+        "polygon_length": 12.361356615387228
+      },
+      {
+        "step": 256,
+        "polygon_length": 13.091622561782343
+      },
+      {
+        "step": 272,
+        "polygon_length": 13.862230901027537
+      },
+      {
+        "step": 288,
+        "polygon_length": 14.587645494755527
+      },
+      {
+        "step": 304,
+        "polygon_length": 15.018226185821897
+      },
+      {
+        "step": 320,
+        "polygon_length": 15.478932835052257
+      },
+      {
+        "step": 336,
+        "polygon_length": 15.885604788990829
+      },
+      {
+        "step": 352,
+        "polygon_length": 16.23066564312084
+      },
+      {
+        "step": 368,
+        "polygon_length": 16.551348702783
+      },
+      {
+        "step": 384,
+        "polygon_length": 16.76378588522898
+      },
+      {
+        "step": 400,
+        "polygon_length": 16.93451508061482
+      },
+      {
+        "step": 416,
+        "polygon_length": 17.062724226003493
+      },
+      {
+        "step": 432,
+        "polygon_length": 17.17530516348274
+      },
+      {
+        "step": 448,
+        "polygon_length": 17.272439605056036
+      },
+      {
+        "step": 464,
+        "polygon_length": 17.335625316317856
+      },
+      {
+        "step": 480,
+        "polygon_length": 17.393119700890708
+      },
+      {
+        "step": 496,
+        "polygon_length": 17.45751132681541
+      },
+      {
+        "step": 512,
+        "polygon_length": 17.511544064681836
+      },
+      {
+        "step": 528,
+        "polygon_length": 17.563417100156535
+      },
+      {
+        "step": 544,
+        "polygon_length": 17.614386036754695
+      },
+      {
+        "step": 560,
+        "polygon_length": 17.665161616363324
+      },
+      {
+        "step": 576,
+        "polygon_length": 17.70376305079215
+      },
+      {
+        "step": 592,
+        "polygon_length": 17.751844944407605
+      },
+      {
+        "step": 608,
+        "polygon_length": 17.78844303696772
+      },
+      {
+        "step": 624,
+        "polygon_length": 17.82229587739657
+      },
+      {
+        "step": 640,
+        "polygon_length": 17.854753918995755
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -10.808214743932089,
+    "first_observed_crossings": {
+      "-1.0": 58,
+      "-0.5": 80,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.368996690160495
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6378810965421926
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8883846650338798
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1306093684837748
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3835210973670808
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.6282840064225692
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.8467121341091295
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.050455236628288
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.23351971308417
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.4064259690364898
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.572872930516387
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.7305676023254994
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.889124148038249
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.0351731267180706
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.1661702787862627
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.2891937005067953
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.404182775489353
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.5250530746292523
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.639678597843555
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.7401221515284915
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.842844648590855
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.9432246057157876
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.040277554649395
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.13339844774008
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.224884269753138
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.314663619875048
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.40075546770755
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.496986807367431
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.600531355344054
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.70497508893421
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.801358885995358
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.891781617496393
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.521194631863301
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.0003_r4_replay": {
+    "initial_validation_logp": -10.808214743932089,
+    "first_observed_crossings": {
+      "-1.0": 80,
+      "-0.5": 240,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3698812175806082
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.642238973076076
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8947386676898406
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1388883620926766
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3924369379091832
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.6312097758958926
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.8326869985614507
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.0089060509918535
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.167774694805023
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.317936210835764
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.471514766069804
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.614203883215582
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.756030746124136
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.885101376805064
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.0026540728795568
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.1201817337678825
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.230523468666146
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.3447031965912437
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.4489235912477723
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.5471636553669357
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.6494981975909955
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.751348901893298
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.8519076071634153
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.9532828978094714
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.057957347231858
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.160359125858587
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.255281205946104
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.3563509679780195
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.462422940290221
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.56262085101896
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.662458911263357
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.765870524174842
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.473523559975415
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.140945608501674
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.7510999550472715
+      },
+      {
+        "step": 128,
+        "polygon_length": 7.230915209620788
+      },
+      {
+        "step": 144,
+        "polygon_length": 7.718978986562199
+      },
+      {
+        "step": 160,
+        "polygon_length": 8.339345647447367
+      },
+      {
+        "step": 176,
+        "polygon_length": 8.95014201754727
+      },
+      {
+        "step": 192,
+        "polygon_length": 9.539848858116187
+      },
+      {
+        "step": 208,
+        "polygon_length": 10.039467519003244
+      },
+      {
+        "step": 224,
+        "polygon_length": 10.58729022493365
+      },
+      {
+        "step": 240,
+        "polygon_length": 11.216585281983981
+      }
+    ]
+  },
+  "Qwen3-0.6B_s108_adjacent_lr0.001_r4": {
+    "initial_validation_logp": -10.808214743932089,
+    "first_observed_crossings": {
+      "-1.0": 34,
+      "-0.5": 56,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 1.2414641188822222
+      },
+      {
+        "step": 4,
+        "polygon_length": 2.1851384179801334
+      },
+      {
+        "step": 6,
+        "polygon_length": 2.9580263192088188
+      },
+      {
+        "step": 8,
+        "polygon_length": 3.653735325849632
+      },
+      {
+        "step": 10,
+        "polygon_length": 4.292363211542514
+      },
+      {
+        "step": 12,
+        "polygon_length": 4.86079702273693
+      },
+      {
+        "step": 14,
+        "polygon_length": 5.33998980679915
+      },
+      {
+        "step": 16,
+        "polygon_length": 5.764544198764627
+      },
+      {
+        "step": 18,
+        "polygon_length": 6.145607542259795
+      },
+      {
+        "step": 20,
+        "polygon_length": 6.48418351890229
+      },
+      {
+        "step": 22,
+        "polygon_length": 6.805740898188537
+      },
+      {
+        "step": 24,
+        "polygon_length": 7.122973637855051
+      },
+      {
+        "step": 26,
+        "polygon_length": 7.448718481075585
+      },
+      {
+        "step": 28,
+        "polygon_length": 7.747370592815077
+      },
+      {
+        "step": 30,
+        "polygon_length": 8.018634252720675
+      },
+      {
+        "step": 32,
+        "polygon_length": 8.327870897238684
+      },
+      {
+        "step": 34,
+        "polygon_length": 8.635834083547987
+      },
+      {
+        "step": 36,
+        "polygon_length": 8.942710628280226
+      },
+      {
+        "step": 38,
+        "polygon_length": 9.238832264221108
+      },
+      {
+        "step": 40,
+        "polygon_length": 9.501261596164476
+      },
+      {
+        "step": 42,
+        "polygon_length": 9.777416024300502
+      },
+      {
+        "step": 44,
+        "polygon_length": 10.04198628173006
+      },
+      {
+        "step": 46,
+        "polygon_length": 10.286801163470358
+      },
+      {
+        "step": 48,
+        "polygon_length": 10.523324874652477
+      },
+      {
+        "step": 50,
+        "polygon_length": 10.782298293895014
+      },
+      {
+        "step": 52,
+        "polygon_length": 11.002229969634028
+      },
+      {
+        "step": 54,
+        "polygon_length": 11.241946508638103
+      },
+      {
+        "step": 56,
+        "polygon_length": 11.52354028519529
+      },
+      {
+        "step": 58,
+        "polygon_length": 11.822747408266519
+      },
+      {
+        "step": 60,
+        "polygon_length": 12.071879163463498
+      },
+      {
+        "step": 62,
+        "polygon_length": 12.296034697028494
+      },
+      {
+        "step": 64,
+        "polygon_length": 12.513414388729126
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.0001_r4": {
+    "initial_validation_logp": -10.899306684732437,
+    "first_observed_crossings": {
+      "-1.0": 240,
+      "-0.5": 304,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.1321365584373529
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.23307588664775225
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.32190649430278356
+      },
+      {
+        "step": 8,
+        "polygon_length": 0.4039233476712618
+      },
+      {
+        "step": 10,
+        "polygon_length": 0.4818589983323147
+      },
+      {
+        "step": 12,
+        "polygon_length": 0.561424459725083
+      },
+      {
+        "step": 14,
+        "polygon_length": 0.6359023064230713
+      },
+      {
+        "step": 16,
+        "polygon_length": 0.708364314213038
+      },
+      {
+        "step": 18,
+        "polygon_length": 0.7812876395404721
+      },
+      {
+        "step": 20,
+        "polygon_length": 0.8564117057374984
+      },
+      {
+        "step": 22,
+        "polygon_length": 0.9311515975984477
+      },
+      {
+        "step": 24,
+        "polygon_length": 1.0034274040870965
+      },
+      {
+        "step": 26,
+        "polygon_length": 1.0733397668659612
+      },
+      {
+        "step": 28,
+        "polygon_length": 1.1441909819570668
+      },
+      {
+        "step": 30,
+        "polygon_length": 1.2159452960370842
+      },
+      {
+        "step": 32,
+        "polygon_length": 1.287374742951233
+      },
+      {
+        "step": 34,
+        "polygon_length": 1.3577257114252033
+      },
+      {
+        "step": 36,
+        "polygon_length": 1.4260762688296105
+      },
+      {
+        "step": 38,
+        "polygon_length": 1.4960056643843564
+      },
+      {
+        "step": 40,
+        "polygon_length": 1.5649055042397357
+      },
+      {
+        "step": 42,
+        "polygon_length": 1.6338766564443843
+      },
+      {
+        "step": 44,
+        "polygon_length": 1.6994869897238798
+      },
+      {
+        "step": 46,
+        "polygon_length": 1.7630977500184286
+      },
+      {
+        "step": 48,
+        "polygon_length": 1.8255202848139163
+      },
+      {
+        "step": 50,
+        "polygon_length": 1.887369920192716
+      },
+      {
+        "step": 52,
+        "polygon_length": 1.945448733299296
+      },
+      {
+        "step": 54,
+        "polygon_length": 2.002824316301485
+      },
+      {
+        "step": 56,
+        "polygon_length": 2.0577244975447333
+      },
+      {
+        "step": 58,
+        "polygon_length": 2.1130850044489367
+      },
+      {
+        "step": 60,
+        "polygon_length": 2.1662814426382404
+      },
+      {
+        "step": 62,
+        "polygon_length": 2.219301618914638
+      },
+      {
+        "step": 64,
+        "polygon_length": 2.281377938113346
+      },
+      {
+        "step": 80,
+        "polygon_length": 2.680316860832619
+      },
+      {
+        "step": 96,
+        "polygon_length": 2.9943145724859908
+      },
+      {
+        "step": 112,
+        "polygon_length": 3.2889117749642685
+      },
+      {
+        "step": 128,
+        "polygon_length": 3.5759000014532027
+      },
+      {
+        "step": 144,
+        "polygon_length": 3.8689930670944777
+      },
+      {
+        "step": 160,
+        "polygon_length": 4.124593835154027
+      },
+      {
+        "step": 176,
+        "polygon_length": 4.376903512076771
+      },
+      {
+        "step": 192,
+        "polygon_length": 4.6046679653363745
+      },
+      {
+        "step": 208,
+        "polygon_length": 4.829486800231037
+      },
+      {
+        "step": 224,
+        "polygon_length": 5.035978026939708
+      },
+      {
+        "step": 240,
+        "polygon_length": 5.241012080442373
+      },
+      {
+        "step": 256,
+        "polygon_length": 5.4496686983998
+      },
+      {
+        "step": 272,
+        "polygon_length": 5.643795175409729
+      },
+      {
+        "step": 288,
+        "polygon_length": 5.840654628162973
+      },
+      {
+        "step": 304,
+        "polygon_length": 6.013874583967947
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.0003_r16": {
+    "initial_validation_logp": -10.899308174848557,
+    "first_observed_crossings": {
+      "-1.0": 52,
+      "-0.5": 64,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.45230596862549305
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.8000064889299966
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.103319431806923
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.3774220786059903
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.6422215730843561
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.8943156634098273
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.129916239364559
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.354044972214843
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.565674707054673
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.7539043289036726
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.928679113861519
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.091423502181495
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.247405224328184
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.3969699927635757
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.5379360280602175
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.674584386030645
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.7975417160966356
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.92712993374072
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.062235341786009
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.198298928416606
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.336833823230592
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.466737647179051
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.5893117726499355
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.713487603147907
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.834907933668426
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.95594409082163
+      },
+      {
+        "step": 54,
+        "polygon_length": 5.0832174545714945
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.210302935849092
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.321015582798596
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.4244723291965915
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.544132842638905
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.666715291359598
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.0003_r16_replay_min640": {
+    "initial_validation_logp": -10.899308174848557,
+    "first_observed_crossings": {
+      "-1.0": 80,
+      "-0.5": 192,
+      "-0.3": 272,
+      "-0.1": 304
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.4525329387844542
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.79803660413732
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.097955966033175
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.3622052273480945
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.6187798628869783
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.863115607897265
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.084011342628713
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.2907545043247155
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.497586471263258
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.688112346761843
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.869662598063024
+      },
+      {
+        "step": 24,
+        "polygon_length": 3.037297896596223
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.1886854945212475
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.3279570812609998
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.4611754442192884
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.592320144601685
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.7137654071005173
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.8366606868422
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.96575087077848
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.102577277619183
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.242979270085652
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.374719169963889
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.501017698756645
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.6369335855415725
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.761703928496438
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.870142080114893
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.971982002226555
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.073285016092758
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.17965127714763
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.299952903385911
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.421121424051076
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.539049598656308
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.23312964975975
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.99992141422432
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.720927622127121
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.390342419790004
+      },
+      {
+        "step": 144,
+        "polygon_length": 9.13835185076514
+      },
+      {
+        "step": 160,
+        "polygon_length": 9.798602759421843
+      },
+      {
+        "step": 176,
+        "polygon_length": 10.426018399877572
+      },
+      {
+        "step": 192,
+        "polygon_length": 11.143083866712363
+      },
+      {
+        "step": 208,
+        "polygon_length": 11.86713633570653
+      },
+      {
+        "step": 224,
+        "polygon_length": 12.638087502345376
+      },
+      {
+        "step": 240,
+        "polygon_length": 13.530164046106572
+      },
+      {
+        "step": 256,
+        "polygon_length": 14.308158550571612
+      },
+      {
+        "step": 272,
+        "polygon_length": 14.953373809879103
+      },
+      {
+        "step": 288,
+        "polygon_length": 15.453997697996751
+      },
+      {
+        "step": 304,
+        "polygon_length": 16.10325733374477
+      },
+      {
+        "step": 320,
+        "polygon_length": 16.59120122569629
+      },
+      {
+        "step": 336,
+        "polygon_length": 16.939403979343513
+      },
+      {
+        "step": 352,
+        "polygon_length": 17.326323786022922
+      },
+      {
+        "step": 368,
+        "polygon_length": 17.599946541483682
+      },
+      {
+        "step": 384,
+        "polygon_length": 17.780388095143877
+      },
+      {
+        "step": 400,
+        "polygon_length": 17.924536311827232
+      },
+      {
+        "step": 416,
+        "polygon_length": 18.04415954918109
+      },
+      {
+        "step": 432,
+        "polygon_length": 18.43586299068393
+      },
+      {
+        "step": 448,
+        "polygon_length": 18.611300900053546
+      },
+      {
+        "step": 464,
+        "polygon_length": 18.758344095968372
+      },
+      {
+        "step": 480,
+        "polygon_length": 19.001645828941836
+      },
+      {
+        "step": 496,
+        "polygon_length": 19.14733970665585
+      },
+      {
+        "step": 512,
+        "polygon_length": 19.220358412777255
+      },
+      {
+        "step": 528,
+        "polygon_length": 19.285833775533334
+      },
+      {
+        "step": 544,
+        "polygon_length": 19.350037739284947
+      },
+      {
+        "step": 560,
+        "polygon_length": 19.410165311297874
+      },
+      {
+        "step": 576,
+        "polygon_length": 19.45494920263377
+      },
+      {
+        "step": 592,
+        "polygon_length": 19.495532170328715
+      },
+      {
+        "step": 608,
+        "polygon_length": 19.54251714513337
+      },
+      {
+        "step": 624,
+        "polygon_length": 19.59619102255481
+      },
+      {
+        "step": 640,
+        "polygon_length": 19.635398659751946
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -10.899306684732437,
+    "first_observed_crossings": {
+      "-1.0": 96,
+      "-0.5": 144,
+      "-0.3": 144,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3986793517997778
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7047547354011633
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.9731606334756281
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.2176555288643331
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.4539733274361402
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.690191665222022
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.9138070557169755
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.131687764590549
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.3446196753012125
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.5637911021232904
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.7739518312703164
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.9689091011040163
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.1505471834154335
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.3159022036145887
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.476551519644865
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.6294261763817994
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.76783696994667
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.903198009684411
+      },
+      {
+        "step": 38,
+        "polygon_length": 4.037687253286489
+      },
+      {
+        "step": 40,
+        "polygon_length": 4.163970462329843
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.283037441815966
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.392949272743501
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.501901388794242
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.610549895855745
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.731189854922158
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.852544145356355
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.968652779782591
+      },
+      {
+        "step": 56,
+        "polygon_length": 5.076331660421115
+      },
+      {
+        "step": 58,
+        "polygon_length": 5.175503498534084
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.26844252762723
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.355347513162276
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.443852038386624
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.069109439276048
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.7187902616470545
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.364643916407001
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.014536981886286
+      },
+      {
+        "step": 144,
+        "polygon_length": 8.620867155386266
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.0003_r4_replay": {
+    "initial_validation_logp": -10.899306684732437,
+    "first_observed_crossings": {
+      "-1.0": 160,
+      "-0.5": 256,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.39932091860696106
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.7050831323761927
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.9722110872736446
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.2132085971650042
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.445903490881051
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.6743586541317161
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.8898577554193956
+      },
+      {
+        "step": 16,
+        "polygon_length": 2.1015061858268416
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.305176089458942
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.5141445981491843
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.7161306328390706
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.9034501760378357
+      },
+      {
+        "step": 26,
+        "polygon_length": 3.0736679481530063
+      },
+      {
+        "step": 28,
+        "polygon_length": 3.2257370991256344
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.3706979904412666
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.5077197919301564
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.6322772564813244
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.751489757942627
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.8711182123027275
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.986179246432885
+      },
+      {
+        "step": 42,
+        "polygon_length": 4.098924624656691
+      },
+      {
+        "step": 44,
+        "polygon_length": 4.209082616874153
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.32134012892807
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.436908945356767
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.5571840458456885
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.671115246113668
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.78381601532377
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.8923599420715105
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.994273153651357
+      },
+      {
+        "step": 60,
+        "polygon_length": 5.08605712122731
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.1840076965251
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.283425357027978
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.964692641360025
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.688036088552727
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.308252978775981
+      },
+      {
+        "step": 128,
+        "polygon_length": 7.967312921039693
+      },
+      {
+        "step": 144,
+        "polygon_length": 8.628417251991545
+      },
+      {
+        "step": 160,
+        "polygon_length": 9.293136984857904
+      },
+      {
+        "step": 176,
+        "polygon_length": 9.84440780001613
+      },
+      {
+        "step": 192,
+        "polygon_length": 10.654337228792587
+      },
+      {
+        "step": 208,
+        "polygon_length": 11.395148582357885
+      },
+      {
+        "step": 224,
+        "polygon_length": 12.004039347994278
+      },
+      {
+        "step": 240,
+        "polygon_length": 12.775422973926357
+      },
+      {
+        "step": 256,
+        "polygon_length": 13.430550040844597
+      }
+    ]
+  },
+  "Qwen3-0.6B_s109_adjacent_lr0.001_r4": {
+    "initial_validation_logp": -10.899306684732437,
+    "first_observed_crossings": {
+      "-1.0": 42,
+      "-0.5": 56,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 1.3510236004406673
+      },
+      {
+        "step": 4,
+        "polygon_length": 2.3773735512230383
+      },
+      {
+        "step": 6,
+        "polygon_length": 3.222436266857351
+      },
+      {
+        "step": 8,
+        "polygon_length": 3.9213080757904057
+      },
+      {
+        "step": 10,
+        "polygon_length": 4.533371294804228
+      },
+      {
+        "step": 12,
+        "polygon_length": 5.0723005724203665
+      },
+      {
+        "step": 14,
+        "polygon_length": 5.566390419999488
+      },
+      {
+        "step": 16,
+        "polygon_length": 6.072019689324653
+      },
+      {
+        "step": 18,
+        "polygon_length": 6.541123454444668
+      },
+      {
+        "step": 20,
+        "polygon_length": 6.958755417660694
+      },
+      {
+        "step": 22,
+        "polygon_length": 7.347774706441329
+      },
+      {
+        "step": 24,
+        "polygon_length": 7.715407751245898
+      },
+      {
+        "step": 26,
+        "polygon_length": 8.068377553216424
+      },
+      {
+        "step": 28,
+        "polygon_length": 8.415785598088673
+      },
+      {
+        "step": 30,
+        "polygon_length": 8.772645936217954
+      },
+      {
+        "step": 32,
+        "polygon_length": 9.106156647409808
+      },
+      {
+        "step": 34,
+        "polygon_length": 9.421545275055731
+      },
+      {
+        "step": 36,
+        "polygon_length": 9.745847425879935
+      },
+      {
+        "step": 38,
+        "polygon_length": 10.08504817740326
+      },
+      {
+        "step": 40,
+        "polygon_length": 10.456027786043348
+      },
+      {
+        "step": 42,
+        "polygon_length": 10.826717770275025
+      },
+      {
+        "step": 44,
+        "polygon_length": 11.173301178745737
+      },
+      {
+        "step": 46,
+        "polygon_length": 11.499132006819558
+      },
+      {
+        "step": 48,
+        "polygon_length": 11.798535025852809
+      },
+      {
+        "step": 50,
+        "polygon_length": 12.106888423377079
+      },
+      {
+        "step": 52,
+        "polygon_length": 12.390035748899614
+      },
+      {
+        "step": 54,
+        "polygon_length": 12.718806821550872
+      },
+      {
+        "step": 56,
+        "polygon_length": 13.023262742701682
+      },
+      {
+        "step": 58,
+        "polygon_length": 13.29213056629013
+      },
+      {
+        "step": 60,
+        "polygon_length": 13.540941361625096
+      },
+      {
+        "step": 62,
+        "polygon_length": 13.79662264125322
+      },
+      {
+        "step": 64,
+        "polygon_length": 14.037685726065781
+      }
+    ]
+  },
+  "Qwen3-0.6B_s211_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -8.717054059108099,
+    "first_observed_crossings": {
+      "-1.0": 80,
+      "-0.5": 96,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.32273382667781864
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.5648184794828908
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8006457581462594
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.019275904419006
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.2182828336599774
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.4049875420670075
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.5647447280160613
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.7057396101099611
+      },
+      {
+        "step": 18,
+        "polygon_length": 1.8356235612609797
+      },
+      {
+        "step": 20,
+        "polygon_length": 1.956742204470973
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.0701772171100683
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.1817359324874195
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.2902105617194715
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.392539455144514
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.4966472284607133
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.5989240935619486
+      },
+      {
+        "step": 34,
+        "polygon_length": 2.696370812557365
+      },
+      {
+        "step": 36,
+        "polygon_length": 2.7881713870213436
+      },
+      {
+        "step": 38,
+        "polygon_length": 2.8744992588852925
+      },
+      {
+        "step": 40,
+        "polygon_length": 2.9601698858914625
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.0449259002501545
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.125588408595173
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.2060626890355857
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.289717003524218
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.3729164604470494
+      },
+      {
+        "step": 52,
+        "polygon_length": 3.465762233469501
+      },
+      {
+        "step": 54,
+        "polygon_length": 3.5572043892283736
+      },
+      {
+        "step": 56,
+        "polygon_length": 3.645290296249921
+      },
+      {
+        "step": 58,
+        "polygon_length": 3.7354793252376126
+      },
+      {
+        "step": 60,
+        "polygon_length": 3.828875251875798
+      },
+      {
+        "step": 62,
+        "polygon_length": 3.921023071909231
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.013052398010336
+      },
+      {
+        "step": 80,
+        "polygon_length": 4.620813588135122
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.139357826527457
+      }
+    ]
+  },
+  "Qwen3-0.6B_s211_alphabetic_lr0.0003_r4": {
+    "initial_validation_logp": -42.51601473490397,
+    "first_observed_crossings": {
+      "-1.0": 192,
+      "-0.5": 208,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3372072588077108
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.5727613159137103
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.784774831833241
+      },
+      {
+        "step": 8,
+        "polygon_length": 0.9856784189933516
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.1772436292593993
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.3630813930070282
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.5353828929897344
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.7065704695608142
+      },
+      {
+        "step": 18,
+        "polygon_length": 1.8679810440435682
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.0231477603389485
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.1732539546636405
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.3181274646143653
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.464590998475103
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.6114586236174544
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.757504967441085
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.904152095313345
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.049479682969213
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.185714278669081
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.308565433908068
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.4299305108005043
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.5588998684031874
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.6885365332695925
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.8124486520342638
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.935791399321026
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.051284172887506
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.166226006779733
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.283029276795956
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.401075824149387
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.517527757656979
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.629798587095925
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.744537759049441
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.860868154636807
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.6806260832133875
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.514221053344965
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.291786159887668
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.0040009901641
+      },
+      {
+        "step": 144,
+        "polygon_length": 8.695243690771633
+      },
+      {
+        "step": 160,
+        "polygon_length": 9.294612502588771
+      },
+      {
+        "step": 176,
+        "polygon_length": 9.773627920332178
+      },
+      {
+        "step": 192,
+        "polygon_length": 10.278619135024606
+      },
+      {
+        "step": 208,
+        "polygon_length": 10.661175107538698
+      }
+    ]
+  },
+  "Qwen3-0.6B_s211_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -22.53975208600362,
+    "first_observed_crossings": {
+      "-1.0": 176,
+      "-0.5": 208,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3230656289772313
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.565931287330419
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.809267332594084
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.0387078764227187
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.256547959589661
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.4682357011528986
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.6620127918566103
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.843021566424937
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.010911048404295
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.1645326011721466
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.3084087526148167
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.4428082648799596
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.566124476063357
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.6890963173880644
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.8093627366911873
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.9235243095739523
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.0382020874696853
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.1492315272976343
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.2630477243297737
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.3645653522007932
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.458583711172241
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.5518459985408346
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.6364397130384614
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.7188433133037417
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.799640591780652
+      },
+      {
+        "step": 52,
+        "polygon_length": 3.8842631625500754
+      },
+      {
+        "step": 54,
+        "polygon_length": 3.9656017920136093
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.044837948551747
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.119519595341419
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.19042915293798
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.268355765935355
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.34844171637858
+      },
+      {
+        "step": 80,
+        "polygon_length": 4.876414689439942
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.424787388633313
+      },
+      {
+        "step": 112,
+        "polygon_length": 5.958219815262521
+      },
+      {
+        "step": 128,
+        "polygon_length": 6.469024134254358
+      },
+      {
+        "step": 144,
+        "polygon_length": 6.964385349987062
+      },
+      {
+        "step": 160,
+        "polygon_length": 7.448896436059652
+      },
+      {
+        "step": 176,
+        "polygon_length": 7.885305528508671
+      },
+      {
+        "step": 192,
+        "polygon_length": 8.32521868556308
+      },
+      {
+        "step": 208,
+        "polygon_length": 8.73633257405205
+      }
+    ]
+  },
+  "Qwen3-0.6B_s211_support_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -23.00048627456029,
+    "first_observed_crossings": {
+      "-1.0": 176,
+      "-0.5": 224,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3183043611241599
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.5592314579319173
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.7998785243587703
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.0208389766776356
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.2290980681030803
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.4400094133267276
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.6344923677976957
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.8210022634061214
+      },
+      {
+        "step": 18,
+        "polygon_length": 1.9911356090215584
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.158891133312233
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.3052758667122415
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.44746634196323
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.5762980451522877
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.6985215948662375
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.8148628923046353
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.919346804460065
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.0172866605057833
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.1109488982792817
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.1986848611800434
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.284047272580739
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.3695317217594383
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.46894915351573
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.5593507809798357
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.644814874089265
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.7236087300211302
+      },
+      {
+        "step": 52,
+        "polygon_length": 3.8014840920314024
+      },
+      {
+        "step": 54,
+        "polygon_length": 3.878375800312182
+      },
+      {
+        "step": 56,
+        "polygon_length": 3.951133297448503
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.023117928656706
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.096207650440905
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.169441450689869
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.243035417897833
+      },
+      {
+        "step": 80,
+        "polygon_length": 4.78798811849151
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.356060152362538
+      },
+      {
+        "step": 112,
+        "polygon_length": 5.8706446683580955
+      },
+      {
+        "step": 128,
+        "polygon_length": 6.36644304580041
+      },
+      {
+        "step": 144,
+        "polygon_length": 6.874412630867333
+      },
+      {
+        "step": 160,
+        "polygon_length": 7.490156106522696
+      },
+      {
+        "step": 176,
+        "polygon_length": 7.989144514803695
+      },
+      {
+        "step": 192,
+        "polygon_length": 8.446205735864254
+      },
+      {
+        "step": 208,
+        "polygon_length": 8.890303755465062
+      },
+      {
+        "step": 224,
+        "polygon_length": 9.234691804520505
+      }
+    ]
+  },
+  "Qwen3-0.6B_s223_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -8.964340209960938,
+    "first_observed_crossings": {
+      "-1.0": 80,
+      "-0.5": 112,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3535082238886232
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6048670864168694
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8256424716965902
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.0381209340915047
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.2336727660324236
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.4325908900613935
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.624324707090014
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.8021026768107347
+      },
+      {
+        "step": 18,
+        "polygon_length": 1.9556875400659386
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.0939440072477455
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.232550505522997
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.370975279459147
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.5046329811696197
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.628311858415348
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.752173567942776
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.8703462214932496
+      },
+      {
+        "step": 34,
+        "polygon_length": 2.9852114868446162
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.1014068721193175
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.2134151279543226
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.322216570758791
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.4266593084647967
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.5275262654936435
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.6274795957843193
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.7226380510792687
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.8170714185000527
+      },
+      {
+        "step": 52,
+        "polygon_length": 3.914477720993731
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.00975537861511
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.104421672344202
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.194035378159633
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.28775282004516
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.3764992949431525
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.459552043074158
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.0235230630777075
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.660424677046224
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.193884507704508
+      }
+    ]
+  },
+  "Qwen3-0.6B_s223_alphabetic_lr0.0003_r4": {
+    "initial_validation_logp": -44.03273884455363,
+    "first_observed_crossings": {
+      "-1.0": 192,
+      "-0.5": 224,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3449812838581444
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.5967844876425921
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8122424186997859
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.02447201687525
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.2210634449292754
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.401195040866597
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.5756810010411735
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.73912861069088
+      },
+      {
+        "step": 18,
+        "polygon_length": 1.8956656577064592
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.058853336956787
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.219910536304937
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.375429369387085
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.522896665934266
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.6689082776490314
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.8143222445724785
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.9668125232384432
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.1184739662027647
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.2674112407428906
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.4063575737902347
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.5388693735745087
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.6700778408057446
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.797383789652722
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.9211226405525723
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.0445486736561795
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.1663936806217
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.290245399551655
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.415008186845191
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.542737581389131
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.670141241936988
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.790469000697439
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.906542076700559
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.022866057432677
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.861233434295644
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.727232234297503
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.532712666332591
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.269249441614846
+      },
+      {
+        "step": 144,
+        "polygon_length": 9.006799261062918
+      },
+      {
+        "step": 160,
+        "polygon_length": 9.586439783843181
+      },
+      {
+        "step": 176,
+        "polygon_length": 10.136569923370939
+      },
+      {
+        "step": 192,
+        "polygon_length": 10.582114054180808
+      },
+      {
+        "step": 208,
+        "polygon_length": 10.922728154014612
+      },
+      {
+        "step": 224,
+        "polygon_length": 11.16842237878194
+      }
+    ]
+  },
+  "Qwen3-0.6B_s223_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -18.98120617866516,
+    "first_observed_crossings": {
+      "-1.0": 192,
+      "-0.5": 224,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3644573708754335
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6301731893560243
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8733410806023655
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1067804261112835
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3314539466418667
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.5512625719407112
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.7642238133859385
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.9611911694131658
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.1391857213696888
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.306261855887637
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.45882540278013
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.601627070796244
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.7372758504608425
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.8776671430922174
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.014111206486494
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.146793437182321
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.269966677781089
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.387193317448803
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.502110869205068
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.6080165352872853
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.7068943999792454
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.8028782145850872
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.8921166477286806
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.034207226950897
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.157622968889949
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.268441915659826
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.370392728559203
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.467526330349429
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.556085600666768
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.646395423838634
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.734800178306227
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.822200256413615
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.440028138611961
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.052219693464608
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.620170528419878
+      },
+      {
+        "step": 128,
+        "polygon_length": 7.174244909646748
+      },
+      {
+        "step": 144,
+        "polygon_length": 7.74545554446341
+      },
+      {
+        "step": 160,
+        "polygon_length": 8.33200201207049
+      },
+      {
+        "step": 176,
+        "polygon_length": 8.895727094526583
+      },
+      {
+        "step": 192,
+        "polygon_length": 9.387506826149664
+      },
+      {
+        "step": 208,
+        "polygon_length": 9.801223767708226
+      },
+      {
+        "step": 224,
+        "polygon_length": 10.163628208382445
+      }
+    ]
+  },
+  "Qwen3-0.6B_s223_support_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -16.53685289621353,
+    "first_observed_crossings": {
+      "-1.0": 144,
+      "-0.5": 192,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3464554496046738
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6013177783797002
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8386765767905215
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.0750262875681618
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3003469418022497
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.5090098921869581
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.711242374871526
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.893293546498797
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.0571511196739856
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.212651312019728
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.3581551901837767
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.500795288508124
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.6337220362283498
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.7540240948170864
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.8722056874702027
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.983979837954928
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.0884860370860094
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.1936233111845866
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.3006092598384513
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.403205931402767
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.511604056609379
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.613313644797545
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.7070425984946698
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.7994599147988137
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.889134191561419
+      },
+      {
+        "step": 52,
+        "polygon_length": 3.9768947860382493
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.062833852590009
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.1572326016497145
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.248180209674054
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.340215123521048
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.430365467599955
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.521111297289824
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.083084073111013
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.653239492795777
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.294254409505673
+      },
+      {
+        "step": 128,
+        "polygon_length": 6.826504567795108
+      },
+      {
+        "step": 144,
+        "polygon_length": 7.432765739938326
+      },
+      {
+        "step": 160,
+        "polygon_length": 7.8642018862168355
+      },
+      {
+        "step": 176,
+        "polygon_length": 8.241108708203793
+      },
+      {
+        "step": 192,
+        "polygon_length": 8.649887295478948
+      }
+    ]
+  },
+  "Qwen3-0.6B_s227_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -10.031824360291163,
+    "first_observed_crossings": {
+      "-1.0": 80,
+      "-0.5": 112,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.34099182244518467
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6292431298738277
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8889191250425595
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1172051964495653
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3373994360014478
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.5548834990844287
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.7577625142372673
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.9332418554644302
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.086897184887599
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.2272246025628615
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.3567825275190737
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.482354336617755
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.6003822432101686
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.7168406003589687
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.8340325096801573
+      },
+      {
+        "step": 32,
+        "polygon_length": 2.94770789236502
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.059354864655994
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.173909243468417
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.293526499323868
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.4232052745862873
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.5391314612871665
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.648282809398174
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.7519385028936694
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.845348626280344
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.933256111773336
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.021134272359844
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.109341535799499
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.191009626167106
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.27685573528688
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.361747655818566
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.439985094223007
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.50976710807806
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.069386264143569
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.608016595759321
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.07467213450979
+      }
+    ]
+  },
+  "Qwen3-0.6B_s227_alphabetic_lr0.0003_r4": {
+    "initial_validation_logp": -42.62770013014475,
+    "first_observed_crossings": {
+      "-1.0": 192,
+      "-0.5": 224,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3588765783500359
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.633936823638966
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8739725962210783
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.0850964958839313
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.289777423674879
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.4849312599616749
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.6799610060113217
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.8634647048726485
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.0400232620878045
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.207497892727082
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.366534639646625
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.523809763728405
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.6771869752429303
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.829624890497334
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.9774175678722328
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.1228658326269203
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.260744676604598
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.397369274865704
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.5309140691049694
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.658906561197076
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.792646338837659
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.92418247464787
+      },
+      {
+        "step": 46,
+        "polygon_length": 4.048613432537356
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.172318206215665
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.293871562640553
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.418981974893117
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.544384202861616
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.6697388759184495
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.796998701906428
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.920249733561304
+      },
+      {
+        "step": 62,
+        "polygon_length": 5.038893263901639
+      },
+      {
+        "step": 64,
+        "polygon_length": 5.1590881509291595
+      },
+      {
+        "step": 80,
+        "polygon_length": 6.011772151217456
+      },
+      {
+        "step": 96,
+        "polygon_length": 6.8470390108212325
+      },
+      {
+        "step": 112,
+        "polygon_length": 7.634657289838713
+      },
+      {
+        "step": 128,
+        "polygon_length": 8.438081636240756
+      },
+      {
+        "step": 144,
+        "polygon_length": 9.115083771286544
+      },
+      {
+        "step": 160,
+        "polygon_length": 9.71852640843862
+      },
+      {
+        "step": 176,
+        "polygon_length": 10.12411618402008
+      },
+      {
+        "step": 192,
+        "polygon_length": 10.479827983164002
+      },
+      {
+        "step": 208,
+        "polygon_length": 10.977353150455851
+      },
+      {
+        "step": 224,
+        "polygon_length": 11.307954964276648
+      }
+    ]
+  },
+  "Qwen3-0.6B_s227_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -18.880584398905437,
+    "first_observed_crossings": {
+      "-1.0": 176,
+      "-0.5": 208,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3527811858276243
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6290454319848904
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.8757563653712834
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1061580325982932
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.3240828811807301
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.5283539066481937
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.7245560480318884
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.9093794495131502
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.0746772533877196
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.2361949295215213
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.398508376507413
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.5476439808230946
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.6816223991540618
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.808232013164118
+      },
+      {
+        "step": 30,
+        "polygon_length": 2.9318418110785816
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.052339999901139
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.1659822007389273
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.2825661896139713
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.3943622527525386
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.4957106587515456
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.596238569136261
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.6891813249508494
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.782946832567159
+      },
+      {
+        "step": 48,
+        "polygon_length": 3.879265768309511
+      },
+      {
+        "step": 50,
+        "polygon_length": 3.9877843818144174
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.100929437976589
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.201811558481884
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.292912054868181
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.395686468674579
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.492692555937872
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.579556593114922
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.657345047768784
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.1845189707969555
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.737544190337019
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.232173505334685
+      },
+      {
+        "step": 128,
+        "polygon_length": 6.718803549036039
+      },
+      {
+        "step": 144,
+        "polygon_length": 7.223633182019966
+      },
+      {
+        "step": 160,
+        "polygon_length": 7.693817333259166
+      },
+      {
+        "step": 176,
+        "polygon_length": 8.186240575862142
+      },
+      {
+        "step": 192,
+        "polygon_length": 8.562642489590777
+      },
+      {
+        "step": 208,
+        "polygon_length": 8.910500548732863
+      }
+    ]
+  },
+  "Qwen3-0.6B_s227_support_permuted_lr0.0003_r4": {
+    "initial_validation_logp": -18.910203953584034,
+    "first_observed_crossings": {
+      "-1.0": 192,
+      "-0.5": 256,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.3569275808362284
+      },
+      {
+        "step": 4,
+        "polygon_length": 0.6491215162444994
+      },
+      {
+        "step": 6,
+        "polygon_length": 0.9097407470767402
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.1510571777739416
+      },
+      {
+        "step": 10,
+        "polygon_length": 1.37579747268995
+      },
+      {
+        "step": 12,
+        "polygon_length": 1.5879840977918926
+      },
+      {
+        "step": 14,
+        "polygon_length": 1.7966134712572237
+      },
+      {
+        "step": 16,
+        "polygon_length": 1.9888705653596204
+      },
+      {
+        "step": 18,
+        "polygon_length": 2.162066816238544
+      },
+      {
+        "step": 20,
+        "polygon_length": 2.329222109495389
+      },
+      {
+        "step": 22,
+        "polygon_length": 2.4822770102448395
+      },
+      {
+        "step": 24,
+        "polygon_length": 2.6271465550590896
+      },
+      {
+        "step": 26,
+        "polygon_length": 2.7744823134882806
+      },
+      {
+        "step": 28,
+        "polygon_length": 2.9172662280730903
+      },
+      {
+        "step": 30,
+        "polygon_length": 3.0501912821613413
+      },
+      {
+        "step": 32,
+        "polygon_length": 3.178956273913162
+      },
+      {
+        "step": 34,
+        "polygon_length": 3.30818311961116
+      },
+      {
+        "step": 36,
+        "polygon_length": 3.4374766537159727
+      },
+      {
+        "step": 38,
+        "polygon_length": 3.562718323447042
+      },
+      {
+        "step": 40,
+        "polygon_length": 3.6762378864456577
+      },
+      {
+        "step": 42,
+        "polygon_length": 3.779145065767583
+      },
+      {
+        "step": 44,
+        "polygon_length": 3.8756781723794833
+      },
+      {
+        "step": 46,
+        "polygon_length": 3.975906880051031
+      },
+      {
+        "step": 48,
+        "polygon_length": 4.073034994143248
+      },
+      {
+        "step": 50,
+        "polygon_length": 4.163748060570943
+      },
+      {
+        "step": 52,
+        "polygon_length": 4.251690290782167
+      },
+      {
+        "step": 54,
+        "polygon_length": 4.335522199273123
+      },
+      {
+        "step": 56,
+        "polygon_length": 4.413845947649043
+      },
+      {
+        "step": 58,
+        "polygon_length": 4.4936826981933065
+      },
+      {
+        "step": 60,
+        "polygon_length": 4.5725902903897095
+      },
+      {
+        "step": 62,
+        "polygon_length": 4.653055011467296
+      },
+      {
+        "step": 64,
+        "polygon_length": 4.7287603936249525
+      },
+      {
+        "step": 80,
+        "polygon_length": 5.259416004004749
+      },
+      {
+        "step": 96,
+        "polygon_length": 5.817778768534756
+      },
+      {
+        "step": 112,
+        "polygon_length": 6.350646768295158
+      },
+      {
+        "step": 128,
+        "polygon_length": 6.926556731172093
+      },
+      {
+        "step": 144,
+        "polygon_length": 7.439502908992368
+      },
+      {
+        "step": 160,
+        "polygon_length": 7.915444319707733
+      },
+      {
+        "step": 176,
+        "polygon_length": 8.407170594884994
+      },
+      {
+        "step": 192,
+        "polygon_length": 8.84259782401976
+      },
+      {
+        "step": 208,
+        "polygon_length": 9.320567961185132
+      },
+      {
+        "step": 224,
+        "polygon_length": 9.762456074063817
+      },
+      {
+        "step": 240,
+        "polygon_length": 10.176750772908788
+      },
+      {
+        "step": 256,
+        "polygon_length": 10.559188820509412
+      }
+    ]
+  },
+  "SmolLM2-360M-Instruct_s211_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -9.145123769839605,
+    "first_observed_crossings": {
+      "-1.0": 320,
+      "-0.5": 416,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.5711847716347
+      },
+      {
+        "step": 4,
+        "polygon_length": 1.0206625115572914
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.4515932214730443
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.8190758066442414
+      },
+      {
+        "step": 10,
+        "polygon_length": 2.169702631954906
+      },
+      {
+        "step": 12,
+        "polygon_length": 2.495225291209115
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.8057865481044795
+      },
+      {
+        "step": 16,
+        "polygon_length": 3.11888473207727
+      },
+      {
+        "step": 18,
+        "polygon_length": 3.4213421602005534
+      },
+      {
+        "step": 20,
+        "polygon_length": 3.7083068663701235
+      },
+      {
+        "step": 22,
+        "polygon_length": 3.997560652220606
+      },
+      {
+        "step": 24,
+        "polygon_length": 4.28877997415014
+      },
+      {
+        "step": 26,
+        "polygon_length": 4.560616694824321
+      },
+      {
+        "step": 28,
+        "polygon_length": 4.824286480022142
+      },
+      {
+        "step": 30,
+        "polygon_length": 5.089446929881416
+      },
+      {
+        "step": 32,
+        "polygon_length": 5.35630028698571
+      },
+      {
+        "step": 34,
+        "polygon_length": 5.614758427306948
+      },
+      {
+        "step": 36,
+        "polygon_length": 5.851130124908766
+      },
+      {
+        "step": 38,
+        "polygon_length": 6.0603805874418635
+      },
+      {
+        "step": 40,
+        "polygon_length": 6.285861190460374
+      },
+      {
+        "step": 42,
+        "polygon_length": 6.503545873525145
+      },
+      {
+        "step": 44,
+        "polygon_length": 6.705229237700122
+      },
+      {
+        "step": 46,
+        "polygon_length": 6.909553312283764
+      },
+      {
+        "step": 48,
+        "polygon_length": 7.117033222984846
+      },
+      {
+        "step": 50,
+        "polygon_length": 7.3306439207402185
+      },
+      {
+        "step": 52,
+        "polygon_length": 7.530997293233474
+      },
+      {
+        "step": 54,
+        "polygon_length": 7.725423760880634
+      },
+      {
+        "step": 56,
+        "polygon_length": 7.900001435825904
+      },
+      {
+        "step": 58,
+        "polygon_length": 8.05842859428201
+      },
+      {
+        "step": 60,
+        "polygon_length": 8.202831997187293
+      },
+      {
+        "step": 62,
+        "polygon_length": 8.348410902413352
+      },
+      {
+        "step": 64,
+        "polygon_length": 8.513552395298774
+      },
+      {
+        "step": 80,
+        "polygon_length": 9.610584761366866
+      },
+      {
+        "step": 96,
+        "polygon_length": 10.671767324421012
+      },
+      {
+        "step": 112,
+        "polygon_length": 11.752837756133136
+      },
+      {
+        "step": 128,
+        "polygon_length": 12.70433147545232
+      },
+      {
+        "step": 144,
+        "polygon_length": 13.64058161629639
+      },
+      {
+        "step": 160,
+        "polygon_length": 14.62527113968346
+      },
+      {
+        "step": 176,
+        "polygon_length": 15.561145684738442
+      },
+      {
+        "step": 192,
+        "polygon_length": 16.86671944934949
+      },
+      {
+        "step": 208,
+        "polygon_length": 17.827590472171835
+      },
+      {
+        "step": 224,
+        "polygon_length": 18.855447646661954
+      },
+      {
+        "step": 240,
+        "polygon_length": 19.705668071566183
+      },
+      {
+        "step": 256,
+        "polygon_length": 20.70783459997023
+      },
+      {
+        "step": 272,
+        "polygon_length": 21.642370854921083
+      },
+      {
+        "step": 288,
+        "polygon_length": 22.60644748140936
+      },
+      {
+        "step": 304,
+        "polygon_length": 23.528317782619183
+      },
+      {
+        "step": 320,
+        "polygon_length": 24.39641037647509
+      },
+      {
+        "step": 336,
+        "polygon_length": 25.375560652112128
+      },
+      {
+        "step": 352,
+        "polygon_length": 26.492627863740925
+      },
+      {
+        "step": 368,
+        "polygon_length": 27.732548062161285
+      },
+      {
+        "step": 384,
+        "polygon_length": 28.870839627198354
+      },
+      {
+        "step": 400,
+        "polygon_length": 29.998568929125327
+      },
+      {
+        "step": 416,
+        "polygon_length": 31.07775576570002
+      }
+    ]
+  },
+  "SmolLM2-360M-Instruct_s223_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -8.382820983727774,
+    "first_observed_crossings": {
+      "-1.0": 336,
+      "-0.5": 448,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.6235250213253498
+      },
+      {
+        "step": 4,
+        "polygon_length": 1.0754115912052324
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.4560359309185291
+      },
+      {
+        "step": 8,
+        "polygon_length": 1.8486435980572014
+      },
+      {
+        "step": 10,
+        "polygon_length": 2.2044673797805237
+      },
+      {
+        "step": 12,
+        "polygon_length": 2.5490988067037685
+      },
+      {
+        "step": 14,
+        "polygon_length": 2.879686773502955
+      },
+      {
+        "step": 16,
+        "polygon_length": 3.1870439199023313
+      },
+      {
+        "step": 18,
+        "polygon_length": 3.4847469922945047
+      },
+      {
+        "step": 20,
+        "polygon_length": 3.7829091026814066
+      },
+      {
+        "step": 22,
+        "polygon_length": 4.067521656486628
+      },
+      {
+        "step": 24,
+        "polygon_length": 4.353803775073259
+      },
+      {
+        "step": 26,
+        "polygon_length": 4.6231617776154055
+      },
+      {
+        "step": 28,
+        "polygon_length": 4.87273222462722
+      },
+      {
+        "step": 30,
+        "polygon_length": 5.123178438307818
+      },
+      {
+        "step": 32,
+        "polygon_length": 5.374637166758224
+      },
+      {
+        "step": 34,
+        "polygon_length": 5.632204003290474
+      },
+      {
+        "step": 36,
+        "polygon_length": 5.892699370591748
+      },
+      {
+        "step": 38,
+        "polygon_length": 6.134962164116569
+      },
+      {
+        "step": 40,
+        "polygon_length": 6.372942899505148
+      },
+      {
+        "step": 42,
+        "polygon_length": 6.617796406460368
+      },
+      {
+        "step": 44,
+        "polygon_length": 6.858832132916021
+      },
+      {
+        "step": 46,
+        "polygon_length": 7.084227935180689
+      },
+      {
+        "step": 48,
+        "polygon_length": 7.298242173862348
+      },
+      {
+        "step": 50,
+        "polygon_length": 7.497959889413836
+      },
+      {
+        "step": 52,
+        "polygon_length": 7.704706477691634
+      },
+      {
+        "step": 54,
+        "polygon_length": 7.904180429407377
+      },
+      {
+        "step": 56,
+        "polygon_length": 8.095617999005974
+      },
+      {
+        "step": 58,
+        "polygon_length": 8.28515855275049
+      },
+      {
+        "step": 60,
+        "polygon_length": 8.478705433853891
+      },
+      {
+        "step": 62,
+        "polygon_length": 8.672984562672399
+      },
+      {
+        "step": 64,
+        "polygon_length": 8.861099516261223
+      },
+      {
+        "step": 80,
+        "polygon_length": 10.148390934154481
+      },
+      {
+        "step": 96,
+        "polygon_length": 11.494093652033794
+      },
+      {
+        "step": 112,
+        "polygon_length": 12.706397407290853
+      },
+      {
+        "step": 128,
+        "polygon_length": 13.809331337485244
+      },
+      {
+        "step": 144,
+        "polygon_length": 15.021990600416805
+      },
+      {
+        "step": 160,
+        "polygon_length": 16.085739228475422
+      },
+      {
+        "step": 176,
+        "polygon_length": 17.294319688289928
+      },
+      {
+        "step": 192,
+        "polygon_length": 18.3868411261604
+      },
+      {
+        "step": 208,
+        "polygon_length": 19.403153708686403
+      },
+      {
+        "step": 224,
+        "polygon_length": 20.43615434926016
+      },
+      {
+        "step": 240,
+        "polygon_length": 21.461450603650952
+      },
+      {
+        "step": 256,
+        "polygon_length": 22.565356267577666
+      },
+      {
+        "step": 272,
+        "polygon_length": 23.575687578560533
+      },
+      {
+        "step": 288,
+        "polygon_length": 24.626187131101194
+      },
+      {
+        "step": 304,
+        "polygon_length": 25.75331162239776
+      },
+      {
+        "step": 320,
+        "polygon_length": 26.618448192758255
+      },
+      {
+        "step": 336,
+        "polygon_length": 27.490827886497808
+      },
+      {
+        "step": 352,
+        "polygon_length": 28.737516293226832
+      },
+      {
+        "step": 368,
+        "polygon_length": 29.844609489002792
+      },
+      {
+        "step": 384,
+        "polygon_length": 30.8164991090907
+      },
+      {
+        "step": 400,
+        "polygon_length": 31.830132073042655
+      },
+      {
+        "step": 416,
+        "polygon_length": 32.669749943814224
+      },
+      {
+        "step": 432,
+        "polygon_length": 33.387745675561405
+      },
+      {
+        "step": 448,
+        "polygon_length": 34.183489021762
+      }
+    ]
+  },
+  "SmolLM2-360M-Instruct_s227_adjacent_lr0.0003_r4": {
+    "initial_validation_logp": -8.608678688605627,
+    "first_observed_crossings": {
+      "-1.0": 272,
+      "-0.5": 384,
+      "-0.3": null,
+      "-0.1": null
+    },
+    "checkpoint_chord_path": [
+      {
+        "step": 0,
+        "polygon_length": 0.0
+      },
+      {
+        "step": 2,
+        "polygon_length": 0.629758391106888
+      },
+      {
+        "step": 4,
+        "polygon_length": 1.1610260801332495
+      },
+      {
+        "step": 6,
+        "polygon_length": 1.6354038157603727
+      },
+      {
+        "step": 8,
+        "polygon_length": 2.016737580407825
+      },
+      {
+        "step": 10,
+        "polygon_length": 2.366943152432053
+      },
+      {
+        "step": 12,
+        "polygon_length": 2.7058967142244166
+      },
+      {
+        "step": 14,
+        "polygon_length": 3.024298360203394
+      },
+      {
+        "step": 16,
+        "polygon_length": 3.33139811074027
+      },
+      {
+        "step": 18,
+        "polygon_length": 3.6335840700816835
+      },
+      {
+        "step": 20,
+        "polygon_length": 3.9355973049882595
+      },
+      {
+        "step": 22,
+        "polygon_length": 4.220947520570841
+      },
+      {
+        "step": 24,
+        "polygon_length": 4.50747204966197
+      },
+      {
+        "step": 26,
+        "polygon_length": 4.793755113908096
+      },
+      {
+        "step": 28,
+        "polygon_length": 5.076366279510952
+      },
+      {
+        "step": 30,
+        "polygon_length": 5.345079047784298
+      },
+      {
+        "step": 32,
+        "polygon_length": 5.616957492429133
+      },
+      {
+        "step": 34,
+        "polygon_length": 5.88184323672983
+      },
+      {
+        "step": 36,
+        "polygon_length": 6.136650330845102
+      },
+      {
+        "step": 38,
+        "polygon_length": 6.400928896740791
+      },
+      {
+        "step": 40,
+        "polygon_length": 6.646439425748316
+      },
+      {
+        "step": 42,
+        "polygon_length": 6.890233600046436
+      },
+      {
+        "step": 44,
+        "polygon_length": 7.152934624960884
+      },
+      {
+        "step": 46,
+        "polygon_length": 7.4074153798799145
+      },
+      {
+        "step": 48,
+        "polygon_length": 7.665320420584372
+      },
+      {
+        "step": 50,
+        "polygon_length": 7.928408848140656
+      },
+      {
+        "step": 52,
+        "polygon_length": 8.192399876844272
+      },
+      {
+        "step": 54,
+        "polygon_length": 8.462748799177998
+      },
+      {
+        "step": 56,
+        "polygon_length": 8.715966496019345
+      },
+      {
+        "step": 58,
+        "polygon_length": 8.961151211654162
+      },
+      {
+        "step": 60,
+        "polygon_length": 9.192667225545858
+      },
+      {
+        "step": 62,
+        "polygon_length": 9.405574583942514
+      },
+      {
+        "step": 64,
+        "polygon_length": 9.612927891513667
+      },
+      {
+        "step": 80,
+        "polygon_length": 11.049019046676632
+      },
+      {
+        "step": 96,
+        "polygon_length": 12.392037294418381
+      },
+      {
+        "step": 112,
+        "polygon_length": 13.711111171621388
+      },
+      {
+        "step": 128,
+        "polygon_length": 14.99879631725259
+      },
+      {
+        "step": 144,
+        "polygon_length": 16.309288858928788
+      },
+      {
+        "step": 160,
+        "polygon_length": 17.50934080351046
+      },
+      {
+        "step": 176,
+        "polygon_length": 18.631021436133548
+      },
+      {
+        "step": 192,
+        "polygon_length": 19.718613071830127
+      },
+      {
+        "step": 208,
+        "polygon_length": 20.87386575710206
+      },
+      {
+        "step": 224,
+        "polygon_length": 22.110141620780446
+      },
+      {
+        "step": 240,
+        "polygon_length": 23.363921552481585
+      },
+      {
+        "step": 256,
+        "polygon_length": 24.488020212044344
+      },
+      {
+        "step": 272,
+        "polygon_length": 25.568201816873895
+      },
+      {
+        "step": 288,
+        "polygon_length": 26.597576105205345
+      },
+      {
+        "step": 304,
+        "polygon_length": 27.572325122801026
+      },
+      {
+        "step": 320,
+        "polygon_length": 28.554476895135892
+      },
+      {
+        "step": 336,
+        "polygon_length": 29.515557552761912
+      },
+      {
+        "step": 352,
+        "polygon_length": 30.352565184210103
+      },
+      {
+        "step": 368,
+        "polygon_length": 31.160728620513353
+      },
+      {
+        "step": 384,
+        "polygon_length": 32.0789961743488
+      }
+    ]
+  }
+}

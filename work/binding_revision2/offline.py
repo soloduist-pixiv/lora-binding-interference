@@ -1,14 +1,11 @@
 """Matched-row probability budgets and window audits; no model or CUDA imports."""
 import json
 from pathlib import Path
-import sys
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 ROOT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(ROOT/"work/binding_review"))
-from analyze import metrics as original_metrics
 SOURCE=ROOT/"outputs/binding_review_20261111"
 OUT=ROOT/"outputs/binding_revision2_20261111"
 NAMES=("correct_cedar","other_cedar","paired_maple","same_family_maple",
@@ -55,7 +52,10 @@ def measures(p,q,keys,active):
             signed_cedar=float((d-y[ids,ks-1]).mean()),
             signed_maple=float((m-x[ids,48+ks-1]).mean()),
             budget=dict(zip(NAMES,map(float,budgets.mean(0)))))
-    result["information"]=original_metrics(p,q,keys.tolist(),active)["information"]
+    grouped=np.array([p[keys==k].mean(0) for k in sorted(set(keys))])
+    grouped=np.c_[grouped,np.maximum(0,1-grouped.sum(1))]
+    entropy=lambda v: -(v*np.log(np.maximum(v,np.finfo(float).tiny))).sum(-1)
+    result["information"]=float(entropy(grouped.mean(0))-entropy(grouped).mean())
     return result
 
 def load(folder,protocol,step):

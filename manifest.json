@@ -8670,6 +8670,11 @@
     "sha256": "5f03f07c70db9611f703f4f27888498941ef0679085fee99392630fa8db9a2fd"
   },
   {
+    "path": "outputs/binding_revision2_20261111/checkpoint_path_lower_bounds.json",
+    "size": 124261,
+    "sha256": "73e83d0ef6016dba75b9edbbc3f0cbdff6f8fd431550ac91c62a2b8784a0f8bb"
+  },
+  {
     "path": "outputs/binding_revision2_20261111/key_coordinate_null.json",
     "size": 636372,
     "sha256": "337ee742b712039b823b7c1f89a25d3d95c794a9055543b1027c6301188852b0"
@@ -8683,6 +8688,11 @@
     "path": "outputs/binding_revision2_20261111/technical_smoke.json",
     "size": 99,
     "sha256": "a455dc1f1adc6d09166e189949d105a876f3cabd54a57f0e5167b718cdfab708"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/\u521d\u59cb\u96be\u5ea6\u4e0e\u8def\u5f84\u4e0b\u754c.md",
+    "size": 2734,
+    "sha256": "bd0ea0cd04e6b49fc366befb1ed7fb8a0883dd8e9604fda1249ebba3efd26117"
   },
   {
     "path": "outputs/binding_revision2_20261111/\u79bb\u7ebf\u5ba1\u8ba1.md",
@@ -8995,14 +9005,24 @@
     "sha256": "6fa51d1f74bf6fc1646d86b04b2f2d3fd31bf0ba8d6a5808abbd842174d9e08c"
   },
   {
+    "path": "work/binding_revision2/analyze_training.py",
+    "size": 2356,
+    "sha256": "3e89d5ea9936b56065afebcf8f48664f3c88b66bbeeba0b9d285657cb55e3522"
+  },
+  {
     "path": "work/binding_revision2/key_null.py",
     "size": 1766,
     "sha256": "549aea8db09c3612ab216886762016e8356cca8b93e702667ddfe48abe3e92e0"
   },
   {
     "path": "work/binding_revision2/offline.py",
-    "size": 9250,
-    "sha256": "4c80870d0197658fb51be4fe7ab176b8dd2d22362697f0793bd5b366a38e3d99"
+    "size": 9344,
+    "sha256": "f76c9c0b360409851bc4089846ddadf4ac6f12416776862d9d43794149269daa"
+  },
+  {
+    "path": "work/binding_revision2/path_audit.py",
+    "size": 2523,
+    "sha256": "7cb64811c2e001570b43be6652089ac85b83550fe19319411fc9e7fd14bd1518"
   },
   {
     "path": "work/binding_revision2/queue.py",
@@ -9013,6 +9033,11 @@
     "path": "work/binding_revision2/run.py",
     "size": 17796,
     "sha256": "720f55e7008d242332f9ce98701e7d1407860313abf4087c544d1518b90dac38"
+  },
+  {
+    "path": "work/binding_revision2/watch.py",
+    "size": 767,
+    "sha256": "da599439877f7896e5a753eebe4fdc6029b236cdcbec31823bd2d8ef8d64c510"
   },
   {
     "path": "work/prospective_updates/binding_plane.py",
