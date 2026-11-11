@@ -4,6 +4,7 @@ from pathlib import Path
 import subprocess
 import sys
 import time
+import zipfile
 from aux_data import OUT,ROOT,SEEDS
 
 def plan():
@@ -53,6 +54,19 @@ def main():
         records.append(dict(index=i,name=job["name"],exit_code=code,seconds=time.monotonic()-begun))
         write(OUT/"extension_status.json",records)
         if code!=0:raise RuntimeError("Extension failed; retain seed and inspect log, no fallback substitution")
+        if job["technical"]:
+            scope=job["args"][job["args"].index("--scope")+1]
+            folder=OUT/"runs"/f"Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min2_{scope}"
+            protocol=json.loads((folder/"protocol.json").read_text())
+            config=json.loads((ROOT/"Models/Qwen3-0.6B/config.json").read_text())
+            expected=config["num_hidden_layers"]*(2 if scope=="all_qv" else 7)
+            assert len(set(protocol["target_modules"]))==expected
+            assert json.loads((folder/"complete.json").read_text())["last_step"]==2
+            with zipfile.ZipFile(folder/"state.pt") as saved:assert saved.testzip() is None
+            audit_file=OUT/"scope_gpu_smoke.json"
+            audit=json.loads(audit_file.read_text()) if audit_file.exists() else {}
+            audit[scope]=dict(passed=True,steps=2,target_modules=expected,checkpoint_zip_crc=True)
+            write(audit_file,audit)
         subprocess.run([sys.executable,str(Path(__file__).with_name("analyze_training.py"))],cwd=ROOT,check=True)
         subprocess.run([sys.executable,str(Path(__file__).with_name("aux_analysis.py"))],cwd=ROOT,check=True)
         print("EXTENSION END",records[-1],flush=True)

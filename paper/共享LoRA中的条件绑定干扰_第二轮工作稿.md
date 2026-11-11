@@ -148,7 +148,7 @@ $$\Sigma\leq R_C\leq \overline{TV}\leq\sqrt{2\,\overline{JS}}.$$
 |错误质量去了哪里|[完整预算](https://github.com/soloduist-pixiv/lora-binding-interference/blob/main/outputs/binding_revision2_20261111/完整质量预算.md)|所有已完成新增分支的各目标、640 步及终点|
 |扩大目标范围、非数字、真实事实与三注册表|[后续阶段登记](https://github.com/soloduist-pixiv/lora-binding-interference/blob/main/paper/revision2_protocol.md)|输入冻结、训练待执行|
 
-主训练为 BF16 冻结基座、FP32 适配器，规范候选评分使用 FP32；AdamW β=(0.9,0.999)、ε=1e-8、weight decay=0，无学习率调度或梯度裁剪，损失按答案与 EOS token 平均。单 NVIDIA GeForce RTX 4060 Laptop GPU，基座加载前检查空闲显存，全部 GPU 训练串行。准确的软件版本、参数量、实际锚点门槛、样本暴露和各阶段路径保存在每次运行的 protocol、anchor 与 trace 中。源程序及哈希清单见仓库，不依赖论文中的私有相对目录。
+主训练为 BF16 冻结基座、FP32 适配器，规范候选评分使用 FP32；AdamW β=(0.9,0.999)、ε=1e-8、weight decay=0，无学习率调度或梯度裁剪，损失按答案与 EOS token 平均。单 NVIDIA GeForce RTX 4060 Laptop GPU，本轮运行记录为 PyTorch 2.10.0+cu130，rank-4 主分支有 81,920 个可训练参数。基座加载前检查空闲显存，全部 GPU 训练串行。其他软件版本、实际锚点门槛、样本暴露和各阶段路径保存在每次运行的 protocol、anchor 与 trace 中。源程序及哈希清单见仓库，不依赖论文中的私有相对目录。
 
 ## 参考文献
 

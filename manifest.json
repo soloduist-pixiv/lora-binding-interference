@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "size": 9993,
-    "sha256": "cba35b66b99f83ebaa611936c2f7ce0fa7cab6747411919684909c7ca9ecb110"
+    "size": 10328,
+    "sha256": "4c9ce9edf4f5ca6e03d141c24cab0e0a6f7a88a5166e46c77a189ad061ce1afd"
   },
   {
     "path": "outputs/binding_review_20261111/analysis.json",
@@ -8776,8 +8776,8 @@
   },
   {
     "path": "outputs/binding_revision2_20261111/resource_failure_20261111.json",
-    "size": 903,
-    "sha256": "d4904205b99d3f56293d38be15da3f9f8921ae3c35159b5835e3af86c42903a9"
+    "size": 1206,
+    "sha256": "2666a97badb550e686b95bf0f8a93ce19e1f08b277ae4f1da753cdce9118e0c1"
   },
   {
     "path": "outputs/binding_revision2_20261111/runs/Qwen3-0.6B_s107_adjacent_lr0.0003_r16_min640/complete.json",
@@ -15681,8 +15681,8 @@
   },
   {
     "path": "paper/revision2_findings.md",
-    "size": 8855,
-    "sha256": "80a6e0c798f153d8514bd27d5086391f4ff3d63d4af17ed8f9a78233c3375aff"
+    "size": 9026,
+    "sha256": "81bdf3c00572e70bda2e43dffd26b46382599566a8b688afc9e1182d586930eb"
   },
   {
     "path": "paper/revision2_protocol.md",
@@ -15716,8 +15716,8 @@
   },
   {
     "path": "paper/\u5171\u4eabLoRA\u4e2d\u7684\u6761\u4ef6\u7ed1\u5b9a\u5e72\u6270_\u7b2c\u4e8c\u8f6e\u5de5\u4f5c\u7a3f.md",
-    "size": 19294,
-    "sha256": "136ebd7f77360f5dcbd94dafd37aed6d5d2e3e371ee08cee7a0e8c58ba473066"
+    "size": 19372,
+    "sha256": "6d5baf7356ba1120ce8a6ec774f80b625a02da15b98f7571f9dae74d39730882"
   },
   {
     "path": "requirements-analysis.txt",
@@ -15881,8 +15881,8 @@
   },
   {
     "path": "work/binding_revision2/post_queue.py",
-    "size": 3181,
-    "sha256": "a8eb533de3cfe74648a7753abf60b900dcc2bcba3ce8fd44d9a65f2be5181505"
+    "size": 4120,
+    "sha256": "0a148ca3587be92af004ff1170afc6e1b65e67817208630c1f22b8983ba431d8"
   },
   {
     "path": "work/binding_revision2/publish_snapshot.py",

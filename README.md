@@ -1,6 +1,6 @@
 > **Second revision in progress:** the earlier low-target replay mass does not by itself establish register conditioning. The [second-revision working manuscript](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md), [new findings](paper/revision2_findings.md) and [registered protocol](paper/revision2_protocol.md) supersede that interpretation. The previous release and its PDF remain historical snapshots. The eight fresh anchors are still being run; partial results are not a completed confirmatory study.
 
-> **Resource interruption:** 16 branches are complete. Job 17 encountered a CUDA allocation failure during validation; its last intact checkpoint is step 752. The failed attempt is retained. GPU training is waiting for resources to be released before resuming the same seed and optimizer; no seed replacement, automatic reboot or driver reset is performed. See [the incident record](outputs/binding_revision2_20261111/resource_failure_20261111.json).
+> **Resource interruption and recovery:** job 17 encountered a CUDA allocation failure during validation. Its step-752 checkpoint and all 16 AdamW states were load-verified before same-seed continuation; the failed attempt is retained. The failed process released its resources before any driver reset was performed. See [the incident record](outputs/binding_revision2_20261111/resource_failure_20261111.json) and the recorded queue attempts.
 
 # Factual binding interference during sequential LoRA adaptation
 
@@ -21,8 +21,9 @@ The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop 
 - The eight fresh, support-preserving shuffled anchors have a registered paired
   analysis at high targets. [Every seed and missing pair remains visible](outputs/binding_revision2_20261111/新锚点配对差.md).
 - Expanded target modules, a 48-single-token vocabulary, and source-checked temporal
-  facts with three sequential registers are registered extensions. Their input/CPU
-  checks are complete; GPU technical checks and training are pending.
+  facts with three sequential registers are registered extensions. Frozen auxiliary
+  inputs and probability-analysis CPU checks are complete; expanded-module runners
+  have syntax checks only. GPU technical checks and training are pending.
 
 ## Historical first-revision observations
 
@@ -62,6 +63,9 @@ checkpoints are not all included in the public archive.
 Those input files and their source provenance are not experimental results.
 Fresh GPU experiments use `serial_jobs.py`; the optional `post_queue.py` waits for the
 original 116 jobs before the 32 registered extensions. Do not start a second GPU queue.
+`recover_and_continue.py` is a local incident-recovery helper: it requires the saved
+optimizer checkpoint, which is not distributed in the completed-only public matrix
+package. Publish Git packs after releasing the training model on memory-limited hosts.
 
 Install requirements-analysis.txt. PyTorch and a GPU are not needed for
 the following analysis entry points.

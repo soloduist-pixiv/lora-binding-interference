@@ -12,8 +12,17 @@
   "last_complete_checkpoint": 752,
   "last_peak_reserved_mib": 3206.0,
   "state_sha256": "06f9edc31a308fe964afa432a79b5dba5e39da2f4c5a04fe366591fc5196c573",
-  "recovery": "Pending: retain seed, state and optimizer; no seed replacement or target change",
+  "recovery": "Checkpoint load verified; preparing same-seed optimizer continuation",
   "completed_branches_before_failure": 16,
   "state_zip_crc_pass": true,
-  "checkpoint_validation": "Archive integrity and checksum verified without loading a model; runtime restore remains pending resource release"
+  "checkpoint_validation": "Archive integrity and checksum verified without loading a model; runtime restore remains pending resource release",
+  "runtime_cpu_checkpoint_validation": {
+    "step": 752,
+    "rank": 4,
+    "finite_tensors": 16,
+    "adamw_states": 16,
+    "optimizer_step": 752,
+    "checksum_unchanged": true
+  },
+  "resource_release": "Failed process disappeared before any driver reset was performed; GPU free memory observed at 7956 MiB"
 }
