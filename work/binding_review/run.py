@@ -34,6 +34,26 @@ def values_for(seed, pairing, tokenizer):
         assert all(a // 10 != b // 10 for a, b in zip(old, new))
     active_rng = random.Random()
     active_rng.setstate(rng.getstate())
+    if pairing == "support_permuted":
+        sample_rng = random.Random()
+        sample_rng.setstate(active_rng.getstate())
+        active = set(sample_rng.sample(list(range(1,49,2)),16))
+        groups = [[key-1 for key in sorted(active)],
+                  [key for key in sorted(active)],
+                  [i for i in range(48) if i+1 not in active and i not in active]]
+        permutation_rng = random.Random(seed+48295)
+        before = list(new)
+        for indices in groups:
+            values = [before[i] for i in indices]
+            for _ in range(10000):
+                permutation_rng.shuffle(values)
+                if all(old[i]//10 != value//10 for i,value in zip(indices,values)):
+                    break
+            else:
+                raise RuntimeError("Could not construct support-preserving prefix derangement")
+            for i,value in zip(indices,values):
+                new[i] = value
+            assert {before[i] for i in indices} == {new[i] for i in indices}
     if pairing == "alphabetic":
         pool = []
         while len(pool) < 96:
@@ -273,7 +293,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="Qwen3-0.6B")
     parser.add_argument("--seed", type=int, required=True)
-    parser.add_argument("--pairing", choices=("adjacent", "permuted", "alphabetic"), default="adjacent")
+    parser.add_argument("--pairing", choices=("adjacent", "permuted", "alphabetic","support_permuted"),
+                        default="adjacent")
     parser.add_argument("--lr", type=float, default=.0003)
     parser.add_argument("--rank", type=int, default=4)
     parser.add_argument("--replay", action="store_true")
