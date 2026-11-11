@@ -1,5 +1,5 @@
 {
-  "completed_fresh_branches": 4,
+  "completed_fresh_branches": 5,
   "planned_fresh_branches": 104,
   "seeds": [
     401,
@@ -1336,7 +1336,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -1406,7 +1406,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -1476,7 +1476,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -1546,7 +1546,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -1616,7 +1616,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -1686,7 +1686,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2176,7 +2176,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2246,7 +2246,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2316,7 +2316,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2386,7 +2386,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2456,7 +2456,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {
@@ -2526,7 +2526,7 @@
           "seed": 401,
           "covered": false,
           "left": null,
-          "right": null,
+          "right": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
           "missing_reason": "at least one branch not completed"
         },
         {

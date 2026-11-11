@@ -68,7 +68,7 @@ def main(args):
     folder=root/("replay" if args.replay else "plain");folder.mkdir(parents=True,exist_ok=True)
     if (folder/"complete.json").exists():return
     engine=p.Engine(args.model) if args.model=="Qwen3-0.6B" else r.StandardEngine(args.model)
-    scorer=r.CandidateScorer(engine,data["candidates"],batch_size=2)
+    scorer=r.CandidateScorer(engine,data["candidates"],batch_size=2,diagnostic_directory=folder)
     if args.kind=="closed":
         tokens=[engine.tok.encode(word,add_special_tokens=False) for word in data["candidates"]]
         assert all(len(t)==1 for t in tokens) and len({t[0] for t in tokens})==48
@@ -113,9 +113,11 @@ def main(args):
             if (step<=64 and step%2) or (step>64 and step%16):continue
             arrays={}
             validations=[]
-            for label in range(3):
-                arrays[f"register{label}"]=np.exp(scorer(data["rows"]["test"][label]))
-                validations.append(float(np.mean(scorer.gold(data["rows"]["validation"][label]))))
+            scorer.phase=f"stage{stage}_checkpoint{step}"
+            with scorer.evaluation_precision():
+                for label in range(3):
+                    arrays[f"register{label}"]=np.exp(scorer(data["rows"]["test"][label]))
+                    validations.append(float(np.mean(scorer.gold(data["rows"]["validation"][label]))))
             np.savez_compressed(current/f"s{step:04d}.npz",**arrays)
             trace.append(dict(step=step,validation_logp=validations[stage],
                 validation_by_registry=validations,effective_path=path,path_origin=0,

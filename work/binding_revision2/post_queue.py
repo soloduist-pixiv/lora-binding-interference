@@ -6,6 +6,7 @@ import sys
 import time
 import zipfile
 from aux_data import OUT,ROOT,SEEDS
+from resource_guard import wait_for_model
 
 def plan():
     cases=[]
@@ -43,6 +44,7 @@ def main():
         time.sleep(20)
     records=[]
     for i,job in enumerate(jobs,1):
+        wait_for_model(OUT/"extension_resource_wait.json")
         print("EXTENSION START",i,len(jobs),job["name"],flush=True)
         begun=time.monotonic()
         with (OUT/f"extension_{i:03d}.log").open("w",encoding="utf8") as log:
@@ -70,5 +72,7 @@ def main():
         subprocess.run([sys.executable,str(Path(__file__).with_name("analyze_training.py"))],cwd=ROOT,check=True)
         subprocess.run([sys.executable,str(Path(__file__).with_name("aux_analysis.py"))],cwd=ROOT,check=True)
         print("EXTENSION END",records[-1],flush=True)
+    # Every GPU child has exited; pack/upload only after releasing the models.
+    subprocess.run([sys.executable,str(Path(__file__).with_name("publish_snapshot.py"))],cwd=ROOT,check=True)
 
 if __name__=="__main__":main()

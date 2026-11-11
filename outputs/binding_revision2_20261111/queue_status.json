@@ -98,10 +98,16 @@
   {
     "index": 17,
     "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_min640",
+    "exit_code": 0,
+    "seconds": 440.0125095,
+    "attempt": 2
+  },
+  {
+    "index": 18,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_replay_min640",
     "exit_code": null,
     "seconds": null,
-    "reason": "CUDA OOM; child did not finish exit cleanup; supervisor stopped",
-    "last_checkpoint": 752,
-    "attempt": 1
+    "attempt": 1,
+    "reason": "CUDA OOM at initial candidate scoring; no new-task updates completed"
   }
 ]

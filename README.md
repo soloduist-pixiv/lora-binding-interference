@@ -1,6 +1,6 @@
 > **Second revision in progress:** the earlier low-target replay mass does not by itself establish register conditioning. The [second-revision working manuscript](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md), [new findings](paper/revision2_findings.md) and [registered protocol](paper/revision2_protocol.md) supersede that interpretation. The previous release and its PDF remain historical snapshots. The eight fresh anchors are still being run; partial results are not a completed confirmatory study.
 
-> **Resource interruption and recovery:** job 17 encountered a CUDA allocation failure during validation. Its step-752 checkpoint and all 16 AdamW states were load-verified before same-seed continuation; the failed attempt is retained. The failed process released its resources before any driver reset was performed. See [the incident record](outputs/binding_revision2_20261111/resource_failure_20261111.json) and the recorded queue attempts.
+> **Resource status, 2026-11-12:** job 17 resumed from its verified step-752 checkpoint and completed 1280 steps. There are 17 completed branches, including 5/104 fresh-anchor branches. Job 18 failed during initial scoring, before new-task updates; training is currently stopped. Per-job host-memory checks and an allocation-only scoring change are implemented, but archived-score GPU equivalence must pass before continuation. The failed NVIDIA context still requires release. Both failures and all seeds are retained.
 
 # Factual binding interference during sequential LoRA adaptation
 

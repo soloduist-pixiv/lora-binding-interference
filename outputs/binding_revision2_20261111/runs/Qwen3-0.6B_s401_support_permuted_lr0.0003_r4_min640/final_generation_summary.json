@@ -1,0 +1,12 @@
+{
+  "cedar": {
+    "context_queries": 288,
+    "accuracy": 0.04513888888888889,
+    "unique_facts": 48
+  },
+  "maple": {
+    "context_queries": 192,
+    "accuracy": 1.0,
+    "unique_facts": 32
+  }
+}

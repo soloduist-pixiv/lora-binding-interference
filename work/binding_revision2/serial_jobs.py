@@ -5,6 +5,7 @@ import shutil
 import subprocess
 import sys
 import time
+from resource_guard import wait_for_model
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/"outputs/binding_revision2_20261111"
 OLD=ROOT/"outputs/binding_review_20261111"
@@ -48,6 +49,7 @@ def main():
         if known and known["name"]!=case["name"]:raise RuntimeError("Existing queue plan mismatch")
         if known and known["exit_code"]==0 and (folder/"complete.json").exists():
             continue
+        wait_for_model(OUT/"model_resource_wait.json")
         records=[row for row in records if row["index"]<i+1]
         write(status,records)
         if case["source"] and not folder.exists():

@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "work/prospective_updates"))
 from experiment import c, d, p, x
 sys.path.insert(0, str(ROOT / "work/binding_review"))
-from cached_score import CandidateScorer
+from stable_score import MemoryStableScorer as CandidateScorer
 from compare_models import Engine as StandardEngine
 
 OUT = ROOT / "outputs/binding_revision2_20261111"
@@ -208,7 +208,8 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
     c.KEYS = ("_",) + tuple(a+b for a, b in list(itertools.product("QXZ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))[:48])
     c.OLD, c.NEW = [0] + old, [0] + new
     p.problem = c.problem
-    scorer = CandidateScorer(engine, old + new, batch_size=2 if pairing == "alphabetic" else 4)
+    scorer = CandidateScorer(engine, old + new, batch_size=2 if pairing == "alphabetic" else 4,
+                             diagnostic_directory=folder)
     code_format = not historical
     if historical:
         anchor_folder = HISTORICAL / f"s{seed}"
@@ -246,6 +247,7 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
                     scoring_batch_size=scorer.batch_size,
                     scoring_method=scorer.method,
                     scoring_precision=scorer.precision,
+                    scoring_allocation=scorer.allocation_policy,
                     dense_contexts=2, full_context_steps=[0,16,64])
     p.write(folder / "protocol.json", protocol)
     cedar_validation=rows_for(splits["validation"],"old",("original","counterfactual"),code_format)
@@ -288,19 +290,21 @@ def run(model, seed, pairing, lr, rank, replay, historical=False, minimum_steps=
         if (step <= 64 and step % 2) or (step > 64 and step % 16):
             continue
         indices = list(range(len(old_rows))) if step in (0,16,64) else dense_indices
-        old_lp = scorer([old_rows[i] for i in indices])
-        maple_lp = scorer([maple_rows[i] for i in indices])
-        val_lp = np.array(scorer.gold(validation))
-        if step == 0:
-            full = scorer(validation[:3])
-            columns = [48+new.index(r["answer"]) for r in validation[:3]]
-            error = float(np.max(np.abs(np.exp(val_lp[:3]) -
-                                        np.exp(full[np.arange(3),columns]))))
-            if error > 1e-4:
-                raise RuntimeError(f"Validation scorer disagreement {error}")
-            p.write(folder/"validation_score_agreement.json",dict(maximum_probability_error=error))
+        scorer.phase=f"checkpoint_{step}"
+        with scorer.evaluation_precision():
+            old_lp = scorer([old_rows[i] for i in indices])
+            maple_lp = scorer([maple_rows[i] for i in indices])
+            val_lp = np.array(scorer.gold(validation))
+            if step == 0:
+                full = scorer(validation[:3])
+                columns = [48+new.index(r["answer"]) for r in validation[:3]]
+                error = float(np.max(np.abs(np.exp(val_lp[:3]) -
+                                            np.exp(full[np.arange(3),columns]))))
+                if error > 1e-4:
+                    raise RuntimeError(f"Validation scorer disagreement {error}")
+                p.write(folder/"validation_score_agreement.json",dict(maximum_probability_error=error))
+            cedar_validation_logp=float(np.mean(scorer.gold(cedar_validation)))
         maple_progress = float(val_lp.mean())
-        cedar_validation_logp=float(np.mean(scorer.gold(cedar_validation)))
         old_mass = np.exp(old_lp)
         maple_mass = np.exp(maple_lp)
         original_keys = [int(old_rows[i]["id"].split("/")[0])-1 for i in indices]

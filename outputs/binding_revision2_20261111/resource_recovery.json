@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-12T00:16:12.000701+08:00",
+  "status": "ready",
+  "free_gpu_mib": 7947.0,
+  "available_commit_mib": 8706.90234375,
+  "available_physical_mib": 3465.4375,
+  "checkpoint": 752,
+  "seed": 401,
+  "lr": 0.0003,
+  "rank": 4,
+  "replay": false,
+  "note": "No model loaded while waiting; no automatic reboot or driver reset"
+}

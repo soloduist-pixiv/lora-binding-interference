@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-11-12T00:40:07.610045+08:00",
+  "incident": {
+    "index": 18,
+    "name": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_replay_min640",
+    "exit_code": null,
+    "seconds": null,
+    "attempt": 1,
+    "reason": "CUDA OOM at initial candidate scoring; no new-task updates completed"
+  },
+  "checkpoint": "Shared Cedar anchor; failure before step-0 checkpoint",
+  "completed_branches": 17,
+  "recovery": "No automatic retry until host-memory guard and scoring allocation changes are verified"
+}

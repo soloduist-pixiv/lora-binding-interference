@@ -1,0 +1,14 @@
+{
+  "observed_low_host_memory_case_rejected": true,
+  "all_resources_sufficient_case_accepted": true,
+  "actual": {
+    "available_commit_mib": 4819.57421875,
+    "available_physical_mib": 3173.1640625,
+    "free_gpu_mib": 4913.0
+  },
+  "actual_ready": false,
+  "next": {
+    "next_case": "Qwen3-0.6B_s401_support_permuted_lr0.0003_r4_replay_min640",
+    "checkpoint": "Cedar anchor"
+  }
+}
