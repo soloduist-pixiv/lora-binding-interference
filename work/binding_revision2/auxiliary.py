@@ -5,6 +5,9 @@ import importlib.util
 import json
 from pathlib import Path
 import time
+from resource_guard import require_gpu_mode
+
+if __name__=="__main__":require_gpu_mode()
 
 import numpy as np
 from aux_data import OUT,SEEDS

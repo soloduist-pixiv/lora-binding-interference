@@ -17,8 +17,8 @@ def escape(text):
     return "".join(mapping.get(character, character) for character in text)
 
 
-def main():
-    source = (PAPER / "共享LoRA中的旧事实干扰.md").read_text(encoding="utf8")
+def main(source_name="共享LoRA中的旧事实干扰.md",target_name="manuscript.tex",blockquote_environment=None):
+    source = (PAPER / source_name).read_text(encoding="utf8")
     equations = {}
     def protect(match):
         key = f"MATHPLACEHOLDER{len(equations)}END"
@@ -122,6 +122,10 @@ def main():
             body.append(r"\end{enumerate}")
         elif token.type == "list_item_open":
             body.append(r"\item")
+        elif token.type == "blockquote_open" and blockquote_environment:
+            body.append(r"\begin{"+blockquote_environment+"}")
+        elif token.type == "blockquote_close" and blockquote_environment:
+            body.append(r"\end{"+blockquote_environment+"}")
         elif token.type == "fence":
             body.append(r"\begin{Verbatim}[breaklines=true]" + "\n" + token.content + r"\end{Verbatim}")
         i += 1
@@ -142,7 +146,15 @@ def main():
 \date{}
 \begin{document}
 """
-    target = PAPER / "manuscript.tex"
+    if blockquote_environment=="findingbox":
+        box=r"""\newsavebox{\findingboxcontent}
+\newenvironment{findingbox}{\par\begingroup\setlength{\fboxsep}{6pt}\noindent
+\begin{lrbox}{\findingboxcontent}\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\small}
+{\end{minipage}\end{lrbox}\fbox{\usebox{\findingboxcontent}}\par\endgroup}
+"""
+        preamble=preamble.replace(r"\begin{document}",box+r"\begin{document}")
+        preamble=preamble.replace(r"\setlength{\parskip}{3pt}",r"\setlength{\parskip}{2pt}")
+    target = PAPER / target_name
     target.write_text(preamble + content + "\n" + r"\end{document}",encoding="utf8")
     print(target)
 

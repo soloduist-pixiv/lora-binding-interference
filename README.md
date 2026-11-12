@@ -1,6 +1,6 @@
-> **Second revision in progress:** the earlier low-target replay mass does not by itself establish register conditioning. The [second-revision working manuscript](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md), [new findings](paper/revision2_findings.md) and [registered protocol](paper/revision2_protocol.md) supersede that interpretation. The previous release and its PDF remain historical snapshots. The eight fresh anchors are still being run; partial results are not a completed confirmatory study.
+> **Second revision, offline update (2026-11-12):** the earlier low-target replay mass does not by itself establish register conditioning. The [working manuscript](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md), [working PDF](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.pdf), [findings](paper/revision2_findings.md) and [registered protocol](paper/revision2_protocol.md) record the corrected interpretation. The first release remains a historical snapshot. Fresh-anchor confirmation is incomplete.
 
-> **Resource status, 2026-11-12:** job 17 resumed from its verified step-752 checkpoint and completed 1280 steps. There are 17 completed branches, including 5/104 fresh-anchor branches. Job 18 failed during initial scoring, before new-task updates; training is currently stopped. Per-job host-memory checks and an allocation-only scoring change are implemented, but archived-score GPU equivalence must pass before continuation. The failed NVIDIA context still requires release. Both failures and all seeds are retained.
+> **Current status:** 17 second-revision branches are complete, including 5/104 fresh-anchor branches. Job 17 resumed from its verified step-752 checkpoint and completed 1280 steps; job 18 failed at initial scoring before new-task updates. Both failures and all seeds are retained. GPU memory has been released, but host-memory headroom remains insufficient. Training is paused under the user's offline-only instruction; no paging-file change was applied. A local mode guard prevents automatic model loading. Scoring changes still require GPU numerical-equivalence validation before any future continuation. This update adds CPU analysis and a working PDF, with no new training results.
 
 # Factual binding interference during sequential LoRA adaptation
 
@@ -24,6 +24,12 @@ The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop 
   facts with three sequential registers are registered extensions. Frozen auxiliary
   inputs and probability-analysis CPU checks are complete; expanded-module runners
   have syntax checks only. GPU technical checks and training are pending.
+- A new [exploratory source-constrained readout](outputs/binding_revision2_20261111/候选来源约束诊断.md)
+  separates raw old-answer mass, old-value restricted ranking, and native greedy
+  generation. On the three previously analyzed pairing anchors, the 48-old-value
+  restricted hit rate is 62.5–87.5% for adjacent pairing and 3.12–25% for
+  support-preserving shuffled pairing at the same low validation target (-1.0).
+  This is an external oracle, not successful model conditioning or proof of erasure.
 
 ## Historical first-revision observations
 
@@ -42,6 +48,7 @@ The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop 
 ## Read the study
 
 - [Current working manuscript, second revision](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.md)
+- [Current working PDF, second revision](paper/共享LoRA中的条件绑定干扰_第二轮工作稿.pdf)
 - [Current protocol and experiment status](paper/revision2_protocol.md)
 - [Historical first-revision manuscript](paper/共享LoRA中的旧事实干扰.md)
 - [Historical first-revision typeset PDF](paper/共享LoRA中的旧事实干扰.pdf)
@@ -54,7 +61,11 @@ The study uses Qwen3-0.6B and SmolLM2-360M-Instruct on a single RTX 4060 Laptop 
 
 For the second revision, run `python work/binding_revision2/offline.py`,
 `python work/binding_revision2/key_null.py`, `python work/binding_revision2/analyze_training.py`
-and `python work/binding_revision2/fixed_report.py` from the repository root.
+and `python work/binding_revision2/fixed_report.py` from the repository root. The new source-constrained
+readout is reproduced with `python work/binding_revision2/source_oracle.py`, then
+`python work/binding_revision2/source_oracle_figure.py` and
+`python work/binding_revision2/validate_source_oracle.py`. The validation reports
+unavailable Git-history or local-PDF-build checks explicitly when using a source archive.
 These use saved matrices and do not import PyTorch. The exact matrix-path lower-bound
 audit additionally requires local adapter checkpoints or retraining; those intermediate
 checkpoints are not all included in the public archive.

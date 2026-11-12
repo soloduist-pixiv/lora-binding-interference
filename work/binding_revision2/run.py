@@ -8,6 +8,9 @@ import random
 import sys
 import time
 from pathlib import Path
+from resource_guard import require_gpu_mode
+
+if __name__=="__main__":require_gpu_mode()
 
 import numpy as np
 from stop_rule import plateau

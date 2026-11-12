@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "size": 10405,
-    "sha256": "780caf19c665e6f82a5181fbb18a869d4df96b5b4ed179afa52681c19e30fa00"
+    "size": 11547,
+    "sha256": "fee75acf746fbb1b7737b3889274f260f020f9df1332a45b6867c994f91a3007"
   },
   {
     "path": "outputs/binding_review_20261111/analysis.json",
@@ -16065,6 +16065,31 @@
     "sha256": "b8714c289fd2e524963cea3dc92163d7f4ca5221fc96e37fea3481634bc8bccb"
   },
   {
+    "path": "outputs/binding_revision2_20261111/source_oracle_audit.json",
+    "size": 5740013,
+    "sha256": "56728a59572669a4678ee90f1859573c514b89d356c3161008180c7a676babe3"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/source_oracle_figure_data.json",
+    "size": 1542,
+    "sha256": "942aa99b94b62b9eb9ce3f80f1b3ab6a0f4dd0ab6ba3bf7f7d208d83ecdc14cb"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/source_oracle_pairing.pdf",
+    "size": 16365,
+    "sha256": "ed1a72b4ff09447a36ebe112d12aae3ba7eaddab2a907a8b773b678d29f3a263"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/source_oracle_pairing.png",
+    "size": 148144,
+    "sha256": "43421125ac1116e200ebc9a864acdc939558106bf2b2054c9191d70cdf93d7de"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/source_oracle_validation.json",
+    "size": 932,
+    "sha256": "7c124c2b2bf9b342265e0e0a4f54b80693950d41269e21dac233f9697d5bc01b"
+  },
+  {
     "path": "outputs/binding_revision2_20261111/technical_smoke.json",
     "size": 99,
     "sha256": "a455dc1f1adc6d09166e189949d105a876f3cabd54a57f0e5167b718cdfab708"
@@ -16078,6 +16103,11 @@
     "path": "outputs/binding_revision2_20261111/training_analysis.json",
     "size": 953076,
     "sha256": "db0627cf2d0b2ccfd379e8dce1da841cd78c4cf91ffc8a366515255f364b9fa7"
+  },
+  {
+    "path": "outputs/binding_revision2_20261111/\u5019\u9009\u6765\u6e90\u7ea6\u675f\u8bca\u65ad.md",
+    "size": 9601,
+    "sha256": "1a8b453e33f26161929e73a1136c2af480f3b0a28cdc6ce4224b7fb9a1716e3c"
   },
   {
     "path": "outputs/binding_revision2_20261111/\u521d\u59cb\u96be\u5ea6\u4e0e\u8def\u5f84\u4e0b\u754c.md",
@@ -16255,6 +16285,11 @@
     "sha256": "54ce81427e8359e16372fb485fb62d2a377c7424116329038a4dd14876828787"
   },
   {
+    "path": "paper/manuscript_revision2.tex",
+    "size": 29463,
+    "sha256": "06e6d7926ecd01716490c0c5a38c6ca320362d9ad2e16286756b3e505dc645c8"
+  },
+  {
     "path": "paper/reference_identifiers.md",
     "size": 3502,
     "sha256": "d5d6d9db94496da33dc97dba088d4aab1c8e50ac3f52cf6654e132d3d9dcf94f"
@@ -16276,8 +16311,8 @@
   },
   {
     "path": "paper/revision2_findings.md",
-    "size": 9731,
-    "sha256": "59e727c94a4eed03d58d6c7a3307771e34b2e2241345e21533f5136663907390"
+    "size": 11469,
+    "sha256": "9878848680436c6f0fd76aaa04d3fb5d9a78f5e9f76bc0427307cebdae85a9da"
   },
   {
     "path": "paper/revision2_protocol.md",
@@ -16286,13 +16321,18 @@
   },
   {
     "path": "paper/revision2_reference_audit.md",
-    "size": 3295,
-    "sha256": "83f060d00820c72e198d4d2ce0465e17e64ebf29bf0171853e4c5fd62776aa9c"
+    "size": 4408,
+    "sha256": "275001338bb897f43cefb820bf0f9efd346e17c611604b99fe6e81290c996d30"
   },
   {
     "path": "paper/revision_response.md",
     "size": 4555,
     "sha256": "25073aabdd8e6b7f7320bff3e5620cbe4dde395fd2225ad6a73dc767c0833273"
+  },
+  {
+    "path": "paper/source_oracle_protocol.md",
+    "size": 3425,
+    "sha256": "dc735596ec1f89d3add6422672ab6e970900b91c55bb40410530503bbe4807cf"
   },
   {
     "path": "paper/validation_protocol.md",
@@ -16311,8 +16351,13 @@
   },
   {
     "path": "paper/\u5171\u4eabLoRA\u4e2d\u7684\u6761\u4ef6\u7ed1\u5b9a\u5e72\u6270_\u7b2c\u4e8c\u8f6e\u5de5\u4f5c\u7a3f.md",
-    "size": 19593,
-    "sha256": "93eb7246ecb420be8bf73f46863858aed55b0384e4b2271450860f9601d3ff05"
+    "size": 25375,
+    "sha256": "25bd7c7b9cf9c16c447a8422163af2f8fd02ca032a74fe558533fa849209e7d2"
+  },
+  {
+    "path": "paper/\u5171\u4eabLoRA\u4e2d\u7684\u6761\u4ef6\u7ed1\u5b9a\u5e72\u6270_\u7b2c\u4e8c\u8f6e\u5de5\u4f5c\u7a3f.pdf",
+    "size": 466256,
+    "sha256": "f642e091d3f8ff3215d54bbc124dbad557c0d1c673cb878014da26dbd42a2500"
   },
   {
     "path": "requirements-analysis.txt",
@@ -16406,8 +16451,8 @@
   },
   {
     "path": "work/binding_review/typeset.py",
-    "size": 6659,
-    "sha256": "7aa14129ef9ff4ddaced757baf6c689299656a37b09fbf80972c1739ed7ae990"
+    "size": 7531,
+    "sha256": "510ec7ebdeed4788fc99983eecbf686027afc3c745474bd9a6fd9c938f902bf8"
   },
   {
     "path": "work/binding_review/verify_archive.py",
@@ -16441,8 +16486,8 @@
   },
   {
     "path": "work/binding_revision2/auxiliary.py",
-    "size": 8485,
-    "sha256": "cc93b3a1b3af3eed37017a57a35ebc98771fed548adb5ffb1e3e8908d4ab8c55"
+    "size": 8573,
+    "sha256": "7c7aa825ed386ea1bcb0b435c4d6566950b7faefca9dd4456d1f34a26a2bad1f"
   },
   {
     "path": "work/binding_revision2/budget_report.py",
@@ -16481,8 +16526,8 @@
   },
   {
     "path": "work/binding_revision2/publish_snapshot.py",
-    "size": 3829,
-    "sha256": "4e23e29de10fa5354b00cf6644ca81bce4bfdcd027034da338e1a6512862b9bd"
+    "size": 4481,
+    "sha256": "24822c7f65a99fef7005555786276c6190e054f30d9bc7da37ddd01eae6ace8d"
   },
   {
     "path": "work/binding_revision2/recover_and_continue.py",
@@ -16491,18 +16536,28 @@
   },
   {
     "path": "work/binding_revision2/resource_guard.py",
-    "size": 2591,
-    "sha256": "c57f3a4dd13deae23cb3ba3a44189dee8fde880ae5cddaa93c986923fcb9cfa5"
+    "size": 2993,
+    "sha256": "e7a23358a5246260d366912b468c43eab748e226fa8719943cb38a33690a8bc0"
   },
   {
     "path": "work/binding_revision2/run.py",
-    "size": 20439,
-    "sha256": "4254a66918e158ea615d725017e04dba73577b781301aadd722663aa253aaa98"
+    "size": 20527,
+    "sha256": "2a0cce8b62613e31045ebe89b72d2db0cc0a06606bf4e0da9452ad11ccf2c0d4"
   },
   {
     "path": "work/binding_revision2/serial_jobs.py",
     "size": 4263,
     "sha256": "c9c9f83838aeceaeed2e99af60f8998e53fef2b7236c3d52bf5a7952a4221213"
+  },
+  {
+    "path": "work/binding_revision2/source_oracle.py",
+    "size": 11995,
+    "sha256": "ad4586b6973e716e5f44538e95e6daf51b36ace6074cece7352b8e9f22b97c72"
+  },
+  {
+    "path": "work/binding_revision2/source_oracle_figure.py",
+    "size": 2937,
+    "sha256": "9deed46fd13e0961fbbfb25a656bdc42c896daef3947feb022c577c6eee27259"
   },
   {
     "path": "work/binding_revision2/stable_score.py",
@@ -16513,6 +16568,26 @@
     "path": "work/binding_revision2/stop_rule.py",
     "size": 668,
     "sha256": "b6d97fd924f68a73456b048d5a8812ff3d01500cc29f63965048e47b5b5438af"
+  },
+  {
+    "path": "work/binding_revision2/test_resource_policy.py",
+    "size": 4040,
+    "sha256": "077c8fe30608e230cba9082d8ce34018633f3c1041d8e702b8a4bb526b910f4f"
+  },
+  {
+    "path": "work/binding_revision2/test_source_oracle.py",
+    "size": 1345,
+    "sha256": "790d2439783dec65ebf64845f103fb29c12da826cdd4f6323b20c3e3bd5b1870"
+  },
+  {
+    "path": "work/binding_revision2/typeset_revision2.py",
+    "size": 703,
+    "sha256": "3449c38544b96ee651df50b522006fb77b12a877f6ac45060c1c8e22d9504773"
+  },
+  {
+    "path": "work/binding_revision2/validate_source_oracle.py",
+    "size": 4827,
+    "sha256": "6875f752639435c767d4e72b9193e566aefbbf3bb853085f4f447f2ae24a1213"
   },
   {
     "path": "work/binding_revision2/verify_scoring.py",

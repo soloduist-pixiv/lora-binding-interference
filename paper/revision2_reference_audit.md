@@ -14,3 +14,10 @@
 这里列出的 10.48550 DOI 是 arXiv 版本标识，不冒充会议出版 DOI。摘要与正文应将“训练条件影响遗忘”和“实体绑定机制”作为已有工作背景。
 
 全文补核：Biderman 等 §4.7 与附录 B 明确比较目标模块、rank、alpha 与学习率。代码任务中 Attention 相对 MLP/All 较弱，并强调 alpha=2r；不能把本文末四层 Q/V 的观察推广到所有 LoRA 目标模块。原始全文：https://arxiv.org/html/2405.09673v2 。
+
+## 离线来源约束诊断补核（2026-11-12）
+
+|文献|原始标识与作者|可引用的范围|
+|---|---|---|
+|Three scenarios for continual learning|Gido M. van de Ven、Andreas S. Tolias；2019 年预印本，[arXiv:1904.07734](https://arxiv.org/abs/1904.07734)，DOI:10.48550/arXiv.1904.07734；原记录注明扩展自 NeurIPS 持续学习 workshop（2018）工作|测试时任务身份提供与否是已有评估条件；不能把本文的额外候选来源限制宣称为新方法，也不把本稿错误写成 NeurIPS 2019 主会论文。|
+|Task Confusion and Catastrophic Forgetting in Class-Incremental Learning: A Mathematical Framework for Discriminative and Generative Modelings|Milad Khademi Nori、Il-Min Kim；原记录注明 NeurIPS 2024 camera-ready，[arXiv:2410.20768](https://arxiv.org/abs/2410.20768)，DOI:10.48550/arXiv.2410.20768；此文也在原 20 条中|其研究对象是无任务 ID 的类增量分类。本文提示中已经有注册表标签，不能直接移用其不可行性定理到共享 LoRA 事实写入，也不能把输出候选排序当作对该定理的验证。|

@@ -1,6 +1,7 @@
 """Publish an explicit completed-only supplement; never copy optimizer/base weights."""
 import hashlib
 import json
+import argparse
 from pathlib import Path
 import subprocess
 
@@ -8,11 +9,14 @@ ROOT=Path(__file__).resolve().parents[2]
 REPO=ROOT/"publish/lora-binding-interference"
 OUT=ROOT/"outputs/binding_revision2_20261111"
 
-def main():
+def main(message="research: publish completed matched-budget controls"):
     files=list((ROOT/"work/binding_revision2").glob("*.py"))
     files += [ROOT/"paper"/n for n in ("revision2_protocol.md","revision2_reference_audit.md",
               "revision2_findings.md","reference_identifiers.md","references_audit.md",
-              "共享LoRA中的条件绑定干扰_第二轮工作稿.md")]
+              "共享LoRA中的条件绑定干扰_第二轮工作稿.md",
+              "共享LoRA中的条件绑定干扰_第二轮工作稿.pdf","manuscript_revision2.tex",
+              "source_oracle_protocol.md")]
+    files += [ROOT/"work/binding_review/typeset.py"]
     files += [p for p in OUT.iterdir() if p.is_file() and p.suffix in (".md",".json",".png",".pdf")]
     files += list((OUT/"auxiliary_data").glob("*.json"))
     for complete in (OUT/"auxiliary").glob("*/*/stage*/complete.json"):
@@ -32,7 +36,7 @@ def main():
         rel=source.relative_to(ROOT); target=REPO/rel
         target.parent.mkdir(exist_ok=True,parents=True)
         data=source.read_bytes()
-        if source.suffix in (".json",".md",".py"):data=data.replace(b"\r\n",b"\n")
+        if source.suffix in (".json",".md",".py",".tex"):data=data.replace(b"\r\n",b"\n")
         if source.suffix==".json":json.loads(data)
         target.write_bytes(data);paths.add(rel.as_posix())
     # This wrapper was renamed to avoid shadowing Python's standard queue module.
@@ -50,15 +54,21 @@ def main():
             row.update(size=readme.stat().st_size,sha256=hashlib.sha256(readme.read_bytes()).hexdigest())
     (REPO/"manifest.json").write_bytes(json.dumps(rows,indent=2).encode())
     subprocess.run(["git","add","README.md","manifest.json","paper","work/binding_revision2",
-                    "outputs/binding_revision2_20261111"],cwd=REPO,check=True)
+                    "work/binding_review/typeset.py","outputs/binding_revision2_20261111"],cwd=REPO,check=True)
     result=subprocess.run(["git","diff","--cached","--check"],cwd=REPO,capture_output=True,text=True)
     if result.returncode:raise RuntimeError(result.stdout[:2000])
-    result=subprocess.run(["git","commit","-m","research: publish completed matched-budget controls"],cwd=REPO,capture_output=True,text=True)
-    if result.returncode:raise RuntimeError((result.stdout+result.stderr)[-2000:])
+    changed=subprocess.run(["git","diff","--cached","--quiet"],cwd=REPO,capture_output=True,text=True)
+    if changed.returncode==1:
+        result=subprocess.run(["git","commit","-m",message],cwd=REPO,capture_output=True,text=True)
+        if result.returncode:raise RuntimeError((result.stdout+result.stderr)[-2000:])
+    elif changed.returncode!=0:raise RuntimeError(changed.stderr[-2000:])
     result=subprocess.run(["git","-c","pack.threads=1","-c","pack.windowMemory=32m",
                            "-c","pack.deltaCacheSize=16m","-c","pack.window=1",
                            "push","origin","main"],cwd=REPO,capture_output=True,text=True)
     if result.returncode:raise RuntimeError((result.stdout+result.stderr)[-2000:])
     print("Published",len(rows),"manifest files; completed branches only.")
 
-if __name__=="__main__":main()
+if __name__=="__main__":
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--message",default="research: publish completed matched-budget controls")
+    main(parser.parse_args().message)

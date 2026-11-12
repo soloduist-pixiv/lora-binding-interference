@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 211,
+    "pairing": "adjacent",
+    "step": 71.8861881456433,
+    "raw_D": 0.28254741823839813,
+    "old_set_mass": 0.39858992069313426,
+    "oracle_top1": 0.875,
+    "maple_prefix_match": 1.0,
+    "prefix_null_mean": 0.125
+  },
+  {
+    "seed": 211,
+    "pairing": "support_permuted",
+    "step": 175.85501869569893,
+    "raw_D": 0.00700192315014156,
+    "old_set_mass": 0.3219783253947627,
+    "oracle_top1": 0.03125,
+    "maple_prefix_match": 0.53125,
+    "prefix_null_mean": 0.119140625
+  },
+  {
+    "seed": 223,
+    "pairing": "adjacent",
+    "step": 72.81122103559062,
+    "raw_D": 0.19372489731931633,
+    "old_set_mass": 0.31236546079712324,
+    "oracle_top1": 0.875,
+    "maple_prefix_match": 1.0,
+    "prefix_null_mean": 0.140625
+  },
+  {
+    "seed": 223,
+    "pairing": "support_permuted",
+    "step": 139.97820866236896,
+    "raw_D": 0.04088082058723727,
+    "old_set_mass": 0.3044971232328606,
+    "oracle_top1": 0.25,
+    "maple_prefix_match": 0.34375,
+    "prefix_null_mean": 0.12890625
+  },
+  {
+    "seed": 227,
+    "pairing": "adjacent",
+    "step": 69.39629283484808,
+    "raw_D": 0.1816592114466603,
+    "old_set_mass": 0.33480026955532405,
+    "oracle_top1": 0.625,
+    "maple_prefix_match": 0.9375,
+    "prefix_null_mean": 0.13671875
+  },
+  {
+    "seed": 227,
+    "pairing": "support_permuted",
+    "step": 186.06870632429246,
+    "raw_D": 0.023877281341647315,
+    "old_set_mass": 0.22921605246422672,
+    "oracle_top1": 0.125,
+    "maple_prefix_match": 0.5625,
+    "prefix_null_mean": 0.146484375
+  }
+]

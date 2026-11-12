@@ -1,0 +1,32 @@
+{
+  "numeric_branch_records": 47,
+  "excluded_alphabetic": 3,
+  "observation_points": 321,
+  "same_checkpoint_native_comparisons": 17,
+  "primary_figure_observations": 6,
+  "figure_and_manuscript_values_match": true,
+  "primary_old_training_support": [
+    {
+      "seed": 211,
+      "anchor_steps": 480,
+      "distinct_old_values_seen": 48,
+      "minimum_draws_per_old_value": 17
+    },
+    {
+      "seed": 223,
+      "anchor_steps": 480,
+      "distinct_old_values_seen": 48,
+      "minimum_draws_per_old_value": 18
+    },
+    {
+      "seed": 227,
+      "anchor_steps": 480,
+      "distinct_old_values_seen": 48,
+      "minimum_draws_per_old_value": 17
+    }
+  ],
+  "original_release_pdf_unchanged": true,
+  "working_pdf_matches_local_build": true,
+  "working_pdf_sha256": "f642e091d3f8ff3215d54bbc124dbad557c0d1c673cb878014da26dbd42a2500",
+  "source_sha256": "ad4586b6973e716e5f44538e95e6daf51b36ace6074cece7352b8e9f22b97c72"
+}

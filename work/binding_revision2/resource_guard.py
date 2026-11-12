@@ -7,6 +7,12 @@ from pathlib import Path
 import subprocess
 import time
 
+MODE_FILE=Path(__file__).resolve().parents[2]/"outputs/binding_revision2_20261111/local_system/execution_mode.json"
+
+def require_gpu_mode():
+    if MODE_FILE.exists() and json.loads(MODE_FILE.read_text(encoding="utf8")).get("mode")=="offline_only":
+        raise RuntimeError("GPU work paused by the user's offline-only instruction; no model loaded")
+
 class MemoryStatus(ctypes.Structure):
     _fields_=[("length",wintypes.DWORD),("load",wintypes.DWORD),
         *[(name,ctypes.c_ulonglong) for name in ("total_physical","available_physical",
@@ -34,8 +40,10 @@ def record(path,status,**fields):
     tmp.replace(path)
 
 def wait_for_model(path=None,timeout=3600):
+    require_gpu_mode()
     begun=time.monotonic();announced=False
     while True:
+        require_gpu_mode()
         value=snapshot();ok=ready(value)
         record(path,"ready" if ok else "waiting_before_model_load",**value)
         if ok:return value
